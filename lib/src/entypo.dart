@@ -6,6 +6,7 @@ import 'flutter_icon_data.dart';
 /// http://entypo.com
 class Entypo {
   Entypo._();
+
   static const IconData $500px = const FlutterIconData.entypo(61696);
   static const IconData $500px_with_circle =
       const FlutterIconData.entypo(61697);
@@ -306,7 +307,7 @@ class Entypo {
   static const IconData mouse_pointer = const FlutterIconData.entypo(61954);
   static const IconData music = const FlutterIconData.entypo(61955);
   static const IconData network = const FlutterIconData.entypo(61956);
-  static const IconData new_ = const FlutterIconData.entypo(61957);
+  static const IconData $new = const FlutterIconData.entypo(61957);
   static const IconData new_message = const FlutterIconData.entypo(61958);
   static const IconData news = const FlutterIconData.entypo(61959);
   static const IconData newsletter = const FlutterIconData.entypo(61960);
@@ -401,7 +402,7 @@ class Entypo {
   static const IconData swap = const FlutterIconData.entypo(62045);
   static const IconData swarm = const FlutterIconData.entypo(62046);
   static const IconData sweden = const FlutterIconData.entypo(62047);
-  static const IconData switch_ = const FlutterIconData.entypo(62048);
+  static const IconData $switch = const FlutterIconData.entypo(62048);
   static const IconData tablet = const FlutterIconData.entypo(62049);
   static const IconData tablet_mobile_combo =
       const FlutterIconData.entypo(62050);

@@ -6,6 +6,7 @@ import 'flutter_icon_data.dart';
 /// http://fortawesome.github.io/Font-Awesome/icons/
 class FontAwesome {
   FontAwesome._();
+
   static const IconData glass = const FlutterIconData.fontAwesome(61440);
   static const IconData music = const FlutterIconData.fontAwesome(61441);
   static const IconData search = const FlutterIconData.fontAwesome(61442);
@@ -493,7 +494,7 @@ class FontAwesome {
   static const IconData wheelchair = const FlutterIconData.fontAwesome(61843);
   static const IconData vimeo_square = const FlutterIconData.fontAwesome(61844);
   static const IconData turkish_lira = const FlutterIconData.fontAwesome(61845);
-  static const IconData try_ = const FlutterIconData.fontAwesome(61845);
+  static const IconData $try = const FlutterIconData.fontAwesome(61845);
   static const IconData plus_square_o =
       const FlutterIconData.fontAwesome(61846);
   static const IconData space_shuttle =
