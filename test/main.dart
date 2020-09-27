@@ -38,15 +38,6 @@ String getSimple(String line) {
   print(line);
   var name1 = line.split('.')[1];
   var name = name1.split('(')[0];
-  if (name == 'materialCommunityIcons') {
-    return 'mco';
-  }
-  if (name == 'materialIcons') {
-    return 'mdi';
-  }
-  if (name == 'simpleLineIcons') {
-    return 'sli';
-  }
   if (name == 'fontAwesome') {
     return 'faw';
   }
@@ -58,6 +49,15 @@ String getSimple(String line) {
   }
   if (name == 'fontAwesome5Brands') {
     return 'faw5d';
+  }
+  if (name == 'materialCommunityIcons') {
+    return 'mco';
+  }
+  if (name == 'materialIcons') {
+    return 'mdi';
+  }
+  if (name == 'simpleLineIcons') {
+    return 'sli';
   }
 
   return name.substring(0, 3).toLowerCase();
@@ -82,6 +82,9 @@ enum IconLib {
   ///Font Awesome Icons
   faw,
 
+  ///Fontisto Icons
+  fto,
+
   ///Foundation Icons
   fou,
 
@@ -100,9 +103,9 @@ enum IconLib {
   ///Simple Line Icons
   sli,
 
+  ///Weather Icons
+  wea,
+
   ///Zocial Icons
   zoc,
-
-  ///Weather Icons
-  wea
 }

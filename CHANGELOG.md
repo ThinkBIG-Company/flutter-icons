@@ -1,3 +1,11 @@
+## 2.0.0
+   * Fontisto v3.0.4 added
+   * Feather v4.7.0 to v4.28.0
+   * FontAwesome v5.7.0 to v5.13
+   * Ionicons v4.2.4 to v5.1.2
+   * MaterialCommunityIcons v4.0.96 to v5.4.45.
+   * Octicons v8.0.0 to v8.4.1
+
 ## 1.1.0
    * The FlutterIcons class is provided to access all Icons
 
@@ -29,5 +37,4 @@
    * Foundation added
    
 ## 0.1.0
-
    * This library contains several icon libraries, including the well-known ant-design icon library, material icon library, and so on
