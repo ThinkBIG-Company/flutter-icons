@@ -1,6 +1,39 @@
 import 'dart:io';
 
-void main(List<String> args) {
+String getSimple(String line) {
+  print(line);
+  var name1 = line.split('.')[1];
+  var name = name1.split('(')[0];
+
+  if (name == 'fontAwesome') {
+    return 'faw';
+  }
+  if (name == 'fontAwesome5Brands') {
+    return 'faw5d';
+  }
+  if (name == 'fontAwesome5') {
+    return 'faw5';
+  }
+  if (name == 'fontAwesome5Solid') {
+    return 'faw5s';
+  }
+  if (name == 'fontisto') {
+    return 'fon';
+  }
+  if (name == 'materialCommunityIcons') {
+    return 'mco';
+  }
+  if (name == 'materialIcons') {
+    return 'mdi';
+  }
+  if (name == 'simpleLineIcons') {
+    return 'sli';
+  }
+
+  return name.substring(0, 3).toLowerCase();
+}
+
+main(List<String> args) {
   Directory directory = Directory('../lib/src');
   File flutterIconFile = File('../lib/src/flutter_icons.dart');
   List<File> files = directory.listSync().map((e) => File(e.path)).toList();
@@ -32,35 +65,6 @@ class FlutterIcons {
   str += '}';
   flutterIconFile.writeAsStringSync(str);
   // directory.list().forEach((file)=>print(file.path));
-}
-
-String getSimple(String line) {
-  print(line);
-  var name1 = line.split('.')[1];
-  var name = name1.split('(')[0];
-  if (name == 'fontAwesome') {
-    return 'faw';
-  }
-  if (name == 'fontAwesome5') {
-    return 'faw5';
-  }
-  if (name == 'fontAwesome5Solid') {
-    return 'faw5s';
-  }
-  if (name == 'fontAwesome5Brands') {
-    return 'faw5d';
-  }
-  if (name == 'materialCommunityIcons') {
-    return 'mco';
-  }
-  if (name == 'materialIcons') {
-    return 'mdi';
-  }
-  if (name == 'simpleLineIcons') {
-    return 'sli';
-  }
-
-  return name.substring(0, 3).toLowerCase();
 }
 
 enum IconLib {

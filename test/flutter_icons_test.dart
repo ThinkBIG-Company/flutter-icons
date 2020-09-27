@@ -78,27 +78,78 @@ String toName(String name) {
   }
 }*/
 
-void main() {
-  Map<String, dynamic> _gly = _fontAwesome5_meta;
-  List<String> keys = _gly.keys.toList();
-  for (int i = 0; i < keys.length; i++) {
-    File file = File("././lib/font_awesome_5_${keys[i]}.dart");
-    if (!file.existsSync()) file.createSync();
-    String allStr = """
-    import 'package:flutter/material.dart';
-    import 'flutter_icon_data.dart';""";
-    allStr += "class ${toCamelName("font_awesome_5_${keys[i]}")} { \n";
-    List<String> obj = _gly[keys[i]];
-    for (int j = 0; j < obj.length; j++) {
-      allStr +=
-          "static const IconData ${obj[j].replaceAll("-", "_")} = const FlutterIconData.${toName("font_awesome_5_${keys[i]}")}(${_fontAwesome5[obj[j]]});\n";
-    }
-    allStr += "}";
-    file.writeAsStringSync(allStr);
+/* Build flutter_icons.dart */
+String getSimple(String line) {
+  print(line);
+  var name1 = line.split('.')[1];
+  var name = name1.split('(')[0];
+
+  print(name);
+
+  if (name == 'fontAwesome') {
+    return 'faw';
   }
+  if (name == 'fontAwesome5Brands') {
+    return 'faw5d';
+  }
+  if (name == 'fontAwesome5') {
+    return 'faw5';
+  }
+  if (name == 'fontAwesome5Solid') {
+    return 'faw5s';
+  }
+  if (name == 'fontisto') {
+    return 'fto';
+  }
+  if (name == 'materialCommunityIcons') {
+    return 'mco';
+  }
+  if (name == 'materialIcons') {
+    return 'mdi';
+  }
+  if (name == 'simpleLineIcons') {
+    return 'sli';
+  }
+
+  return name.substring(0, 3).toLowerCase();
 }
 
-const Map<String, List<String>> _fontAwesome5_meta = {
+void main() {
+  Directory directory = Directory('././lib/src');
+  File flutterIconFile = File('././lib/src/flutter_icons.dart');
+  List<File> files = directory.listSync().map((e) => File(e.path)).toList();
+  String str = '''
+import 'package:flutter/material.dart';
+import 'flutter_icon_data.dart';
+class FlutterIcons {
+  FlutterIcons._();
+  ''';
+  for (var i = 0; i < files.length; i++) {
+    final File file = files[i];
+    if (file.path.indexOf('flutter_icon') == -1 &&
+        file.path.indexOf('icon_toggle') == -1) {
+      final List<String> lines = file.readAsLinesSync();
+      for (var k = 0; k < lines.length; k++) {
+        final String line = lines[k];
+        if (line.contains('static const')) {
+          print(file.path);
+          var suffix = getSimple(line);
+          List lineList = line.split(' ');
+          lineList[5] = lineList[5] + '_$suffix';
+          String temp = lineList.join(' ');
+          str += '\n';
+          str += temp;
+        }
+      }
+    }
+  }
+  str += '}';
+  flutterIconFile.writeAsStringSync(str);
+  // directory.list().forEach((file)=>print(file.path));
+}
+
+/* Build Fontawesome dart files */
+/*const Map<String, List<String>> _fontAwesome5_meta = {
   "brands": [
     "500px",
     "accessible-icon",
@@ -1697,7 +1748,6 @@ const Map<String, List<String>> _fontAwesome5_meta = {
     "yin-yang"
   ]
 };
-
 const Map<String, int> _fontAwesome5 = {
   "500px": 62062,
   "accessible-icon": 62312,
@@ -3138,3 +3188,24 @@ const Map<String, int> _fontAwesome5 = {
   "youtube-square": 62513,
   "zhihu": 63039
 };
+void main() {
+  Map<String, dynamic> _gly = _fontAwesome5_meta;
+  List<String> keys = _gly.keys.toList();
+  for (int i = 0; i < keys.length; i++) {
+    File file = File("././lib/font_awesome_5_${keys[i]}.dart");
+    if (!file.existsSync()) file.createSync();
+    String allStr = """
+    import 'package:flutter/material.dart';
+    import 'flutter_icon_data.dart';""";
+    allStr += "class ${toCamelName("font_awesome_5_${keys[i]}")} { \n";
+    List<String> obj = _gly[keys[i]];
+    for (int j = 0; j < obj.length; j++) {
+      allStr +=
+          "static const IconData ${obj[j].replaceAll("-", "_")} = const FlutterIconData.${toName("font_awesome_5_${keys[i]}")}(${_fontAwesome5[obj[j]]});\n";
+    }
+    allStr += "}";
+    file.writeAsStringSync(allStr);
+  }
+}*/
+
+

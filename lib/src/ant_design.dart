@@ -50,18 +50,15 @@ class AntDesign {
   static const IconData infocirlceo = const FlutterIconData.antDesign(58921);
   static const IconData info = const FlutterIconData.antDesign(58922);
   static const IconData exclamation = const FlutterIconData.antDesign(58923);
-  static const IconData exclamationcircle =
-      const FlutterIconData.antDesign(58924);
-  static const IconData exclamationcircleo =
-      const FlutterIconData.antDesign(58925);
+  static const IconData exclamationcircle = const FlutterIconData.antDesign(58924);
+  static const IconData exclamationcircleo = const FlutterIconData.antDesign(58925);
   static const IconData closecircle = const FlutterIconData.antDesign(58926);
   static const IconData closecircleo = const FlutterIconData.antDesign(58927);
   static const IconData checkcircle = const FlutterIconData.antDesign(58928);
   static const IconData checkcircleo = const FlutterIconData.antDesign(58929);
   static const IconData check = const FlutterIconData.antDesign(58930);
   static const IconData close = const FlutterIconData.antDesign(58931);
-  static const IconData customerservice =
-      const FlutterIconData.antDesign(58932);
+  static const IconData customerservice = const FlutterIconData.antDesign(58932);
   static const IconData creditcard = const FlutterIconData.antDesign(58933);
   static const IconData codesquareo = const FlutterIconData.antDesign(58934);
   static const IconData book = const FlutterIconData.antDesign(58935);
@@ -69,8 +66,7 @@ class AntDesign {
   static const IconData bars = const FlutterIconData.antDesign(58937);
   static const IconData question = const FlutterIconData.antDesign(58938);
   static const IconData questioncircle = const FlutterIconData.antDesign(58939);
-  static const IconData questioncircleo =
-      const FlutterIconData.antDesign(58940);
+  static const IconData questioncircleo = const FlutterIconData.antDesign(58940);
   static const IconData pause = const FlutterIconData.antDesign(58941);
   static const IconData pausecircle = const FlutterIconData.antDesign(58942);
   static const IconData pausecircleo = const FlutterIconData.antDesign(58943);
@@ -142,8 +138,7 @@ class AntDesign {
   static const IconData calculator = const FlutterIconData.antDesign(59050);
   static const IconData chrome = const FlutterIconData.antDesign(59052);
   static const IconData github = const FlutterIconData.antDesign(59053);
-  static const IconData iconfontdesktop =
-      const FlutterIconData.antDesign(59060);
+  static const IconData iconfontdesktop = const FlutterIconData.antDesign(59060);
   static const IconData caretcircleoup = const FlutterIconData.antDesign(59061);
   static const IconData upload = const FlutterIconData.antDesign(59062);
   static const IconData download = const FlutterIconData.antDesign(59063);
@@ -211,8 +206,7 @@ class AntDesign {
   static const IconData addusergroup = const FlutterIconData.antDesign(59101);
   static const IconData carryout = const FlutterIconData.antDesign(59103);
   static const IconData deleteuser = const FlutterIconData.antDesign(59104);
-  static const IconData deleteusergroup =
-      const FlutterIconData.antDesign(59105);
+  static const IconData deleteusergroup = const FlutterIconData.antDesign(59105);
   static const IconData man = const FlutterIconData.antDesign(59106);
   static const IconData isv = const FlutterIconData.antDesign(59107);
   static const IconData gift = const FlutterIconData.antDesign(59108);
@@ -280,17 +274,13 @@ class AntDesign {
   static const IconData google = const FlutterIconData.antDesign(59829);
   static const IconData amazon = const FlutterIconData.antDesign(59830);
   static const IconData codepen = const FlutterIconData.antDesign(59831);
-  static const IconData facebook_square =
-      const FlutterIconData.antDesign(59832);
+  static const IconData facebook_square = const FlutterIconData.antDesign(59832);
   static const IconData dropbox = const FlutterIconData.antDesign(59833);
   static const IconData googleplus = const FlutterIconData.antDesign(59834);
-  static const IconData linkedin_square =
-      const FlutterIconData.antDesign(59835);
-  static const IconData medium_monogram =
-      const FlutterIconData.antDesign(59836);
+  static const IconData linkedin_square = const FlutterIconData.antDesign(59835);
+  static const IconData medium_monogram = const FlutterIconData.antDesign(59836);
   static const IconData gitlab = const FlutterIconData.antDesign(59837);
-  static const IconData medium_wordmark =
-      const FlutterIconData.antDesign(59838);
+  static const IconData medium_wordmark = const FlutterIconData.antDesign(59838);
   static const IconData QQ = const FlutterIconData.antDesign(59839);
   static const IconData skype = const FlutterIconData.antDesign(59840);
   static const IconData taobao_square = const FlutterIconData.antDesign(59841);
@@ -308,8 +298,7 @@ class AntDesign {
   static const IconData zhihu = const FlutterIconData.antDesign(59139);
   static const IconData behance = const FlutterIconData.antDesign(59143);
   static const IconData dribbble = const FlutterIconData.antDesign(59145);
-  static const IconData dribbble_square =
-      const FlutterIconData.antDesign(59146);
+  static const IconData dribbble_square = const FlutterIconData.antDesign(59146);
   static const IconData behance_square = const FlutterIconData.antDesign(59144);
   static const IconData file_markdown = const FlutterIconData.antDesign(59140);
   static const IconData instagram = const FlutterIconData.antDesign(59147);

@@ -60,8 +60,7 @@ class Fontisto {
   static const IconData udacity = const FlutterIconData.fontisto(60145);
   static const IconData webstorm = const FlutterIconData.fontisto(60146);
   static const IconData wix = const FlutterIconData.fontisto(60147);
-  static const IconData yandex_international =
-      const FlutterIconData.fontisto(60148);
+  static const IconData yandex_international = const FlutterIconData.fontisto(60148);
   static const IconData yandex = const FlutterIconData.fontisto(60149);
   static const IconData ember = const FlutterIconData.fontisto(60087);
   static const IconData cpanel = const FlutterIconData.fontisto(60088);
@@ -198,8 +197,7 @@ class Fontisto {
   static const IconData battery_full = const FlutterIconData.fontisto(60154);
   static const IconData battery_empty = const FlutterIconData.fontisto(60155);
   static const IconData battery_quarter = const FlutterIconData.fontisto(60156);
-  static const IconData battery_three_quarters =
-      const FlutterIconData.fontisto(60157);
+  static const IconData battery_three_quarters = const FlutterIconData.fontisto(60157);
   static const IconData bell_alt = const FlutterIconData.fontisto(60158);
   static const IconData bell = const FlutterIconData.fontisto(60159);
   static const IconData bookmark_alt = const FlutterIconData.fontisto(60160);
@@ -309,33 +307,22 @@ class Fontisto {
   static const IconData asterisk = const FlutterIconData.fontisto(60085);
   static const IconData hashtag = const FlutterIconData.fontisto(60086);
   static const IconData checkbox_active = const FlutterIconData.fontisto(59778);
-  static const IconData checkbox_passive =
-      const FlutterIconData.fontisto(59779);
-  static const IconData radio_btn_active =
-      const FlutterIconData.fontisto(59780);
-  static const IconData radio_btn_passive =
-      const FlutterIconData.fontisto(59781);
+  static const IconData checkbox_passive = const FlutterIconData.fontisto(59779);
+  static const IconData radio_btn_active = const FlutterIconData.fontisto(59780);
+  static const IconData radio_btn_passive = const FlutterIconData.fontisto(59781);
   static const IconData shopping_bag_1 = const FlutterIconData.fontisto(60011);
   static const IconData shopping_bag = const FlutterIconData.fontisto(60012);
-  static const IconData shopping_barcode =
-      const FlutterIconData.fontisto(60017);
-  static const IconData shopping_basket_add =
-      const FlutterIconData.fontisto(60018);
-  static const IconData shopping_basket_remove =
-      const FlutterIconData.fontisto(60019);
+  static const IconData shopping_barcode = const FlutterIconData.fontisto(60017);
+  static const IconData shopping_basket_add = const FlutterIconData.fontisto(60018);
+  static const IconData shopping_basket_remove = const FlutterIconData.fontisto(60019);
   static const IconData shopping_basket = const FlutterIconData.fontisto(60020);
-  static const IconData shopping_package =
-      const FlutterIconData.fontisto(60021);
-  static const IconData shopping_pos_machine =
-      const FlutterIconData.fontisto(60022);
+  static const IconData shopping_package = const FlutterIconData.fontisto(60021);
+  static const IconData shopping_pos_machine = const FlutterIconData.fontisto(60022);
   static const IconData shopping_sale = const FlutterIconData.fontisto(60023);
   static const IconData shopping_store = const FlutterIconData.fontisto(60024);
-  static const IconData angle_dobule_down =
-      const FlutterIconData.fontisto(59748);
-  static const IconData angle_dobule_left =
-      const FlutterIconData.fontisto(59749);
-  static const IconData angle_dobule_right =
-      const FlutterIconData.fontisto(59750);
+  static const IconData angle_dobule_down = const FlutterIconData.fontisto(59748);
+  static const IconData angle_dobule_left = const FlutterIconData.fontisto(59749);
+  static const IconData angle_dobule_right = const FlutterIconData.fontisto(59750);
   static const IconData angle_dobule_up = const FlutterIconData.fontisto(59751);
   static const IconData angle_down = const FlutterIconData.fontisto(59752);
   static const IconData angle_left = const FlutterIconData.fontisto(59753);
@@ -349,10 +336,8 @@ class Fontisto {
   static const IconData arrow_left = const FlutterIconData.fontisto(59761);
   static const IconData arrow_move = const FlutterIconData.fontisto(59762);
   static const IconData arrow_resize = const FlutterIconData.fontisto(59763);
-  static const IconData arrow_return_left =
-      const FlutterIconData.fontisto(59764);
-  static const IconData arrow_return_right =
-      const FlutterIconData.fontisto(59765);
+  static const IconData arrow_return_left = const FlutterIconData.fontisto(59764);
+  static const IconData arrow_return_right = const FlutterIconData.fontisto(59765);
   static const IconData arrow_right_l = const FlutterIconData.fontisto(59766);
   static const IconData arrow_right = const FlutterIconData.fontisto(59767);
   static const IconData arrow_swap = const FlutterIconData.fontisto(59768);
@@ -446,10 +431,8 @@ class Fontisto {
   static const IconData horizon = const FlutterIconData.fontisto(59972);
   static const IconData lightning = const FlutterIconData.fontisto(59973);
   static const IconData lightnings = const FlutterIconData.fontisto(59974);
-  static const IconData night_alt_cloudy =
-      const FlutterIconData.fontisto(59975);
-  static const IconData night_alt_lightning =
-      const FlutterIconData.fontisto(59976);
+  static const IconData night_alt_cloudy = const FlutterIconData.fontisto(59975);
+  static const IconData night_alt_lightning = const FlutterIconData.fontisto(59976);
   static const IconData night_alt_rain = const FlutterIconData.fontisto(59977);
   static const IconData night_alt_snow = const FlutterIconData.fontisto(59978);
   static const IconData night_clear = const FlutterIconData.fontisto(59979);
@@ -475,8 +458,7 @@ class Fontisto {
   static const IconData slightly_smile = const FlutterIconData.fontisto(59999);
   static const IconData smiley = const FlutterIconData.fontisto(60000);
   static const IconData smiling = const FlutterIconData.fontisto(60001);
-  static const IconData stuck_out_tongue =
-      const FlutterIconData.fontisto(60002);
+  static const IconData stuck_out_tongue = const FlutterIconData.fontisto(60002);
   static const IconData sunglasses = const FlutterIconData.fontisto(60003);
   static const IconData surprised = const FlutterIconData.fontisto(60004);
   static const IconData tongue = const FlutterIconData.fontisto(60005);
@@ -496,16 +478,13 @@ class Fontisto {
   static const IconData heart_alt = const FlutterIconData.fontisto(60244);
   static const IconData heartbeat_alt = const FlutterIconData.fontisto(60245);
   static const IconData heartbeat = const FlutterIconData.fontisto(60246);
-  static const IconData helicopter_ambulance =
-      const FlutterIconData.fontisto(60247);
+  static const IconData helicopter_ambulance = const FlutterIconData.fontisto(60247);
   static const IconData hospital = const FlutterIconData.fontisto(60248);
-  static const IconData injection_syringe =
-      const FlutterIconData.fontisto(60249);
+  static const IconData injection_syringe = const FlutterIconData.fontisto(60249);
   static const IconData laboratory = const FlutterIconData.fontisto(60250);
   static const IconData nurse = const FlutterIconData.fontisto(60251);
   static const IconData nursing_home = const FlutterIconData.fontisto(60252);
-  static const IconData paralysis_disability =
-      const FlutterIconData.fontisto(60253);
+  static const IconData paralysis_disability = const FlutterIconData.fontisto(60253);
   static const IconData pills = const FlutterIconData.fontisto(60254);
   static const IconData prescription = const FlutterIconData.fontisto(60255);
   static const IconData pulse = const FlutterIconData.fontisto(60256);
@@ -516,8 +495,7 @@ class Fontisto {
   static const IconData test_tube_alt = const FlutterIconData.fontisto(60261);
   static const IconData test_tube = const FlutterIconData.fontisto(60262);
   static const IconData thermometer_alt = const FlutterIconData.fontisto(60263);
-  static const IconData american_express =
-      const FlutterIconData.fontisto(59856);
+  static const IconData american_express = const FlutterIconData.fontisto(59856);
   static const IconData credit_card = const FlutterIconData.fontisto(59857);
   static const IconData google_wallet = const FlutterIconData.fontisto(59858);
   static const IconData iyzigo = const FlutterIconData.fontisto(59859);
@@ -533,13 +511,11 @@ class Fontisto {
   static const IconData jcb = const FlutterIconData.fontisto(60014);
   static const IconData dislike = const FlutterIconData.fontisto(59796);
   static const IconData like = const FlutterIconData.fontisto(59797);
-  static const IconData audio_description =
-      const FlutterIconData.fontisto(59648);
+  static const IconData audio_description = const FlutterIconData.fontisto(59648);
   static const IconData blind = const FlutterIconData.fontisto(59649);
   static const IconData braille = const FlutterIconData.fontisto(59650);
   static const IconData deaf = const FlutterIconData.fontisto(59651);
-  static const IconData fa_american_sign_language_interpreting =
-      const FlutterIconData.fontisto(59652);
+  static const IconData fa_american_sign_language_interpreting = const FlutterIconData.fontisto(59652);
   static const IconData low_vision = const FlutterIconData.fontisto(59654);
   static const IconData tty = const FlutterIconData.fontisto(59655);
   static const IconData universal_acces = const FlutterIconData.fontisto(59656);
@@ -552,8 +528,7 @@ class Fontisto {
   static const IconData chrome = const FlutterIconData.fontisto(59726);
   static const IconData edge = const FlutterIconData.fontisto(59727);
   static const IconData firefox = const FlutterIconData.fontisto(59728);
-  static const IconData internet_explorer =
-      const FlutterIconData.fontisto(59729);
+  static const IconData internet_explorer = const FlutterIconData.fontisto(59729);
   static const IconData opera = const FlutterIconData.fontisto(59730);
   static const IconData safari = const FlutterIconData.fontisto(59731);
   static const IconData bitcoin = const FlutterIconData.fontisto(59737);
@@ -634,8 +609,7 @@ class Fontisto {
   static const IconData spinner_cog = const FlutterIconData.fontisto(59894);
   static const IconData spinner_fidget = const FlutterIconData.fontisto(59895);
   static const IconData spinner_refresh = const FlutterIconData.fontisto(59896);
-  static const IconData spinner_rotate_forward =
-      const FlutterIconData.fontisto(59897);
+  static const IconData spinner_rotate_forward = const FlutterIconData.fontisto(59897);
   static const IconData spinner = const FlutterIconData.fontisto(59898);
   static const IconData snowflake = const FlutterIconData.fontisto(60081);
   static const IconData snowflake_1 = const FlutterIconData.fontisto(60073);

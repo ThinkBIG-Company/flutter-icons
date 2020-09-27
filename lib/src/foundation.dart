@@ -20,21 +20,18 @@ class Foundation {
   static const IconData arrow_left = const FlutterIconData.foundation(61706);
   static const IconData arrow_right = const FlutterIconData.foundation(61707);
   static const IconData arrow_up = const FlutterIconData.foundation(61708);
-  static const IconData arrows_compress =
-      const FlutterIconData.foundation(61709);
+  static const IconData arrows_compress = const FlutterIconData.foundation(61709);
   static const IconData arrows_expand = const FlutterIconData.foundation(61710);
   static const IconData arrows_in = const FlutterIconData.foundation(61711);
   static const IconData arrows_out = const FlutterIconData.foundation(61712);
   static const IconData asl = const FlutterIconData.foundation(61713);
   static const IconData asterisk = const FlutterIconData.foundation(61714);
   static const IconData at_sign = const FlutterIconData.foundation(61715);
-  static const IconData background_color =
-      const FlutterIconData.foundation(61716);
+  static const IconData background_color = const FlutterIconData.foundation(61716);
   static const IconData battery_empty = const FlutterIconData.foundation(61717);
   static const IconData battery_full = const FlutterIconData.foundation(61718);
   static const IconData battery_half = const FlutterIconData.foundation(61719);
-  static const IconData bitcoin_circle =
-      const FlutterIconData.foundation(61720);
+  static const IconData bitcoin_circle = const FlutterIconData.foundation(61720);
   static const IconData bitcoin = const FlutterIconData.foundation(61721);
   static const IconData blind = const FlutterIconData.foundation(61722);
   static const IconData bluetooth = const FlutterIconData.foundation(61723);
@@ -50,18 +47,14 @@ class Foundation {
   static const IconData camera = const FlutterIconData.foundation(61733);
   static const IconData check = const FlutterIconData.foundation(61734);
   static const IconData checkbox = const FlutterIconData.foundation(61735);
-  static const IconData clipboard_notes =
-      const FlutterIconData.foundation(61736);
-  static const IconData clipboard_pencil =
-      const FlutterIconData.foundation(61737);
+  static const IconData clipboard_notes = const FlutterIconData.foundation(61736);
+  static const IconData clipboard_pencil = const FlutterIconData.foundation(61737);
   static const IconData clipboard = const FlutterIconData.foundation(61738);
   static const IconData clock = const FlutterIconData.foundation(61739);
-  static const IconData closed_caption =
-      const FlutterIconData.foundation(61740);
+  static const IconData closed_caption = const FlutterIconData.foundation(61740);
   static const IconData cloud = const FlutterIconData.foundation(61741);
   static const IconData comment_minus = const FlutterIconData.foundation(61742);
-  static const IconData comment_quotes =
-      const FlutterIconData.foundation(61743);
+  static const IconData comment_quotes = const FlutterIconData.foundation(61743);
   static const IconData comment_video = const FlutterIconData.foundation(61744);
   static const IconData comment = const FlutterIconData.foundation(61745);
   static const IconData comments = const FlutterIconData.foundation(61746);
@@ -98,8 +91,7 @@ class Foundation {
   static const IconData foot = const FlutterIconData.foundation(61777);
   static const IconData foundation = const FlutterIconData.foundation(61778);
   static const IconData graph_bar = const FlutterIconData.foundation(61779);
-  static const IconData graph_horizontal =
-      const FlutterIconData.foundation(61780);
+  static const IconData graph_horizontal = const FlutterIconData.foundation(61780);
   static const IconData graph_pie = const FlutterIconData.foundation(61781);
   static const IconData graph_trend = const FlutterIconData.foundation(61782);
   static const IconData guide_dog = const FlutterIconData.foundation(61783);
@@ -119,13 +111,11 @@ class Foundation {
   static const IconData link = const FlutterIconData.foundation(61797);
   static const IconData list_bullet = const FlutterIconData.foundation(61798);
   static const IconData list_number = const FlutterIconData.foundation(61799);
-  static const IconData list_thumbnails =
-      const FlutterIconData.foundation(61800);
+  static const IconData list_thumbnails = const FlutterIconData.foundation(61800);
   static const IconData list = const FlutterIconData.foundation(61801);
   static const IconData lock = const FlutterIconData.foundation(61802);
   static const IconData loop = const FlutterIconData.foundation(61803);
-  static const IconData magnifying_glass =
-      const FlutterIconData.foundation(61804);
+  static const IconData magnifying_glass = const FlutterIconData.foundation(61804);
   static const IconData mail = const FlutterIconData.foundation(61805);
   static const IconData male_female = const FlutterIconData.foundation(61806);
   static const IconData male_symbol = const FlutterIconData.foundation(61807);
@@ -150,12 +140,9 @@ class Foundation {
   static const IconData page_delete = const FlutterIconData.foundation(61826);
   static const IconData page_doc = const FlutterIconData.foundation(61827);
   static const IconData page_edit = const FlutterIconData.foundation(61828);
-  static const IconData page_export_csv =
-      const FlutterIconData.foundation(61829);
-  static const IconData page_export_doc =
-      const FlutterIconData.foundation(61830);
-  static const IconData page_export_pdf =
-      const FlutterIconData.foundation(61831);
+  static const IconData page_export_csv = const FlutterIconData.foundation(61829);
+  static const IconData page_export_doc = const FlutterIconData.foundation(61830);
+  static const IconData page_export_pdf = const FlutterIconData.foundation(61831);
   static const IconData page_export = const FlutterIconData.foundation(61832);
   static const IconData page_filled = const FlutterIconData.foundation(61833);
   static const IconData page_multiple = const FlutterIconData.foundation(61834);
@@ -178,18 +165,15 @@ class Foundation {
   static const IconData power = const FlutterIconData.foundation(61851);
   static const IconData previous = const FlutterIconData.foundation(61852);
   static const IconData price_tag = const FlutterIconData.foundation(61853);
-  static const IconData pricetag_multiple =
-      const FlutterIconData.foundation(61854);
+  static const IconData pricetag_multiple = const FlutterIconData.foundation(61854);
   static const IconData print = const FlutterIconData.foundation(61855);
   static const IconData prohibited = const FlutterIconData.foundation(61856);
-  static const IconData projection_screen =
-      const FlutterIconData.foundation(61857);
+  static const IconData projection_screen = const FlutterIconData.foundation(61857);
   static const IconData puzzle = const FlutterIconData.foundation(61858);
   static const IconData quote = const FlutterIconData.foundation(61859);
   static const IconData record = const FlutterIconData.foundation(61860);
   static const IconData refresh = const FlutterIconData.foundation(61861);
-  static const IconData results_demographics =
-      const FlutterIconData.foundation(61862);
+  static const IconData results_demographics = const FlutterIconData.foundation(61862);
   static const IconData results = const FlutterIconData.foundation(61863);
   static const IconData rewind_ten = const FlutterIconData.foundation(61864);
   static const IconData rewind = const FlutterIconData.foundation(61865);
@@ -206,87 +190,58 @@ class Foundation {
   static const IconData social_500px = const FlutterIconData.foundation(61876);
   static const IconData social_adobe = const FlutterIconData.foundation(61877);
   static const IconData social_amazon = const FlutterIconData.foundation(61878);
-  static const IconData social_android =
-      const FlutterIconData.foundation(61879);
+  static const IconData social_android = const FlutterIconData.foundation(61879);
   static const IconData social_apple = const FlutterIconData.foundation(61880);
-  static const IconData social_behance =
-      const FlutterIconData.foundation(61881);
+  static const IconData social_behance = const FlutterIconData.foundation(61881);
   static const IconData social_bing = const FlutterIconData.foundation(61882);
-  static const IconData social_blogger =
-      const FlutterIconData.foundation(61883);
-  static const IconData social_delicious =
-      const FlutterIconData.foundation(61884);
-  static const IconData social_designer_news =
-      const FlutterIconData.foundation(61885);
-  static const IconData social_deviant_art =
-      const FlutterIconData.foundation(61886);
+  static const IconData social_blogger = const FlutterIconData.foundation(61883);
+  static const IconData social_delicious = const FlutterIconData.foundation(61884);
+  static const IconData social_designer_news = const FlutterIconData.foundation(61885);
+  static const IconData social_deviant_art = const FlutterIconData.foundation(61886);
   static const IconData social_digg = const FlutterIconData.foundation(61887);
-  static const IconData social_dribbble =
-      const FlutterIconData.foundation(61888);
+  static const IconData social_dribbble = const FlutterIconData.foundation(61888);
   static const IconData social_drive = const FlutterIconData.foundation(61889);
-  static const IconData social_dropbox =
-      const FlutterIconData.foundation(61890);
-  static const IconData social_evernote =
-      const FlutterIconData.foundation(61891);
-  static const IconData social_facebook =
-      const FlutterIconData.foundation(61892);
+  static const IconData social_dropbox = const FlutterIconData.foundation(61890);
+  static const IconData social_evernote = const FlutterIconData.foundation(61891);
+  static const IconData social_facebook = const FlutterIconData.foundation(61892);
   static const IconData social_flickr = const FlutterIconData.foundation(61893);
   static const IconData social_forrst = const FlutterIconData.foundation(61894);
-  static const IconData social_foursquare =
-      const FlutterIconData.foundation(61895);
-  static const IconData social_game_center =
-      const FlutterIconData.foundation(61896);
+  static const IconData social_foursquare = const FlutterIconData.foundation(61895);
+  static const IconData social_game_center = const FlutterIconData.foundation(61896);
   static const IconData social_github = const FlutterIconData.foundation(61897);
-  static const IconData social_google_plus =
-      const FlutterIconData.foundation(61898);
-  static const IconData social_hacker_news =
-      const FlutterIconData.foundation(61899);
+  static const IconData social_google_plus = const FlutterIconData.foundation(61898);
+  static const IconData social_hacker_news = const FlutterIconData.foundation(61899);
   static const IconData social_hi5 = const FlutterIconData.foundation(61900);
-  static const IconData social_instagram =
-      const FlutterIconData.foundation(61901);
+  static const IconData social_instagram = const FlutterIconData.foundation(61901);
   static const IconData social_joomla = const FlutterIconData.foundation(61902);
   static const IconData social_lastfm = const FlutterIconData.foundation(61903);
-  static const IconData social_linkedin =
-      const FlutterIconData.foundation(61904);
+  static const IconData social_linkedin = const FlutterIconData.foundation(61904);
   static const IconData social_medium = const FlutterIconData.foundation(61905);
-  static const IconData social_myspace =
-      const FlutterIconData.foundation(61906);
+  static const IconData social_myspace = const FlutterIconData.foundation(61906);
   static const IconData social_orkut = const FlutterIconData.foundation(61907);
   static const IconData social_path = const FlutterIconData.foundation(61908);
   static const IconData social_picasa = const FlutterIconData.foundation(61909);
-  static const IconData social_pinterest =
-      const FlutterIconData.foundation(61910);
+  static const IconData social_pinterest = const FlutterIconData.foundation(61910);
   static const IconData social_rdio = const FlutterIconData.foundation(61911);
   static const IconData social_reddit = const FlutterIconData.foundation(61912);
-  static const IconData social_skillshare =
-      const FlutterIconData.foundation(61913);
+  static const IconData social_skillshare = const FlutterIconData.foundation(61913);
   static const IconData social_skype = const FlutterIconData.foundation(61914);
-  static const IconData social_smashing_mag =
-      const FlutterIconData.foundation(61915);
-  static const IconData social_snapchat =
-      const FlutterIconData.foundation(61916);
-  static const IconData social_spotify =
-      const FlutterIconData.foundation(61917);
-  static const IconData social_squidoo =
-      const FlutterIconData.foundation(61918);
-  static const IconData social_stack_overflow =
-      const FlutterIconData.foundation(61919);
+  static const IconData social_smashing_mag = const FlutterIconData.foundation(61915);
+  static const IconData social_snapchat = const FlutterIconData.foundation(61916);
+  static const IconData social_spotify = const FlutterIconData.foundation(61917);
+  static const IconData social_squidoo = const FlutterIconData.foundation(61918);
+  static const IconData social_stack_overflow = const FlutterIconData.foundation(61919);
   static const IconData social_steam = const FlutterIconData.foundation(61920);
-  static const IconData social_stumbleupon =
-      const FlutterIconData.foundation(61921);
-  static const IconData social_treehouse =
-      const FlutterIconData.foundation(61922);
+  static const IconData social_stumbleupon = const FlutterIconData.foundation(61921);
+  static const IconData social_treehouse = const FlutterIconData.foundation(61922);
   static const IconData social_tumblr = const FlutterIconData.foundation(61923);
-  static const IconData social_twitter =
-      const FlutterIconData.foundation(61924);
+  static const IconData social_twitter = const FlutterIconData.foundation(61924);
   static const IconData social_vimeo = const FlutterIconData.foundation(61925);
-  static const IconData social_windows =
-      const FlutterIconData.foundation(61926);
+  static const IconData social_windows = const FlutterIconData.foundation(61926);
   static const IconData social_xbox = const FlutterIconData.foundation(61927);
   static const IconData social_yahoo = const FlutterIconData.foundation(61928);
   static const IconData social_yelp = const FlutterIconData.foundation(61929);
-  static const IconData social_youtube =
-      const FlutterIconData.foundation(61930);
+  static const IconData social_youtube = const FlutterIconData.foundation(61930);
   static const IconData social_zerply = const FlutterIconData.foundation(61931);
   static const IconData social_zurb = const FlutterIconData.foundation(61932);
   static const IconData sound = const FlutterIconData.foundation(61933);
@@ -295,36 +250,28 @@ class Foundation {
   static const IconData strikethrough = const FlutterIconData.foundation(61936);
   static const IconData subscript = const FlutterIconData.foundation(61937);
   static const IconData superscript = const FlutterIconData.foundation(61938);
-  static const IconData tablet_landscape =
-      const FlutterIconData.foundation(61939);
-  static const IconData tablet_portrait =
-      const FlutterIconData.foundation(61940);
+  static const IconData tablet_landscape = const FlutterIconData.foundation(61939);
+  static const IconData tablet_portrait = const FlutterIconData.foundation(61940);
   static const IconData target_two = const FlutterIconData.foundation(61941);
   static const IconData target = const FlutterIconData.foundation(61942);
-  static const IconData telephone_accessible =
-      const FlutterIconData.foundation(61943);
+  static const IconData telephone_accessible = const FlutterIconData.foundation(61943);
   static const IconData telephone = const FlutterIconData.foundation(61944);
   static const IconData text_color = const FlutterIconData.foundation(61945);
   static const IconData thumbnails = const FlutterIconData.foundation(61946);
   static const IconData ticket = const FlutterIconData.foundation(61947);
-  static const IconData torso_business =
-      const FlutterIconData.foundation(61948);
+  static const IconData torso_business = const FlutterIconData.foundation(61948);
   static const IconData torso_female = const FlutterIconData.foundation(61949);
   static const IconData torso = const FlutterIconData.foundation(61950);
-  static const IconData torsos_all_female =
-      const FlutterIconData.foundation(61951);
+  static const IconData torsos_all_female = const FlutterIconData.foundation(61951);
   static const IconData torsos_all = const FlutterIconData.foundation(61952);
-  static const IconData torsos_female_male =
-      const FlutterIconData.foundation(61953);
-  static const IconData torsos_male_female =
-      const FlutterIconData.foundation(61954);
+  static const IconData torsos_female_male = const FlutterIconData.foundation(61953);
+  static const IconData torsos_male_female = const FlutterIconData.foundation(61954);
   static const IconData torsos = const FlutterIconData.foundation(61955);
   static const IconData trash = const FlutterIconData.foundation(61956);
   static const IconData trees = const FlutterIconData.foundation(61957);
   static const IconData trophy = const FlutterIconData.foundation(61958);
   static const IconData underline = const FlutterIconData.foundation(61959);
-  static const IconData universal_access =
-      const FlutterIconData.foundation(61960);
+  static const IconData universal_access = const FlutterIconData.foundation(61960);
   static const IconData unlink = const FlutterIconData.foundation(61961);
   static const IconData unlock = const FlutterIconData.foundation(61962);
   static const IconData upload_cloud = const FlutterIconData.foundation(61963);

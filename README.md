@@ -89,15 +89,6 @@ Icon(FontAwesome5Brands.$500px)
 Icon(FlutterIcons.stepforward_ant)
 Icon(FlutterIcons.html5_faw)
 ...
-
-// Previous versions of 1.0.0 are used
-Icon(Ionicons.getIconData("ios-search"));
-Icon(AntDesign.getIconData("stepforward"));
-Icon(FontAwesome.getIconData("glass"));
-Icon(MaterialIcons.getIconData("ac-unit"));
-Icon(FontAwesome5.getIconData("address-book"));
-Icon(FontAwesome5.getIconData("address-book",weight: IconWeight.Solid));
-Icon(FontAwesome5.getIconData("500px", weight: IconWeight.Brand));
 ```
 
 ### How to keep only the fonts used in the project.
@@ -118,14 +109,15 @@ Add the font you want to leave in the project's pubspec file
 //Font Awesome 5 Regular -> faw5
 //Font Awesome 5 Solid -> faw5s
 //Font Awesome 5 Brands -> faw5b
+//Fontisto Icons -> fto,
 //Foundation Icons -> fou,
 //Ionicons Icons -> ion,
 //Material Community Icons -> mco,
 //Material Icons -> mdi,
 //Octicons Icons -> oct,
 //Simple Line Icons -> sli,
-//Zocial Icons -> zoc,
 //Weather Icons -> wea
+//Zocial Icons -> zoc,
 
 ...
 

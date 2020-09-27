@@ -8,8 +8,7 @@ class Entypo {
   Entypo._();
 
   static const IconData $500px = const FlutterIconData.entypo(61696);
-  static const IconData $500px_with_circle =
-      const FlutterIconData.entypo(61697);
+  static const IconData $500px_with_circle = const FlutterIconData.entypo(61697);
   static const IconData add_to_list = const FlutterIconData.entypo(61698);
   static const IconData add_user = const FlutterIconData.entypo(61699);
   static const IconData address = const FlutterIconData.entypo(61700);
@@ -19,13 +18,11 @@ class Entypo {
   static const IconData aircraft_landing = const FlutterIconData.entypo(61704);
   static const IconData aircraft_take_off = const FlutterIconData.entypo(61705);
   static const IconData align_bottom = const FlutterIconData.entypo(61706);
-  static const IconData align_horizontal_middle =
-      const FlutterIconData.entypo(61707);
+  static const IconData align_horizontal_middle = const FlutterIconData.entypo(61707);
   static const IconData align_left = const FlutterIconData.entypo(61708);
   static const IconData align_right = const FlutterIconData.entypo(61709);
   static const IconData align_top = const FlutterIconData.entypo(61710);
-  static const IconData align_vertical_middle =
-      const FlutterIconData.entypo(61711);
+  static const IconData align_vertical_middle = const FlutterIconData.entypo(61711);
   static const IconData app_store = const FlutterIconData.entypo(61712);
   static const IconData archive = const FlutterIconData.entypo(61713);
   static const IconData area_graph = const FlutterIconData.entypo(61714);
@@ -41,14 +38,10 @@ class Entypo {
   static const IconData arrow_long_up = const FlutterIconData.entypo(61724);
   static const IconData arrow_right = const FlutterIconData.entypo(61725);
   static const IconData arrow_up = const FlutterIconData.entypo(61726);
-  static const IconData arrow_with_circle_down =
-      const FlutterIconData.entypo(61727);
-  static const IconData arrow_with_circle_left =
-      const FlutterIconData.entypo(61728);
-  static const IconData arrow_with_circle_right =
-      const FlutterIconData.entypo(61729);
-  static const IconData arrow_with_circle_up =
-      const FlutterIconData.entypo(61730);
+  static const IconData arrow_with_circle_down = const FlutterIconData.entypo(61727);
+  static const IconData arrow_with_circle_left = const FlutterIconData.entypo(61728);
+  static const IconData arrow_with_circle_right = const FlutterIconData.entypo(61729);
+  static const IconData arrow_with_circle_up = const FlutterIconData.entypo(61730);
   static const IconData attachment = const FlutterIconData.entypo(61731);
   static const IconData awareness_ribbon = const FlutterIconData.entypo(61732);
   static const IconData back = const FlutterIconData.entypo(61733);
@@ -82,27 +75,19 @@ class Entypo {
   static const IconData chevron_down = const FlutterIconData.entypo(61761);
   static const IconData chevron_left = const FlutterIconData.entypo(61762);
   static const IconData chevron_right = const FlutterIconData.entypo(61763);
-  static const IconData chevron_small_down =
-      const FlutterIconData.entypo(61764);
-  static const IconData chevron_small_left =
-      const FlutterIconData.entypo(61765);
-  static const IconData chevron_small_right =
-      const FlutterIconData.entypo(61766);
+  static const IconData chevron_small_down = const FlutterIconData.entypo(61764);
+  static const IconData chevron_small_left = const FlutterIconData.entypo(61765);
+  static const IconData chevron_small_right = const FlutterIconData.entypo(61766);
   static const IconData chevron_small_up = const FlutterIconData.entypo(61767);
   static const IconData chevron_thin_down = const FlutterIconData.entypo(61768);
   static const IconData chevron_thin_left = const FlutterIconData.entypo(61769);
-  static const IconData chevron_thin_right =
-      const FlutterIconData.entypo(61770);
+  static const IconData chevron_thin_right = const FlutterIconData.entypo(61770);
   static const IconData chevron_thin_up = const FlutterIconData.entypo(61771);
   static const IconData chevron_up = const FlutterIconData.entypo(61772);
-  static const IconData chevron_with_circle_down =
-      const FlutterIconData.entypo(61773);
-  static const IconData chevron_with_circle_left =
-      const FlutterIconData.entypo(61774);
-  static const IconData chevron_with_circle_right =
-      const FlutterIconData.entypo(61775);
-  static const IconData chevron_with_circle_up =
-      const FlutterIconData.entypo(61776);
+  static const IconData chevron_with_circle_down = const FlutterIconData.entypo(61773);
+  static const IconData chevron_with_circle_left = const FlutterIconData.entypo(61774);
+  static const IconData chevron_with_circle_right = const FlutterIconData.entypo(61775);
+  static const IconData chevron_with_circle_up = const FlutterIconData.entypo(61776);
   static const IconData circle = const FlutterIconData.entypo(61777);
   static const IconData circle_with_cross = const FlutterIconData.entypo(61778);
   static const IconData circle_with_minus = const FlutterIconData.entypo(61779);
@@ -117,12 +102,9 @@ class Entypo {
   static const IconData cog = const FlutterIconData.entypo(61788);
   static const IconData colours = const FlutterIconData.entypo(61789);
   static const IconData compass = const FlutterIconData.entypo(61790);
-  static const IconData controller_fast_backward =
-      const FlutterIconData.entypo(61791);
-  static const IconData controller_fast_forward =
-      const FlutterIconData.entypo(61792);
-  static const IconData controller_jump_to_start =
-      const FlutterIconData.entypo(61793);
+  static const IconData controller_fast_backward = const FlutterIconData.entypo(61791);
+  static const IconData controller_fast_forward = const FlutterIconData.entypo(61792);
+  static const IconData controller_jump_to_start = const FlutterIconData.entypo(61793);
   static const IconData controller_next = const FlutterIconData.entypo(61794);
   static const IconData controller_paus = const FlutterIconData.entypo(61795);
   static const IconData controller_play = const FlutterIconData.entypo(61796);
@@ -132,22 +114,14 @@ class Entypo {
   static const IconData copy = const FlutterIconData.entypo(61800);
   static const IconData creative_cloud = const FlutterIconData.entypo(61801);
   static const IconData creative_commons = const FlutterIconData.entypo(61802);
-  static const IconData creative_commons_attribution =
-      const FlutterIconData.entypo(61803);
-  static const IconData creative_commons_noderivs =
-      const FlutterIconData.entypo(61804);
-  static const IconData creative_commons_noncommercial_eu =
-      const FlutterIconData.entypo(61805);
-  static const IconData creative_commons_noncommercial_us =
-      const FlutterIconData.entypo(61806);
-  static const IconData creative_commons_public_domain =
-      const FlutterIconData.entypo(61807);
-  static const IconData creative_commons_remix =
-      const FlutterIconData.entypo(61808);
-  static const IconData creative_commons_share =
-      const FlutterIconData.entypo(61809);
-  static const IconData creative_commons_sharealike =
-      const FlutterIconData.entypo(61810);
+  static const IconData creative_commons_attribution = const FlutterIconData.entypo(61803);
+  static const IconData creative_commons_noderivs = const FlutterIconData.entypo(61804);
+  static const IconData creative_commons_noncommercial_eu = const FlutterIconData.entypo(61805);
+  static const IconData creative_commons_noncommercial_us = const FlutterIconData.entypo(61806);
+  static const IconData creative_commons_public_domain = const FlutterIconData.entypo(61807);
+  static const IconData creative_commons_remix = const FlutterIconData.entypo(61808);
+  static const IconData creative_commons_share = const FlutterIconData.entypo(61809);
+  static const IconData creative_commons_sharealike = const FlutterIconData.entypo(61810);
   static const IconData credit = const FlutterIconData.entypo(61811);
   static const IconData credit_card = const FlutterIconData.entypo(61812);
   static const IconData crop = const FlutterIconData.entypo(61813);
@@ -159,21 +133,16 @@ class Entypo {
   static const IconData dial_pad = const FlutterIconData.entypo(61819);
   static const IconData direction = const FlutterIconData.entypo(61820);
   static const IconData document = const FlutterIconData.entypo(61821);
-  static const IconData document_landscape =
-      const FlutterIconData.entypo(61822);
+  static const IconData document_landscape = const FlutterIconData.entypo(61822);
   static const IconData documents = const FlutterIconData.entypo(61823);
   static const IconData dot_single = const FlutterIconData.entypo(61824);
-  static const IconData dots_three_horizontal =
-      const FlutterIconData.entypo(61825);
-  static const IconData dots_three_vertical =
-      const FlutterIconData.entypo(61826);
-  static const IconData dots_two_horizontal =
-      const FlutterIconData.entypo(61827);
+  static const IconData dots_three_horizontal = const FlutterIconData.entypo(61825);
+  static const IconData dots_three_vertical = const FlutterIconData.entypo(61826);
+  static const IconData dots_two_horizontal = const FlutterIconData.entypo(61827);
   static const IconData dots_two_vertical = const FlutterIconData.entypo(61828);
   static const IconData download = const FlutterIconData.entypo(61829);
   static const IconData dribbble = const FlutterIconData.entypo(61830);
-  static const IconData dribbble_with_circle =
-      const FlutterIconData.entypo(61831);
+  static const IconData dribbble_with_circle = const FlutterIconData.entypo(61831);
   static const IconData drink = const FlutterIconData.entypo(61832);
   static const IconData drive = const FlutterIconData.entypo(61833);
   static const IconData drop = const FlutterIconData.entypo(61834);
@@ -191,8 +160,7 @@ class Entypo {
   static const IconData eye = const FlutterIconData.entypo(61846);
   static const IconData eye_with_line = const FlutterIconData.entypo(61847);
   static const IconData facebook = const FlutterIconData.entypo(61848);
-  static const IconData facebook_with_circle =
-      const FlutterIconData.entypo(61849);
+  static const IconData facebook_with_circle = const FlutterIconData.entypo(61849);
   static const IconData feather = const FlutterIconData.entypo(61850);
   static const IconData fingerprint = const FlutterIconData.entypo(61851);
   static const IconData flag = const FlutterIconData.entypo(61852);
@@ -201,8 +169,7 @@ class Entypo {
   static const IconData flat_brush = const FlutterIconData.entypo(61855);
   static const IconData flattr = const FlutterIconData.entypo(61856);
   static const IconData flickr = const FlutterIconData.entypo(61857);
-  static const IconData flickr_with_circle =
-      const FlutterIconData.entypo(61858);
+  static const IconData flickr_with_circle = const FlutterIconData.entypo(61858);
   static const IconData flow_branch = const FlutterIconData.entypo(61859);
   static const IconData flow_cascade = const FlutterIconData.entypo(61860);
   static const IconData flow_line = const FlutterIconData.entypo(61861);
@@ -219,12 +186,10 @@ class Entypo {
   static const IconData game_controller = const FlutterIconData.entypo(61872);
   static const IconData gauge = const FlutterIconData.entypo(61873);
   static const IconData github = const FlutterIconData.entypo(61874);
-  static const IconData github_with_circle =
-      const FlutterIconData.entypo(61875);
+  static const IconData github_with_circle = const FlutterIconData.entypo(61875);
   static const IconData globe = const FlutterIconData.entypo(61876);
   static const IconData google_ = const FlutterIconData.entypo(61877);
-  static const IconData google__with_circle =
-      const FlutterIconData.entypo(61878);
+  static const IconData google__with_circle = const FlutterIconData.entypo(61878);
   static const IconData google_drive = const FlutterIconData.entypo(61879);
   static const IconData google_hangouts = const FlutterIconData.entypo(61880);
   static const IconData google_play = const FlutterIconData.entypo(61881);
@@ -249,8 +214,7 @@ class Entypo {
   static const IconData info = const FlutterIconData.entypo(61900);
   static const IconData info_with_circle = const FlutterIconData.entypo(61901);
   static const IconData instagram = const FlutterIconData.entypo(61902);
-  static const IconData instagram_with_circle =
-      const FlutterIconData.entypo(61903);
+  static const IconData instagram_with_circle = const FlutterIconData.entypo(61903);
   static const IconData install = const FlutterIconData.entypo(61904);
   static const IconData key = const FlutterIconData.entypo(61905);
   static const IconData keyboard = const FlutterIconData.entypo(61906);
@@ -259,8 +223,7 @@ class Entypo {
   static const IconData language = const FlutterIconData.entypo(61909);
   static const IconData laptop = const FlutterIconData.entypo(61910);
   static const IconData lastfm = const FlutterIconData.entypo(61911);
-  static const IconData lastfm_with_circle =
-      const FlutterIconData.entypo(61912);
+  static const IconData lastfm_with_circle = const FlutterIconData.entypo(61912);
   static const IconData layers = const FlutterIconData.entypo(61913);
   static const IconData leaf = const FlutterIconData.entypo(61914);
   static const IconData level_down = const FlutterIconData.entypo(61915);
@@ -272,8 +235,7 @@ class Entypo {
   static const IconData line_graph = const FlutterIconData.entypo(61921);
   static const IconData link = const FlutterIconData.entypo(61922);
   static const IconData linkedin = const FlutterIconData.entypo(61923);
-  static const IconData linkedin_with_circle =
-      const FlutterIconData.entypo(61924);
+  static const IconData linkedin_with_circle = const FlutterIconData.entypo(61924);
   static const IconData list = const FlutterIconData.entypo(61925);
   static const IconData location = const FlutterIconData.entypo(61926);
   static const IconData location_pin = const FlutterIconData.entypo(61927);
@@ -291,8 +253,7 @@ class Entypo {
   static const IconData mask = const FlutterIconData.entypo(61939);
   static const IconData medal = const FlutterIconData.entypo(61940);
   static const IconData medium = const FlutterIconData.entypo(61941);
-  static const IconData medium_with_circle =
-      const FlutterIconData.entypo(61942);
+  static const IconData medium_with_circle = const FlutterIconData.entypo(61942);
   static const IconData megaphone = const FlutterIconData.entypo(61943);
   static const IconData menu = const FlutterIconData.entypo(61944);
   static const IconData merge = const FlutterIconData.entypo(61945);
@@ -327,8 +288,7 @@ class Entypo {
   static const IconData pie_chart = const FlutterIconData.entypo(61974);
   static const IconData pin = const FlutterIconData.entypo(61975);
   static const IconData pinterest = const FlutterIconData.entypo(61976);
-  static const IconData pinterest_with_circle =
-      const FlutterIconData.entypo(61977);
+  static const IconData pinterest_with_circle = const FlutterIconData.entypo(61977);
   static const IconData plus = const FlutterIconData.entypo(61978);
   static const IconData popup = const FlutterIconData.entypo(61979);
   static const IconData power_plug = const FlutterIconData.entypo(61980);
@@ -354,8 +314,7 @@ class Entypo {
   static const IconData reply = const FlutterIconData.entypo(62000);
   static const IconData reply_all = const FlutterIconData.entypo(62001);
   static const IconData resize_100_ = const FlutterIconData.entypo(62002);
-  static const IconData resize_full_screen =
-      const FlutterIconData.entypo(62003);
+  static const IconData resize_full_screen = const FlutterIconData.entypo(62003);
   static const IconData retweet = const FlutterIconData.entypo(62004);
   static const IconData rocket = const FlutterIconData.entypo(62005);
   static const IconData round_brush = const FlutterIconData.entypo(62006);
@@ -386,8 +345,7 @@ class Entypo {
   static const IconData soundcloud = const FlutterIconData.entypo(62031);
   static const IconData sports_club = const FlutterIconData.entypo(62032);
   static const IconData spotify = const FlutterIconData.entypo(62033);
-  static const IconData spotify_with_circle =
-      const FlutterIconData.entypo(62034);
+  static const IconData spotify_with_circle = const FlutterIconData.entypo(62034);
   static const IconData spreadsheet = const FlutterIconData.entypo(62035);
   static const IconData squared_cross = const FlutterIconData.entypo(62036);
   static const IconData squared_minus = const FlutterIconData.entypo(62037);
@@ -396,21 +354,18 @@ class Entypo {
   static const IconData star_outlined = const FlutterIconData.entypo(62040);
   static const IconData stopwatch = const FlutterIconData.entypo(62041);
   static const IconData stumbleupon = const FlutterIconData.entypo(62042);
-  static const IconData stumbleupon_with_circle =
-      const FlutterIconData.entypo(62043);
+  static const IconData stumbleupon_with_circle = const FlutterIconData.entypo(62043);
   static const IconData suitcase = const FlutterIconData.entypo(62044);
   static const IconData swap = const FlutterIconData.entypo(62045);
   static const IconData swarm = const FlutterIconData.entypo(62046);
   static const IconData sweden = const FlutterIconData.entypo(62047);
   static const IconData $switch = const FlutterIconData.entypo(62048);
   static const IconData tablet = const FlutterIconData.entypo(62049);
-  static const IconData tablet_mobile_combo =
-      const FlutterIconData.entypo(62050);
+  static const IconData tablet_mobile_combo = const FlutterIconData.entypo(62050);
   static const IconData tag = const FlutterIconData.entypo(62051);
   static const IconData text = const FlutterIconData.entypo(62052);
   static const IconData text_document = const FlutterIconData.entypo(62053);
-  static const IconData text_document_inverted =
-      const FlutterIconData.entypo(62054);
+  static const IconData text_document_inverted = const FlutterIconData.entypo(62054);
   static const IconData thermometer = const FlutterIconData.entypo(62055);
   static const IconData thumbs_down = const FlutterIconData.entypo(62056);
   static const IconData thumbs_up = const FlutterIconData.entypo(62057);
@@ -428,12 +383,10 @@ class Entypo {
   static const IconData tripadvisor = const FlutterIconData.entypo(62069);
   static const IconData trophy = const FlutterIconData.entypo(62070);
   static const IconData tumblr = const FlutterIconData.entypo(62071);
-  static const IconData tumblr_with_circle =
-      const FlutterIconData.entypo(62072);
+  static const IconData tumblr_with_circle = const FlutterIconData.entypo(62072);
   static const IconData tv = const FlutterIconData.entypo(62073);
   static const IconData twitter = const FlutterIconData.entypo(62074);
-  static const IconData twitter_with_circle =
-      const FlutterIconData.entypo(62075);
+  static const IconData twitter_with_circle = const FlutterIconData.entypo(62075);
   static const IconData typing = const FlutterIconData.entypo(62076);
   static const IconData uninstall = const FlutterIconData.entypo(62077);
   static const IconData unread = const FlutterIconData.entypo(62078);
@@ -464,6 +417,5 @@ class Entypo {
   static const IconData youko = const FlutterIconData.entypo(62103);
   static const IconData youko_with_circle = const FlutterIconData.entypo(62104);
   static const IconData youtube = const FlutterIconData.entypo(62105);
-  static const IconData youtube_with_circle =
-      const FlutterIconData.entypo(62106);
+  static const IconData youtube_with_circle = const FlutterIconData.entypo(62106);
 }
