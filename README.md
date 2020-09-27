@@ -1,6 +1,6 @@
 English | [简体中文](./README_zh-CN.md)
 
-# flutter_icons
+# flutter_icons 2.0.0
 
 [![pub package](https://img.shields.io/pub/v/flutter_icons.svg)](https://pub.dartlang.org/packages/flutter_icons)
 
