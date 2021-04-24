@@ -1,6 +1,6 @@
 English | [简体中文](./README_zh-CN.md)
 
-# flutter_icons 2.0.0
+# flutter_icons 3.0.0-nullsafety.0
 
 Customizable Icons for Flutter,Inspired by [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
 

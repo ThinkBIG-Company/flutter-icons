@@ -1,6 +1,6 @@
 [English](./README.md) | 简体中文
 
-# flutter_icons 2.0.0
+# flutter_icons 3.0.0-nullsafety.0
 
 在Flutter中使用可定制的图标，该插件包是受到 [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)启发而开发
 
