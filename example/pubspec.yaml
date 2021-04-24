@@ -23,7 +23,6 @@ dependencies:
 #    path: ../
      git:
        url: https://github.com/ThinkBIG-Company/flutter-icons.git
-       ref: 2.0.0
 dev_dependencies:
   flutter_test:
     sdk: flutter

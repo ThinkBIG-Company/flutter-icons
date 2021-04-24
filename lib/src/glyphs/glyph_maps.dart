@@ -1,4 +1,4 @@
-Map<String, dynamic> gly = {
+Map<String, dynamic> glyphMaps = {
   "ant_design": {
     "stepforward": 58880,
     "stepbackward": 58881,

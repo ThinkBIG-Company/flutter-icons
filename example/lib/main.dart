@@ -1,5 +1,7 @@
+import 'package:example/IconsPage.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_icons/flutter_icons.dart';
+import 'ant_design_page.dart';
 
 void main() => runApp(MyApp());
 
@@ -21,7 +23,8 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Flutter Icons'),
+      home: MyHomePage(title: 'Icons Explorer'),
+      routes: {"icon_page": (_) => IconsPage()},
     );
   }
 }
@@ -36,6 +39,53 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+  buildChildren() {
+    Map<String, dynamic> map = {
+      "AntDesign": AntDesign.glyphMaps,
+      "Entypo": Entypo.glyphMaps,
+      "EvilIcons": EvilIcons.glyphMaps,
+      "Feather": Feather.glyphMaps,
+      "FontAwesome": FontAwesome.glyphMaps,
+      "Foundation": Foundation.glyphMaps,
+      "Ionicons": Ionicons.glyphMaps,
+      "MaterialCommunityIcons": MaterialCommunityIcons.glyphMaps,
+      "MaterialIcons": MaterialIcons.glyphMaps,
+      "Octicons": Octicons.glyphMaps,
+      "SimpleLineIcons": SimpleLineIcons.glyphMaps,
+      "WeatherIcons": WeatherIcons.glyphMaps,
+      "Zocial": Zocial.glyphMaps,
+    };
+    List<Widget> widgets = [];
+    for (int i = 0; i < map.keys.length; i++) {
+      widgets.add(GestureDetector(
+        onTap: () {
+          Navigator.of(context).pushNamed("icon_page", arguments: {
+            "glyphMaps": map[map.keys.elementAt(i)],
+            "iconSetName": map.keys.elementAt(i)
+          });
+        },
+        child: Padding(
+          padding: const EdgeInsets.symmetric(vertical: 8),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: <Widget>[
+              Text(map.keys.elementAt(i)),
+              Spacer(),
+              Text(map[map.keys.elementAt(i)].length.toString()),
+              Icon(Icons.arrow_forward_ios)
+            ],
+          ),
+        ),
+      ));
+      if (i != map.keys.length - 1) {
+        widgets.add(Container(
+          height: 1,
+          color: Colors.black.withOpacity(0.3),
+        ));
+      }
+    }
+    return widgets;
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -55,20 +105,7 @@ class _MyHomePageState extends State<MyHomePage> {
         padding: const EdgeInsets.all(20.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Icon(AntDesign.stepforward),
-//            Icon(Ionicons.ios_search),
-//            Icon(FontAwesome.glass),
-//            Icon(MaterialIcons.ac_unit),
-//            Icon(FontAwesome5.address_book),
-//            Icon(FontAwesome5Solid.address_book),
-//            Icon(FontAwesome5Brands.$500px),
-//            Icon(FlutterIcons.$500px_ent),
-//            Icon(FlutterIcons.$500px_faw5d),
-//            Icon(WeatherIcons.wi_alien),
-//            Icon(WeatherIcons.wi_cloud),
-//            Icon(WeatherIcons.wi_day_rain)
-          ],
+          children: buildChildren(),
         ),
       ),
     );

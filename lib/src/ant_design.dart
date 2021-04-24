@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_icons/flutter_icons.dart';
+import 'package:flutter_icons/src/glyphs/glyph_maps.dart';
 import 'flutter_icon_data.dart';
 
 /// all Icons under Ant Design
