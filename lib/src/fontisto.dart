@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
+
 import 'flutter_icon_data.dart';
 
-/// all Icons under Fontisto
-///
-/// https://fontisto.com
 class Fontisto {
   Fontisto._();
 

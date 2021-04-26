@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
+
 import 'flutter_icon_data.dart';
 
-/// all Icons under SimpleLineIcons
-///
-/// https://simplelineicons.github.io/
 class SimpleLineIcons {
   SimpleLineIcons._();
 

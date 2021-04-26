@@ -1,5 +1,5 @@
+import 'package:example/iconGlyphs.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_icons/flutter_icons.dart';
 
 class IconsPage extends StatefulWidget {
   @override
@@ -13,39 +13,39 @@ class _IconsPageState extends State<IconsPage> {
   getIconData(String iconSetName, String iconName) {
     switch (iconSetName) {
       case "AntDesign":
-        return AntDesign.getIconData(iconName);
+        return iconGlyphs[iconName];
       case "Entypo":
-        return Entypo.getIconData(iconName);
+        return iconGlyphs[iconName];
       case "EvilIcons":
-        return EvilIcons.getIconData(iconName);
+        return iconGlyphs[iconName];
       case "Feather":
-        return Feather.getIconData(iconName);
+        return iconGlyphs[iconName];
       case "FontAwesome":
-        return FontAwesome.getIconData(iconName);
+        return iconGlyphs[iconName];
       case "Foundation":
-        return Foundation.getIconData(iconName);
+        return iconGlyphs[iconName];
       case "Ionicons":
-        return Ionicons.getIconData(iconName);
+        return iconGlyphs[iconName];
       case "MaterialCommunityIcons":
-        return MaterialCommunityIcons.getIconData(iconName);
+        return iconGlyphs[iconName];
       case "MaterialIcons":
-        return MaterialIcons.getIconData(iconName);
+        return iconGlyphs[iconName];
       case "Octicons":
-        return Octicons.getIconData(iconName);
+        return iconGlyphs[iconName];
       case "SimpleLineIcons":
-        return SimpleLineIcons.getIconData(iconName);
+        return iconGlyphs[iconName];
       case "Zocial":
-        return Zocial.getIconData(iconName);
+        return iconGlyphs[iconName];
       case "WeatherIcons":
-        return WeatherIcons.getIconData(iconName);
+        return iconGlyphs[iconName];
     }
   }
 
   @override
   Widget build(BuildContext context) {
-    Map<String, dynamic> args = ModalRoute.of(context).settings.arguments;
-    Map<String, int> maps = args["glyphMaps"];
-    String iconSetName = args["iconSetName"];
+    final args =  ModalRoute.of(context).settings.arguments as Map;
+    Map<String, int> maps = args['glyphMaps'];
+    String iconSetName = args['iconSetName'];
     _keys ??= maps.keys.toList();
     return Scaffold(
       body: Padding(
