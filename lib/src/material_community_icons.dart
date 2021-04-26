@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
+
 import 'flutter_icon_data.dart';
 
-/// all Icons under MaterialCommunityIcons
-///
-/// https://ionicons.com/
 class MaterialCommunityIcons {
   MaterialCommunityIcons._();
 
@@ -3524,7 +3522,6 @@ class MaterialCommunityIcons {
   static const IconData npm = const FlutterIconData.materialCommunityIcons(984823);
   static const IconData nuke = const FlutterIconData.materialCommunityIcons(984740);
   static const IconData $null = const FlutterIconData.materialCommunityIcons(985058);
-
   static const IconData numeric = const FlutterIconData.materialCommunityIcons(983968);
   static const IconData numeric_0 = const FlutterIconData.materialCommunityIcons(985913);
   static const IconData numeric_0_box = const FlutterIconData.materialCommunityIcons(983969);
@@ -4683,7 +4680,6 @@ class MaterialCommunityIcons {
   static const IconData swap_vertical_variant = const FlutterIconData.materialCommunityIcons(985282);
   static const IconData swim = const FlutterIconData.materialCommunityIcons(984291);
   static const IconData $switch = const FlutterIconData.materialCommunityIcons(984292);
-
   static const IconData sword = const FlutterIconData.materialCommunityIcons(984293);
   static const IconData sword_cross = const FlutterIconData.materialCommunityIcons(984967);
   static const IconData syllabary_hangul = const FlutterIconData.materialCommunityIcons(987955);
