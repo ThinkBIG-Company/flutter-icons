@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'package:flutter_icons/src/flutter_icons_helper.dart';
 
 class IconsPage extends StatefulWidget {
