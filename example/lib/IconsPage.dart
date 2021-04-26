@@ -1,5 +1,6 @@
-import 'package:example/iconGlyphs.dart';
 import 'package:flutter/material.dart';
+
+import 'package:flutter_icons/src/flutter_icons_helper.dart';
 
 class IconsPage extends StatefulWidget {
   @override
@@ -10,41 +11,11 @@ class _IconsPageState extends State<IconsPage> {
   String keyword = "";
   List<String> _keys;
 
-  getIconData(String iconSetName, String iconName) {
-    switch (iconSetName) {
-      case "AntDesign":
-        return iconGlyphs[iconName];
-      case "Entypo":
-        return iconGlyphs[iconName];
-      case "EvilIcons":
-        return iconGlyphs[iconName];
-      case "Feather":
-        return iconGlyphs[iconName];
-      case "FontAwesome":
-        return iconGlyphs[iconName];
-      case "Foundation":
-        return iconGlyphs[iconName];
-      case "Ionicons":
-        return iconGlyphs[iconName];
-      case "MaterialCommunityIcons":
-        return iconGlyphs[iconName];
-      case "MaterialIcons":
-        return iconGlyphs[iconName];
-      case "Octicons":
-        return iconGlyphs[iconName];
-      case "SimpleLineIcons":
-        return iconGlyphs[iconName];
-      case "Zocial":
-        return iconGlyphs[iconName];
-      case "WeatherIcons":
-        return iconGlyphs[iconName];
-    }
-  }
-
   @override
   Widget build(BuildContext context) {
     final args =  ModalRoute.of(context).settings.arguments as Map;
     Map<String, int> maps = args['glyphMaps'];
+    print(maps);
     String iconSetName = args['iconSetName'];
     _keys ??= maps.keys.toList();
     return Scaffold(
@@ -57,10 +28,10 @@ class _IconsPageState extends State<IconsPage> {
                 keyword = value;
               },
               decoration: InputDecoration(
-                hintText: "输入图标名称进行搜索",
+                hintText: 'Enter the icon name to search',
                 suffix: IconButton(
                   onPressed: () {
-                    if (keyword != "") {
+                    if (keyword != '') {
                       var _kkeys = maps.keys.toList();
                       _kkeys.retainWhere((str) => str.contains(keyword));
                       setState(() {
@@ -75,6 +46,9 @@ class _IconsPageState extends State<IconsPage> {
             Expanded(
               child: ListView.separated(
                 itemBuilder: (_, index) {
+                  print(iconSetName);
+                  print(_keys.elementAt(index));
+
                   return Padding(
                     padding: const EdgeInsets.symmetric(vertical: 8),
                     child: Row(
@@ -100,5 +74,9 @@ class _IconsPageState extends State<IconsPage> {
         ),
       ),
     );
+  }
+
+  getIconData(String iconSetName, String iconName) {
+    return FlutterIconsHelper.getIconData(iconSetName, iconName);
   }
 }

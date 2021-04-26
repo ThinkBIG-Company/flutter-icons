@@ -21,3 +21,4 @@ export 'src/zocial.dart';
 
 export 'src/icon_toggle.dart';
 export 'src/flutter_icons.dart';
+export 'src/flutter_icons_helper.dart';
