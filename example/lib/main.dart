@@ -1,7 +1,6 @@
 import 'package:example/IconsPage.dart';
+import 'package:example/iconGlyphs.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_icons/flutter_icons.dart';
-import 'ant_design_page.dart';
 
 void main() => runApp(MyApp());
 
@@ -39,29 +38,54 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+  @override
+  Widget build(BuildContext context) {
+    // This method is rerun every time setState is called, for instance as done
+    // by the _incrementCounter method above.
+    //
+    // The Flutter framework has been optimized to make rerunning build methods
+    // fast, so that you can just rebuild anything that needs updating rather
+    // than having to individually change instances of widgets.
+    return Scaffold(
+      appBar: AppBar(
+        // Here we take the value from the MyHomePage object that was created by
+        // the App.build method, and use it to set our appbar title.
+        title: Text(widget.title),
+      ),
+      body: Padding(
+        padding: const EdgeInsets.all(20.0),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: buildChildren(),
+        ),
+      ),
+    );
+  }
+
   buildChildren() {
     Map<String, dynamic> map = {
-      "AntDesign": AntDesign.glyphMaps,
-      "Entypo": Entypo.glyphMaps,
-      "EvilIcons": EvilIcons.glyphMaps,
-      "Feather": Feather.glyphMaps,
-      "FontAwesome": FontAwesome.glyphMaps,
-      "Foundation": Foundation.glyphMaps,
-      "Ionicons": Ionicons.glyphMaps,
-      "MaterialCommunityIcons": MaterialCommunityIcons.glyphMaps,
-      "MaterialIcons": MaterialIcons.glyphMaps,
-      "Octicons": Octicons.glyphMaps,
-      "SimpleLineIcons": SimpleLineIcons.glyphMaps,
-      "WeatherIcons": WeatherIcons.glyphMaps,
-      "Zocial": Zocial.glyphMaps,
+      'AntDesign': iconGlyphs['ant_design'],
+      'Entypo': iconGlyphs['entypo'],
+      'EvilIcons': iconGlyphs['evil_icons'],
+      'Feather': iconGlyphs['feather'],
+      'FontAwesome': iconGlyphs['font_awesome'],
+      'Fontisto': iconGlyphs['fontisto'],
+      'Foundation': iconGlyphs['foundation'],
+      'Ionicons': iconGlyphs['ionicons'],
+      'MaterialCommunityIcons': iconGlyphs['material_community_icons'],
+      'MaterialIcons': iconGlyphs['material_icons'],
+      'Octicons': iconGlyphs['octicons'],
+      'SimpleLineIcons': iconGlyphs['simple_line_icons'],
+      'WeatherIcons': iconGlyphs['weather_icons'],
+      'Zocial': iconGlyphs['zocial'],
     };
     List<Widget> widgets = [];
     for (int i = 0; i < map.keys.length; i++) {
       widgets.add(GestureDetector(
         onTap: () {
-          Navigator.of(context).pushNamed("icon_page", arguments: {
-            "glyphMaps": map[map.keys.elementAt(i)],
-            "iconSetName": map.keys.elementAt(i)
+          Navigator.of(context).pushNamed('icon_page', arguments: {
+            'glyphMaps': map[map.keys.elementAt(i)],
+            'iconSetName': map.keys.elementAt(i)
           });
         },
         child: Padding(
@@ -85,29 +109,5 @@ class _MyHomePageState extends State<MyHomePage> {
       }
     }
     return widgets;
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    // This method is rerun every time setState is called, for instance as done
-    // by the _incrementCounter method above.
-    //
-    // The Flutter framework has been optimized to make rerunning build methods
-    // fast, so that you can just rebuild anything that needs updating rather
-    // than having to individually change instances of widgets.
-    return Scaffold(
-      appBar: AppBar(
-        // Here we take the value from the MyHomePage object that was created by
-        // the App.build method, and use it to set our appbar title.
-        title: Text(widget.title),
-      ),
-      body: Padding(
-        padding: const EdgeInsets.all(20.0),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: buildChildren(),
-        ),
-      ),
-    );
   }
 }

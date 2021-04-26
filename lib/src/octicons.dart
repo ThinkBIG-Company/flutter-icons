@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
+
 import 'flutter_icon_data.dart';
 
-/// all Icons under Octicons
-///
-/// http://octicons.github.com
 class Octicons {
   Octicons._();
 

@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
+
 import 'flutter_icon_data.dart';
 
-/// all Icons under FontAwesome5(Brands)
-///
-/// https://fontawesome.com
 class FontAwesome5Brands {
   FontAwesome5Brands._();
 
