@@ -1,6 +1,6 @@
 import 'package:example/IconsPage.dart';
-import 'package:example/iconGlyphs.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_icons/flutter_icons.dart';
 
 void main() => runApp(MyApp());
 
@@ -23,15 +23,15 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: MyHomePage(title: 'Icons Explorer'),
-      routes: {"icon_page": (_) => IconsPage()},
+      routes: {'icon_page': (_) => IconsPage()},
     );
   }
 }
 
 class MyHomePage extends StatefulWidget {
-  MyHomePage({Key? key, required this.title}) : super(key: key);
-
   final String title;
+
+  MyHomePage({Key? key, required this.title}) : super(key: key);
 
   @override
   _MyHomePageState createState() => _MyHomePageState();
@@ -85,7 +85,7 @@ class _MyHomePageState extends State<MyHomePage> {
         onTap: () {
           Navigator.of(context).pushNamed('icon_page', arguments: {
             'glyphMaps': map[map.keys.elementAt(i)],
-            'iconSetName': map.keys.elementAt(i)
+            'iconFamily': map.keys.elementAt(i)
           });
         },
         child: Padding(
@@ -101,6 +101,7 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
         ),
       ));
+
       if (i != map.keys.length - 1) {
         widgets.add(Container(
           height: 1,
@@ -108,6 +109,7 @@ class _MyHomePageState extends State<MyHomePage> {
         ));
       }
     }
+
     return widgets;
   }
 }
