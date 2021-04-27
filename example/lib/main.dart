@@ -52,17 +52,11 @@ class _MyHomePageState extends State<MyHomePage> {
         // the App.build method, and use it to set our appbar title.
         title: Text(widget.title),
       ),
-      body: Padding(
-        padding: const EdgeInsets.all(20.0),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: buildChildren(),
-        ),
-      ),
+      body: buildList(),
     );
   }
 
-  buildChildren() {
+  buildList() {
     Map<String, dynamic> map = {
       'AntDesign': iconGlyphs['ant_design'],
       'Entypo': iconGlyphs['entypo'],
@@ -79,37 +73,34 @@ class _MyHomePageState extends State<MyHomePage> {
       'WeatherIcons': iconGlyphs['weather_icons'],
       'Zocial': iconGlyphs['zocial'],
     };
-    List<Widget> widgets = [];
-    for (int i = 0; i < map.keys.length; i++) {
-      widgets.add(GestureDetector(
-        onTap: () {
-          Navigator.of(context).pushNamed('icon_page', arguments: {
-            'glyphMaps': map[map.keys.elementAt(i)],
-            'iconFamily': map.keys.elementAt(i)
-          });
-        },
-        child: Padding(
-          padding: const EdgeInsets.symmetric(vertical: 8),
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: <Widget>[
-              Text(map.keys.elementAt(i)),
-              Spacer(),
-              Text(map[map.keys.elementAt(i)].length.toString()),
-              Icon(Icons.arrow_forward_ios)
-            ],
-          ),
-        ),
-      ));
 
-      if (i != map.keys.length - 1) {
-        widgets.add(Container(
-          height: 1,
-          color: Colors.black.withOpacity(0.3),
-        ));
-      }
-    }
-
-    return widgets;
+    return ListView.builder(
+      shrinkWrap: true,
+      itemCount: map.keys.length,
+      itemBuilder: (BuildContext context, int i) {
+        return InkWell(
+            onTap: () {
+              Navigator.of(context).pushNamed('icon_page', arguments: {
+                'glyphMaps': map[map.keys.elementAt(i)],
+                'iconFamily': map.keys.elementAt(i)
+              });
+            },
+            child: Container(
+              height: 47,
+              child: Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 8),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: <Widget>[
+                    Text(map.keys.elementAt(i)),
+                    Spacer(),
+                    Text(map[map.keys.elementAt(i)].length.toString()),
+                    Icon(Icons.arrow_forward_ios)
+                  ],
+                ),
+              ),
+            ));
+      },
+    );
   }
 }

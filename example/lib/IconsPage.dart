@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_icons/flutter_icons.dart' show FlutterIconsHelper;
 
@@ -17,6 +18,7 @@ class _IconsPageState extends State<IconsPage> {
   Widget build(BuildContext context) {
     final args = ModalRoute.of(context)!.settings.arguments as Map;
     Map<String, int> glyphMaps = args['glyphMaps'];
+    print(glyphMaps);
     String iconFamily = args['iconFamily'];
     if (glyphMaps.isNotEmpty && _keys.isEmpty && !isSearch) {
       _keys = glyphMaps.keys.toList();
@@ -27,11 +29,16 @@ class _IconsPageState extends State<IconsPage> {
     }
 
     return Scaffold(
-      body: Padding(
-        padding: const EdgeInsets.all(20.0),
-        child: Column(
-          children: <Widget>[
-            TextField(
+      appBar: AppBar(
+        // Here we take the value from the MyHomePage object that was created by
+        // the App.build method, and use it to set our appbar title.
+        title: Text('Search $iconFamily Icons'),
+      ),
+      body: Column(
+        children: <Widget>[
+          Padding(
+            padding: EdgeInsets.only(left: 10, right: 10, bottom: 10),
+            child: TextField(
               onChanged: (value) {
                 keyword = value;
                 if (keyword != '') {
@@ -58,37 +65,82 @@ class _IconsPageState extends State<IconsPage> {
                 ),
               ),
             ),
-            Expanded(
-              child: ListView.separated(
-                itemCount: _keys.length,
-                itemBuilder: (_, index) {
-                  return Padding(
-                    padding: const EdgeInsets.symmetric(vertical: 8),
+          ),
+          Expanded(
+            child: ListView.separated(
+              itemCount: _keys.length,
+              itemBuilder: (_, index) {
+                return Container(
+                  height: 47,
+                  child: Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 8),
                     child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: <Widget>[
                         Icon(
                           getIconData(iconFamily, _keys.elementAt(index)),
+                          //getIconData('fontisto', 'acrobat-reader'),
                           size: 32,
                         ),
                         SizedBox(width: 10),
-                        Text(_keys.elementAt(index))
+                        Text('${index+1} ${_keys.elementAt(index)}')
                       ],
                     ),
-                  );
-                },
-                separatorBuilder: (_, index) => Container(
-                  height: 1,
-                  color: Colors.black.withOpacity(0.3),
-                ),
+                  ),
+                );
+              },
+              separatorBuilder: (_, index) => Container(
+                height: 1,
+                color: Colors.black.withOpacity(0.3),
               ),
             ),
-          ],
-        ),
+          ),
+        ],
       ),
     );
   }
 
-  getIconData(String iconSetName, String iconName) {
-    return FlutterIconsHelper.getIconData(iconSetName, iconName);
+  getIconData(String iconFamily, String iconName) {
+    return FlutterIconsHelper.getIconData(iconFamily, iconName);
+  }
+}
+
+class DataSearch extends SearchDelegate<String?> {
+  @override
+  List<Widget> buildActions(BuildContext context) {
+    // actions for app bar
+    return [IconButton(icon: Icon(Icons.clear), onPressed: () {})];
+  }
+
+  @override
+  Widget buildLeading(BuildContext context) {
+    // leading icon on the left of the app bar
+    return IconButton(
+        icon: AnimatedIcon(
+          icon: AnimatedIcons.menu_arrow,
+          progress: transitionAnimation,
+        ),
+        onPressed: () {});
+  }
+
+  @override
+  Widget buildResults(BuildContext context) {
+    // show some result based on the input
+    return Card(
+      color: Colors.red,
+    );
+  }
+
+  @override
+  Widget buildSuggestions(BuildContext context) {
+    // show when someone searches for something
+
+    return ListView.builder(itemBuilder: (BuildContext context, int i) {
+      return InkWell(
+          onTap: () {},
+          child: Container(
+            height: 47,
+          ));
+    });
   }
 }
