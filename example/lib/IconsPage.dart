@@ -18,7 +18,6 @@ class _IconsPageState extends State<IconsPage> {
   Widget build(BuildContext context) {
     final args = ModalRoute.of(context)!.settings.arguments as Map;
     Map<String, int> glyphMaps = args['glyphMaps'];
-    print(glyphMaps);
     String iconFamily = args['iconFamily'];
     if (glyphMaps.isNotEmpty && _keys.isEmpty && !isSearch) {
       _keys = glyphMaps.keys.toList();
@@ -102,45 +101,5 @@ class _IconsPageState extends State<IconsPage> {
 
   getIconData(String iconFamily, String iconName) {
     return FlutterIconsHelper.getIconData(iconFamily, iconName);
-  }
-}
-
-class DataSearch extends SearchDelegate<String?> {
-  @override
-  List<Widget> buildActions(BuildContext context) {
-    // actions for app bar
-    return [IconButton(icon: Icon(Icons.clear), onPressed: () {})];
-  }
-
-  @override
-  Widget buildLeading(BuildContext context) {
-    // leading icon on the left of the app bar
-    return IconButton(
-        icon: AnimatedIcon(
-          icon: AnimatedIcons.menu_arrow,
-          progress: transitionAnimation,
-        ),
-        onPressed: () {});
-  }
-
-  @override
-  Widget buildResults(BuildContext context) {
-    // show some result based on the input
-    return Card(
-      color: Colors.red,
-    );
-  }
-
-  @override
-  Widget buildSuggestions(BuildContext context) {
-    // show when someone searches for something
-
-    return ListView.builder(itemBuilder: (BuildContext context, int i) {
-      return InkWell(
-          onTap: () {},
-          child: Container(
-            height: 47,
-          ));
-    });
   }
 }
