@@ -6,9 +6,16 @@ class FlutterIconsHelper {
   static getIconData(iconFamily, iconName) {
     final glyphMapName = iconFamily.split(new RegExp(r"(?<=[a-z])(?=[A-Z])"));
     var lowerGlyphMapName = '';
-    if (glyphMapName.length > 1) {
+    if (glyphMapName.length == 3) {
       lowerGlyphMapName =
-          '${glyphMapName[0].toString().toLowerCase()}_${glyphMapName[1].toString().toLowerCase()}';
+      '${glyphMapName[0].toString().toLowerCase()}_${glyphMapName[1]
+          .toString()
+          .toLowerCase()}_${glyphMapName[2].toString().toLowerCase()}';
+    } else if (glyphMapName.length == 2) {
+      lowerGlyphMapName =
+      '${glyphMapName[0].toString().toLowerCase()}_${glyphMapName[1]
+          .toString()
+          .toLowerCase()}';
     } else {
       lowerGlyphMapName = '${glyphMapName[0].toString().toLowerCase()}';
     }
@@ -32,6 +39,8 @@ class FlutterIconsHelper {
         return FlutterIconData.feather(codePoint);
       case 'FontAwesome':
         return FlutterIconData.fontAwesome(codePoint);
+      case 'Fontisto':
+        return FlutterIconData.fontisto(codePoint);
       case 'Foundation':
         return FlutterIconData.foundation(codePoint);
       case 'Ionicons':
@@ -51,12 +60,20 @@ class FlutterIconsHelper {
     }
   }
 
+  /// Takes the values [iconFamily] and [iconName] and returns bool if exists.
   static hasIconData(iconFamily, iconName) {
     final glyphMapName = iconFamily.split(new RegExp(r"(?<=[a-z])(?=[A-Z])"));
     var lowerGlyphMapName = '';
-    if (glyphMapName.length > 1) {
+    if (glyphMapName.length == 3) {
       lowerGlyphMapName =
-          '${glyphMapName[0].toString().toLowerCase()}_${glyphMapName[1].toString().toLowerCase()}';
+      '${glyphMapName[0].toString().toLowerCase()}_${glyphMapName[1]
+          .toString()
+          .toLowerCase()}_${glyphMapName[2].toString().toLowerCase()}';
+    } else if (glyphMapName.length == 2) {
+      lowerGlyphMapName =
+      '${glyphMapName[0].toString().toLowerCase()}_${glyphMapName[1]
+          .toString()
+          .toLowerCase()}';
     } else {
       lowerGlyphMapName = '${glyphMapName[0].toString().toLowerCase()}';
     }
