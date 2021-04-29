@@ -1,4 +1,5 @@
 import 'package:example/IconsPage.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_icons/flutter_icons.dart';
 
@@ -57,8 +58,11 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   buildList() {
+
+    print(AntDesign.dev());
+
     Map<String, dynamic> map = {
-      'AntDesign': AntDesign.dev(),
+      //'AntDesign': AntDesign.dev(),
       'Entypo': iconGlyphs['entypo'],
       'EvilIcons': iconGlyphs['evil_icons'],
       'Feather': iconGlyphs['feather'],

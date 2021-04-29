@@ -3,7 +3,7 @@ import 'package:reflectable/mirrors.dart';
 import 'package:reflectable/reflectable.dart';
    import 'flutter_icon_data.dart';class AntDesign extends Reflectable { AntDesign._();
 
-   static void dev()
+   static bool dev()
    {
       AntDesign t = AntDesign._();
       var reflectable = AntDesign._();
@@ -13,6 +13,8 @@ import 'package:reflectable/reflectable.dart';
       {
          print(" => S: ${v.isStatic}, P: ${v.isPrivate},");
       }
+
+      return true;
    }
 
 
