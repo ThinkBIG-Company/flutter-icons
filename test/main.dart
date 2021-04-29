@@ -200,6 +200,8 @@ class FlutterIcons {
   }
 
   String iconGlyphsContent = File('$rootDirectory/test/iconGlyphs.dart').readAsStringSync();
+  iconGlyphsContent = iconGlyphsContent.replaceAll('iconGlyphs', 'glyphMap');
+
   str += 'static const $iconGlyphsContent';
 
   // Close class

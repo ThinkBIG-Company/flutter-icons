@@ -13653,7 +13653,7 @@ static const IconData xing_zoc = const FlutterIconData.zocial(61791);
 static const IconData yahoo_zoc = const FlutterIconData.zocial(61792);
 static const IconData ycombinator_zoc = const FlutterIconData.zocial(61793);
 static const IconData yelp_zoc = const FlutterIconData.zocial(61794);
-static const IconData youtube_zoc = const FlutterIconData.zocial(61795);static const Map<String, dynamic> iconGlyphs = {
+static const IconData youtube_zoc = const FlutterIconData.zocial(61795);static const Map<String, dynamic> glyphMap = {
   "ant_design": {
     "stepforward": 58880,
     "stepbackward": 58881,
