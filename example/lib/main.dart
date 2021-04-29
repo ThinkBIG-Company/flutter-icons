@@ -9,7 +9,6 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
@@ -59,24 +58,22 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   buildList() {
-
-    print(AntDesign.dev());
-
     Map<String, dynamic> map = {
-      //'AntDesign': AntDesign.dev(),
-      'Entypo': iconGlyphs['entypo'],
-      'EvilIcons': iconGlyphs['evil_icons'],
-      'Feather': iconGlyphs['feather'],
-      'FontAwesome': iconGlyphs['font_awesome'],
-      'Fontisto': iconGlyphs['fontisto'],
-      'Foundation': iconGlyphs['foundation'],
-      'Ionicons': iconGlyphs['ionicons'],
-      'MaterialCommunityIcons': iconGlyphs['material_community_icons'],
-      'MaterialIcons': iconGlyphs['material_icons'],
-      'Octicons': iconGlyphs['octicons'],
-      'SimpleLineIcons': iconGlyphs['simple_line_icons'],
-      'WeatherIcons': iconGlyphs['weather_icons'],
-      'Zocial': iconGlyphs['zocial'],
+      'AntDesign': FlutterIcons.glyphMap['ant_design'],
+      'Entypo': FlutterIcons.glyphMap['entypo'],
+      'EvilIcons': FlutterIcons.glyphMap['evil_icons'],
+      'Feather': FlutterIcons.glyphMap['feather'],
+      'FontAwesome': FlutterIcons.glyphMap['font_awesome'],
+      'Fontisto': FlutterIcons.glyphMap['fontisto'],
+      'Foundation': FlutterIcons.glyphMap['foundation'],
+      'Ionicons': FlutterIcons.glyphMap['ionicons'],
+      'MaterialCommunityIcons':
+          FlutterIcons.glyphMap['material_community_icons'],
+      'MaterialIcons': FlutterIcons.glyphMap['material_icons'],
+      'Octicons': FlutterIcons.glyphMap['octicons'],
+      'SimpleLineIcons': FlutterIcons.glyphMap['simple_line_icons'],
+      'WeatherIcons': FlutterIcons.glyphMap['weather_icons'],
+      'Zocial': FlutterIcons.glyphMap['zocial'],
     };
 
     return ListView.builder(

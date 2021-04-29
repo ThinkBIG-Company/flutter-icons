@@ -165,8 +165,8 @@ class FlutterIcons {
   for (var i = 0; i < files.length; i++) {
     final File file = files[i];
     if (file.path.indexOf('flutter_icon') == -1 &&
-        file.path.indexOf('icon_toggle') == -1 &&
-        file.path.indexOf('ant_design') == -1 &&
+        file.path.indexOf('icon_toggle') == -1
+        /*file.path.indexOf('ant_design') == -1 &&
         file.path.indexOf('entypo') == -1 &&
         file.path.indexOf('evil_icons') == -1 &&
         file.path.indexOf('feather') == -1 &&
@@ -178,7 +178,8 @@ class FlutterIcons {
         file.path.indexOf('octicons') == -1 &&
         file.path.indexOf('simple_line_icons') == -1 &&
         file.path.indexOf('weather_icons') == -1 &&
-        file.path.indexOf('zocial') == -1) {
+        file.path.indexOf('zocial') == -1*/
+    ) {
       final List<String> lines = file.readAsLinesSync();
 
       for (var k = 0; k < lines.length; k++) {
@@ -197,8 +198,15 @@ class FlutterIcons {
       }
     }
   }
+
+  String iconGlyphsContent = File('$rootDirectory/test/iconGlyphs.dart').readAsStringSync();
+  str += 'static const $iconGlyphsContent';
+
+  // Close class
   str += '}';
+
   flutterIconFile.writeAsStringSync(str);
+
 }
 
 String toCamelName(String name) => name
