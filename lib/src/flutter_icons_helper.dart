@@ -22,9 +22,9 @@ class FlutterIconsHelper {
 
     // Get codepoint
     int codePoint = 0;
-    if (FlutterIcons.iconGlyphs.containsKey(lowerGlyphMapName)) {
-      if (FlutterIcons.iconGlyphs[lowerGlyphMapName].containsKey(iconName)) {
-        codePoint = FlutterIcons.iconGlyphs[lowerGlyphMapName][iconName];
+    if (FlutterIcons.glyphMap.containsKey(lowerGlyphMapName)) {
+      if (FlutterIcons.glyphMap[lowerGlyphMapName].containsKey(iconName)) {
+        codePoint = FlutterIcons.glyphMap[lowerGlyphMapName][iconName];
       }
     }
 
@@ -78,8 +78,8 @@ class FlutterIconsHelper {
       lowerGlyphMapName = '${glyphMapName[0].toString().toLowerCase()}';
     }
 
-    if (FlutterIcons.iconGlyphs.containsKey(lowerGlyphMapName)) {
-      if (FlutterIcons.iconGlyphs[lowerGlyphMapName].containsKey(iconName)) {
+    if (FlutterIcons.glyphMap.containsKey(lowerGlyphMapName)) {
+      if (FlutterIcons.glyphMap[lowerGlyphMapName].containsKey(iconName)) {
         return true;
       }
     }
