@@ -1,21 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:reflectable/mirrors.dart';
-import 'package:reflectable/reflectable.dart';
-   import 'flutter_icon_data.dart';class AntDesign extends Reflectable { AntDesign._();
-
-   static bool dev()
-   {
-      AntDesign t = AntDesign._();
-      var reflectable = AntDesign._();
-      InstanceMirror instance_mirror = reflectable.reflect(t);
-      var class_mirror = instance_mirror.type;
-      for(var v in class_mirror.instanceMembers.values)
-      {
-         print(" => S: ${v.isStatic}, P: ${v.isPrivate},");
-      }
-
-      return true;
-   }
+   import 'flutter_icon_data.dart';class AntDesign { AntDesign._();
 
 
 static const IconData stepforward = const FlutterIconData.antDesign(58880);
