@@ -13,19 +13,31 @@ Customizable Icons for Flutter,Inspired by [react-native-vector-icons](https://g
 [Browse all](https://oblador.github.io/react-native-vector-icons/).
 
 * [`AntDesign`](https://ant.design/) by AntFinance (**297** icons)
+* [`Brandico`](https://github.com/fontello/brandico.font) by Fontello. **SOON**
+* [`Elusive`](https://github.com/dovy/elusive-icons) by Team Redux **SOON**
 * [`Entypo`](http://entypo.com) by Daniel Bruce (**411** icons) 
 * [`EvilIcons`](http://evil-icons.io) by Alexander Madyankin & Roman Shamin (v1.10.1, **70** icons) 
 * [`Feather`](http://feathericons.com) by Cole Bemis & Contributors (v4.28.0, **286** icons) 
 * [`FontAwesome`](http://fortawesome.github.io/Font-Awesome/icons/) by Dave Gandy (v4.7.0, **675** icons)
 * [`FontAwesome 5`](https://fontawesome.com) by Fonticons, Inc. (v5.7.0, **1500** (free))
+* [`Fontelico`](https://github.com/fontello/fontelico.font) by Fontello. **SOON**
 * [`Fontisto`](https://www.fontisto.com/icons) by Fontisto. (v3.0.4, **617** icons)
 * [`Foundation`](http://zurb.com/playground/foundation-icon-fonts-3) by ZURB, Inc. (v3.0, **283** icons)
 * [`Ionicons`](https://ionicons.com/) by the Ionic team (v5.1.2, **3681** icons)
+* [`Linearicons`](https://linearicons.com/free) by Perxis **SOON**
+* [`Linecons`](https://designmodo.com/linecons-free) by Design modo **SOON**
+* [`Maki`](https://labs.mapbox.com/maki-icons) by Mapbox **SOON**
 * [`MaterialCommunityIcons`](https://materialdesignicons.com/) by MaterialDesignIcons.com  (v5.4.45, **5346** icons)
-* [`MaterialIcons`](https://material.io/resources/icons/) by Google, Inc. (v4.0.0, **1562** icons)
+* [`MaterialIcons`](https://material.io/resources/icons) by Google, Inc. (v4.0.0, **1562** icons)
+* [`MfgLabs`](https://mfglabs.github.io/mfglabs-iconset) by MfgLabs **SOON**
+* [`Meteocons`](https://www.alessioatzeni.com/meteocons) by Alessio Atzeni **SOON**
+* [`ModernPictograms`](https://thedesignoffice.org/project/modern-pictograms) by John Caserta **SOON**
 * [`Octicons`](http://octicons.github.com) by Github, Inc. (v8.4.1, **183** icons)
-* [`SimpleLineIcons`](https://simplelineicons.github.io/) by Sabbir & Contributors (v2.4.1, **189** icons)
+* [`RPGAwesome`](https://nagoshiashumari.github.io/Rpg-Awesome) by Daniela Howe and Ivan Montiel **SOON**
+* [`SimpleLineIcons`](https://simplelineicons.github.io) by Sabbir & Contributors (v2.4.1, **189** icons)
+* [`Typicons`](https://www.s-ings.com/typicons) by Stephen Hutchings **SOON**
 * [`Weather Icons`](https://erikflowers.github.io/weather-icons/) by erikflowers (v2.0.10, **596** icons)
+* [`WebSymbols`](https://github.com/fontello/websymbols-uni.font) by Just Be Nice studio **SOON**
 * [`Zocial`](http://zocial.smcllns.com/) by Sam Collins (v1.0, **100** icons)
 
 ## Usage
@@ -66,7 +78,7 @@ Icon(FontAwesome5Brands.$500px)
 
 // After 1.1.0, the FlutterIcons class is provided to access all Icons
 // Icon name in the original basis added icon set abbreviation name as suffix
-// Hereinafter referred to as the following
+// Here in after referred to as the following
 //Ant Design Icons -> ant,
 //Entypo Icons -> ent,
 //Evil Icons -> evi,
