@@ -75,6 +75,7 @@ Icon(FontAwesome5Brands.$500px)
 //Font Awesome 5 Regular -> faw5
 //Font Awesome 5 Solid -> faw5s
 //Font Awesome 5 Brands -> faw5b
+//Fontisto Icons -> fto,
 //Foundation Icons -> fou,
 //Ionicons Icons -> ion,
 //Material Community Icons -> mco,

@@ -58,7 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   buildList() {
     Map<String, dynamic> map = {
-      'AntDesign': iconGlyphs['ant_design'],
+      'AntDesign': AntDesign.dev(),
       'Entypo': iconGlyphs['entypo'],
       'EvilIcons': iconGlyphs['evil_icons'],
       'Feather': iconGlyphs['feather'],

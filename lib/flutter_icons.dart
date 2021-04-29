@@ -5,7 +5,6 @@ export 'src/entypo.dart';
 export 'src/evil_icons.dart';
 export 'src/feather.dart';
 export 'src/font_awesome.dart';
-export 'src/font_awesome_5.dart';
 export 'src/font_awesome_5_brands.dart';
 export 'src/font_awesome_5_regular.dart';
 export 'src/font_awesome_5_solid.dart';

@@ -4,38 +4,62 @@ import 'fontAwesome5.dart';
 import 'fontAwesome5_meta.dart';
 import 'iconGlyphs.dart';
 
-const reservedWords = [
+const dartReservedWords = [
+  'abstract',
+  'as ',
   'assert',
+  'async',
+  'await',
   'break',
   'case',
   'catch',
   'class',
   'const',
   'continue',
+  'covariant',
   'default',
+  'deferred',
   'do',
+  'dynamic',
   'else',
+  'enum',
+  'export',
   'extends',
+  'external',
+  'factory',
   'false',
   'final',
   'finally',
   'for',
+  'get',
   'if',
+  'implements',
+  'import',
   'in',
   'is',
+  'library',
   'new',
   'null',
+  'operator',
+  'part',
+  'rethrow',
   'return',
+  'set',
+  'static',
   'super',
   'switch',
+  'sync',
   'this',
   'throw',
   'true',
   'try',
+  'typedef',
   'var',
   'void',
   'while',
-  'with'
+  'with',
+  'yield',
+  'yield',
 ];
 
 main() async {
@@ -59,7 +83,7 @@ main() async {
     for (int j = 0; j < keys1.length; j++) {
       // fix
       final name = keys1[j].replaceAll('-', '_');
-      if (reservedWords.contains(name)) {
+      if (dartReservedWords.contains(name)) {
         allStr +=
             'static const IconData \$$name = const FlutterIconData.${toName(keys[i])}(${obj[keys1[j]]});\n';
       } else {
@@ -79,6 +103,7 @@ main() async {
 
   // Next generate FontAwesome dart classes
   Map<String, dynamic> _fontAwesome5Glyphs = fontAwesome5_meta;
+  print(_fontAwesome5Glyphs);
   List<String> _fontAwesome5GlyphsKeys = _fontAwesome5Glyphs.keys.toList();
   for (int i = 0; i < _fontAwesome5GlyphsKeys.length; i++) {
     File file = File(
@@ -86,16 +111,17 @@ main() async {
     if (!file.existsSync()) {
       file.createSync();
     }
-    String allStr = """
-    import 'package:flutter/material.dart';
-    import 'flutter_icon_data.dart';""";
+    String allStr = '''
+import 'package:flutter/material.dart';
+import 'flutter_icon_data.dart';
+  ''';
     allStr +=
         'class ${toCamelName('font_awesome_5_${_fontAwesome5GlyphsKeys[i]}')} { ${toCamelName('font_awesome_5_${_fontAwesome5GlyphsKeys[i]}')}._(); \n';
     List<String> obj = _fontAwesome5Glyphs[_fontAwesome5GlyphsKeys[i]];
     for (int j = 0; j < obj.length; j++) {
       // fix
       final name = obj[j].replaceAll('-', '_');
-      if (reservedWords.contains(name)) {
+      if (dartReservedWords.contains(name)) {
         allStr +=
             'static const IconData \$$name = const FlutterIconData.${toName('font_awesome_5_${_fontAwesome5GlyphsKeys[i]}')}(${fontAwesome5[obj[j]]});\n';
       } else {
@@ -112,7 +138,7 @@ main() async {
     allStr += "}";
     file.writeAsStringSync(allStr);
   }
-  File f5Regularfile =
+  /*File f5Regularfile =
       File('$rootDirectory/lib/src/font_awesome_5_regular.dart');
   File f5file = File('$rootDirectory/lib/src/font_awesome_5.dart');
   if (!f5file.existsSync()) {
@@ -123,7 +149,7 @@ main() async {
     // Don't delete the whitespace after FontAwesome5 it will generate errors
     await f1.writeString('FontAwesome5      ');
     await f1.close();
-  }
+  }*/
 
   // Lastly generate FlutterIcons file
   Directory flutterIconsDirectory = Directory('$rootDirectory/lib/src');
@@ -140,14 +166,26 @@ class FlutterIcons {
     final File file = files[i];
     if (file.path.indexOf('flutter_icon') == -1 &&
         file.path.indexOf('icon_toggle') == -1 &&
-        file.path.indexOf('font_awesome_5') == -1) {
+        file.path.indexOf('ant_design') == -1 &&
+        file.path.indexOf('entypo') == -1 &&
+        file.path.indexOf('evil_icons') == -1 &&
+        file.path.indexOf('feather') == -1 &&
+        file.path.indexOf('fontisto') == -1 &&
+        file.path.indexOf('foundation') == -1 &&
+        file.path.indexOf('ionicons') == -1 &&
+        file.path.indexOf('material_community_icons') == -1 &&
+        file.path.indexOf('material_icons') == -1 &&
+        file.path.indexOf('octicons') == -1 &&
+        file.path.indexOf('simple_line_icons') == -1 &&
+        file.path.indexOf('weather_icons') == -1 &&
+        file.path.indexOf('zocial') == -1) {
       final List<String> lines = file.readAsLinesSync();
 
       for (var k = 0; k < lines.length; k++) {
         final String line = lines[k];
 
         if (line.contains('static const')) {
-          print(file.path);
+          //print(file.path);
           var suffix = getSimple(line);
           List lineList = line.split(' ');
           lineList[3] = lineList[3] + '_$suffix';
@@ -179,19 +217,19 @@ String getSimple(String line) {
   var name = name1.split('(')[0];
 
   //print(line);
-  //print(name);
+  print(name);
 
   if (name == 'fontAwesome') {
-    return 'faw';
+    return 'fa';
   }
-  if (name == 'fontAwesome5') {
-    return 'faw5';
+  if (name == 'fontAwesome5Regular') {
+    return 'far';
   }
   if (name == 'fontAwesome5Brands') {
-    return 'faw5b';
+    return 'fab';
   }
   if (name == 'fontAwesome5Solid') {
-    return 'faw5s';
+    return 'fas';
   }
   if (name == 'fontisto') {
     return 'fto';
@@ -207,51 +245,4 @@ String getSimple(String line) {
   }
 
   return name.substring(0, 3).toLowerCase();
-}
-
-enum IconLib {
-  ///All Icons
-  all,
-
-  ///Ant Design Icons
-  ant,
-
-  ///Entypo Icons
-  ent,
-
-  ///Evil Icons
-  evi,
-
-  ///Feather Icons
-  fea,
-
-  ///Font Awesome Icons
-  faw,
-
-  ///Fontisto Icons
-  fto,
-
-  ///Foundation Icons
-  fou,
-
-  ///Ionicons Icons
-  ion,
-
-  ///Material Community Icons
-  mco,
-
-  ///Material Icons
-  mdi,
-
-  ///Octicons Icons
-  oct,
-
-  ///Simple Line Icons
-  sli,
-
-  ///Weather Icons
-  wea,
-
-  ///Zocial Icons
-  zoc,
 }

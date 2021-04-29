@@ -11,6 +11,8 @@ dependencies:
   flutter:
     sdk: flutter
 
+  reflectable: ^3.0.1
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
