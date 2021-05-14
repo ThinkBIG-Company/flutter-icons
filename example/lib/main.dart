@@ -44,19 +44,27 @@ class _MyHomePageState extends State<MyHomePage> {
 
   Map<String, dynamic> iconsMap = {
     'AntDesign': {
-      'version': '1.0',
+      'version': '3.0.0',
       'glyphs': FlutterIcons.glyphMap['ant_design']
     },
+    'AntDesign-Filled': {
+      'version': '4.1.0',
+      'glyphs': FlutterIcons.glyphMap['ant_design_filled']
+    },
+    'AntDesign-Outlined': {
+      'version': '4.1.0',
+      'glyphs': FlutterIcons.glyphMap['ant_design_outlined']
+    },
     'Brandico': {
-      'version': '1.0',
+      'version': '1.0.0',
       'glyphs': FlutterIcons.glyphMap['brandico']
     },
     'ElusiveIcons': {
-      'version': '2.0',
+      'version': '2.0.0',
       'glyphs': FlutterIcons.glyphMap['elusive_icons']
     },
     'Entypo': {
-      'version': '1.0',
+      'version': '1.0.0',
       'glyphs': FlutterIcons.glyphMap['entypo']
     },
     'EvilIcons': {
@@ -141,7 +149,7 @@ class _MyHomePageState extends State<MyHomePage> {
       'glyphs': FlutterIcons.glyphMap['octicons']
     },
     'RpgAwesome': {
-      'version': '2.4.1',
+      'version': '1.0.0',
       'glyphs': FlutterIcons.glyphMap['rpg_awesome']
     },
     'SimpleLineIcons': {
@@ -149,15 +157,15 @@ class _MyHomePageState extends State<MyHomePage> {
       'glyphs': FlutterIcons.glyphMap['simple_line_icons']
     },
     'Typicons': {
-      'version': '1.0.0',
+      'version': '2.0.9',
       'glyphs': FlutterIcons.glyphMap['typicons']
     },
     'WeatherIcons': {
-      'version': '2.4.1',
+      'version': '2.0.10',
       'glyphs': FlutterIcons.glyphMap['weather_icons']
     },
     'WebSymbols': {
-      'version': 'latest',
+      'version': '1.0.0',
       'glyphs': FlutterIcons.glyphMap['web_symbols']
     },
     'Zocial': {

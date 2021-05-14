@@ -203,6 +203,12 @@ String getSimple(String line) {
   if (name == 'antDesign') {
     return 'ant';
   }
+  if (name == 'antDesignFilled') {
+    return 'adf';
+  }
+  if (name == 'antDesignOutlined') {
+    return 'ado';
+  }
   if (name == 'brandico') {
     return 'bdo';
   }

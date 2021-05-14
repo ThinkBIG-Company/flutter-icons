@@ -301,6 +301,644 @@ static const IconData instagram_ant = const FlutterIconData.antDesign(59147);
 static const IconData yuque_ant = const FlutterIconData.antDesign(59148);
 static const IconData slack_ant = const FlutterIconData.antDesign(59141);
 static const IconData slack_square_ant = const FlutterIconData.antDesign(59142);
+static const IconData account_book_adf = const FlutterIconData.antDesignFilled(59648);
+static const IconData alert_adf = const FlutterIconData.antDesignFilled(59649);
+static const IconData alipay_circle_adf = const FlutterIconData.antDesignFilled(59650);
+static const IconData alipay_square_adf = const FlutterIconData.antDesignFilled(59651);
+static const IconData aliwangwang_adf = const FlutterIconData.antDesignFilled(59652);
+static const IconData amazon_circle_adf = const FlutterIconData.antDesignFilled(59653);
+static const IconData amazon_square_adf = const FlutterIconData.antDesignFilled(59654);
+static const IconData android_adf = const FlutterIconData.antDesignFilled(59655);
+static const IconData api_adf = const FlutterIconData.antDesignFilled(59656);
+static const IconData apple_adf = const FlutterIconData.antDesignFilled(59657);
+static const IconData appstore_adf = const FlutterIconData.antDesignFilled(59658);
+static const IconData audio_adf = const FlutterIconData.antDesignFilled(59659);
+static const IconData backward_adf = const FlutterIconData.antDesignFilled(59660);
+static const IconData bank_adf = const FlutterIconData.antDesignFilled(59661);
+static const IconData behance_circle_adf = const FlutterIconData.antDesignFilled(59662);
+static const IconData behance_square_adf = const FlutterIconData.antDesignFilled(59663);
+static const IconData bell_adf = const FlutterIconData.antDesignFilled(59664);
+static const IconData book_adf = const FlutterIconData.antDesignFilled(59665);
+static const IconData box_plot_adf = const FlutterIconData.antDesignFilled(59666);
+static const IconData bug_adf = const FlutterIconData.antDesignFilled(59667);
+static const IconData build_adf = const FlutterIconData.antDesignFilled(59668);
+static const IconData bulb_adf = const FlutterIconData.antDesignFilled(59669);
+static const IconData calculator_adf = const FlutterIconData.antDesignFilled(59670);
+static const IconData calendar_adf = const FlutterIconData.antDesignFilled(59671);
+static const IconData camera_adf = const FlutterIconData.antDesignFilled(59672);
+static const IconData car_adf = const FlutterIconData.antDesignFilled(59673);
+static const IconData caret_down_adf = const FlutterIconData.antDesignFilled(59674);
+static const IconData caret_left_adf = const FlutterIconData.antDesignFilled(59675);
+static const IconData caret_right_adf = const FlutterIconData.antDesignFilled(59676);
+static const IconData caret_up_adf = const FlutterIconData.antDesignFilled(59677);
+static const IconData carry_out_adf = const FlutterIconData.antDesignFilled(59678);
+static const IconData check_circle_adf = const FlutterIconData.antDesignFilled(59679);
+static const IconData check_square_adf = const FlutterIconData.antDesignFilled(59680);
+static const IconData chrome_adf = const FlutterIconData.antDesignFilled(59681);
+static const IconData ci_circle_adf = const FlutterIconData.antDesignFilled(59682);
+static const IconData clock_circle_adf = const FlutterIconData.antDesignFilled(59683);
+static const IconData close_circle_adf = const FlutterIconData.antDesignFilled(59684);
+static const IconData close_square_adf = const FlutterIconData.antDesignFilled(59685);
+static const IconData cloud_adf = const FlutterIconData.antDesignFilled(59686);
+static const IconData code_adf = const FlutterIconData.antDesignFilled(59687);
+static const IconData codepen_circle_adf = const FlutterIconData.antDesignFilled(59688);
+static const IconData codepen_square_adf = const FlutterIconData.antDesignFilled(59689);
+static const IconData code_sandbox_circle_adf = const FlutterIconData.antDesignFilled(59690);
+static const IconData code_sandbox_square_adf = const FlutterIconData.antDesignFilled(59691);
+static const IconData compass_adf = const FlutterIconData.antDesignFilled(59692);
+static const IconData contacts_adf = const FlutterIconData.antDesignFilled(59693);
+static const IconData container_adf = const FlutterIconData.antDesignFilled(59694);
+static const IconData control_adf = const FlutterIconData.antDesignFilled(59695);
+static const IconData copy_adf = const FlutterIconData.antDesignFilled(59696);
+static const IconData copyright_circle_adf = const FlutterIconData.antDesignFilled(59697);
+static const IconData credit_card_adf = const FlutterIconData.antDesignFilled(59698);
+static const IconData crown_adf = const FlutterIconData.antDesignFilled(59699);
+static const IconData customer_service_adf = const FlutterIconData.antDesignFilled(59700);
+static const IconData dashboard_adf = const FlutterIconData.antDesignFilled(59701);
+static const IconData database_adf = const FlutterIconData.antDesignFilled(59702);
+static const IconData delete_adf = const FlutterIconData.antDesignFilled(59703);
+static const IconData diff_adf = const FlutterIconData.antDesignFilled(59704);
+static const IconData dingtalk_circle_adf = const FlutterIconData.antDesignFilled(59705);
+static const IconData dingtalk_square_adf = const FlutterIconData.antDesignFilled(59706);
+static const IconData dislike_adf = const FlutterIconData.antDesignFilled(59707);
+static const IconData dollar_circle_adf = const FlutterIconData.antDesignFilled(59708);
+static const IconData down_circle_adf = const FlutterIconData.antDesignFilled(59709);
+static const IconData down_square_adf = const FlutterIconData.antDesignFilled(59710);
+static const IconData dribbble_circle_adf = const FlutterIconData.antDesignFilled(59711);
+static const IconData dribbble_square_adf = const FlutterIconData.antDesignFilled(59712);
+static const IconData dropbox_circle_adf = const FlutterIconData.antDesignFilled(59713);
+static const IconData dropbox_square_adf = const FlutterIconData.antDesignFilled(59714);
+static const IconData edit_adf = const FlutterIconData.antDesignFilled(59715);
+static const IconData environment_adf = const FlutterIconData.antDesignFilled(59716);
+static const IconData euro_circle_adf = const FlutterIconData.antDesignFilled(59717);
+static const IconData exclamation_circle_adf = const FlutterIconData.antDesignFilled(59718);
+static const IconData experiment_adf = const FlutterIconData.antDesignFilled(59719);
+static const IconData eye_adf = const FlutterIconData.antDesignFilled(59720);
+static const IconData eye_invisible_adf = const FlutterIconData.antDesignFilled(59721);
+static const IconData facebook_adf = const FlutterIconData.antDesignFilled(59722);
+static const IconData fast_backward_adf = const FlutterIconData.antDesignFilled(59723);
+static const IconData fast_forward_adf = const FlutterIconData.antDesignFilled(59724);
+static const IconData file_adf = const FlutterIconData.antDesignFilled(59725);
+static const IconData file_add_adf = const FlutterIconData.antDesignFilled(59726);
+static const IconData file_excel_adf = const FlutterIconData.antDesignFilled(59727);
+static const IconData file_exclamation_adf = const FlutterIconData.antDesignFilled(59728);
+static const IconData file_image_adf = const FlutterIconData.antDesignFilled(59729);
+static const IconData file_markdown_adf = const FlutterIconData.antDesignFilled(59730);
+static const IconData file_pdf_adf = const FlutterIconData.antDesignFilled(59731);
+static const IconData file_ppt_adf = const FlutterIconData.antDesignFilled(59732);
+static const IconData file_text_adf = const FlutterIconData.antDesignFilled(59733);
+static const IconData file_unknown_adf = const FlutterIconData.antDesignFilled(59734);
+static const IconData file_word_adf = const FlutterIconData.antDesignFilled(59735);
+static const IconData file_zip_adf = const FlutterIconData.antDesignFilled(59736);
+static const IconData filter_adf = const FlutterIconData.antDesignFilled(59737);
+static const IconData fire_adf = const FlutterIconData.antDesignFilled(59738);
+static const IconData flag_adf = const FlutterIconData.antDesignFilled(59739);
+static const IconData folder_adf = const FlutterIconData.antDesignFilled(59740);
+static const IconData folder_add_adf = const FlutterIconData.antDesignFilled(59741);
+static const IconData folder_open_adf = const FlutterIconData.antDesignFilled(59742);
+static const IconData format_painter_adf = const FlutterIconData.antDesignFilled(59743);
+static const IconData forward_adf = const FlutterIconData.antDesignFilled(59744);
+static const IconData frown_adf = const FlutterIconData.antDesignFilled(59745);
+static const IconData fund_adf = const FlutterIconData.antDesignFilled(59746);
+static const IconData funnel_plot_adf = const FlutterIconData.antDesignFilled(59747);
+static const IconData gift_adf = const FlutterIconData.antDesignFilled(59748);
+static const IconData github_adf = const FlutterIconData.antDesignFilled(59749);
+static const IconData gitlab_adf = const FlutterIconData.antDesignFilled(59750);
+static const IconData gold_adf = const FlutterIconData.antDesignFilled(59751);
+static const IconData golden_adf = const FlutterIconData.antDesignFilled(59752);
+static const IconData google_circle_adf = const FlutterIconData.antDesignFilled(59753);
+static const IconData google_plus_circle_adf = const FlutterIconData.antDesignFilled(59754);
+static const IconData google_plus_square_adf = const FlutterIconData.antDesignFilled(59755);
+static const IconData google_square_adf = const FlutterIconData.antDesignFilled(59756);
+static const IconData hdd_adf = const FlutterIconData.antDesignFilled(59757);
+static const IconData heart_adf = const FlutterIconData.antDesignFilled(59758);
+static const IconData highlight_adf = const FlutterIconData.antDesignFilled(59759);
+static const IconData home_adf = const FlutterIconData.antDesignFilled(59760);
+static const IconData hourglass_adf = const FlutterIconData.antDesignFilled(59761);
+static const IconData html5_adf = const FlutterIconData.antDesignFilled(59762);
+static const IconData idcard_adf = const FlutterIconData.antDesignFilled(59763);
+static const IconData ie_circle_adf = const FlutterIconData.antDesignFilled(59764);
+static const IconData ie_square_adf = const FlutterIconData.antDesignFilled(59765);
+static const IconData info_circle_adf = const FlutterIconData.antDesignFilled(59766);
+static const IconData instagram_adf = const FlutterIconData.antDesignFilled(59767);
+static const IconData insurance_adf = const FlutterIconData.antDesignFilled(59768);
+static const IconData interaction_adf = const FlutterIconData.antDesignFilled(59769);
+static const IconData layout_adf = const FlutterIconData.antDesignFilled(59770);
+static const IconData left_circle_adf = const FlutterIconData.antDesignFilled(59771);
+static const IconData left_square_adf = const FlutterIconData.antDesignFilled(59772);
+static const IconData like_adf = const FlutterIconData.antDesignFilled(59773);
+static const IconData linkedin_adf = const FlutterIconData.antDesignFilled(59774);
+static const IconData lock_adf = const FlutterIconData.antDesignFilled(59775);
+static const IconData mac_command_adf = const FlutterIconData.antDesignFilled(59776);
+static const IconData mail_adf = const FlutterIconData.antDesignFilled(59777);
+static const IconData medicine_box_adf = const FlutterIconData.antDesignFilled(59778);
+static const IconData medium_circle_adf = const FlutterIconData.antDesignFilled(59779);
+static const IconData medium_square_adf = const FlutterIconData.antDesignFilled(59780);
+static const IconData meh_adf = const FlutterIconData.antDesignFilled(59781);
+static const IconData message_adf = const FlutterIconData.antDesignFilled(59782);
+static const IconData minus_circle_adf = const FlutterIconData.antDesignFilled(59783);
+static const IconData minus_square_adf = const FlutterIconData.antDesignFilled(59784);
+static const IconData mobile_adf = const FlutterIconData.antDesignFilled(59785);
+static const IconData money_collect_adf = const FlutterIconData.antDesignFilled(59786);
+static const IconData notification_adf = const FlutterIconData.antDesignFilled(59787);
+static const IconData pause_circle_adf = const FlutterIconData.antDesignFilled(59788);
+static const IconData pay_circle_adf = const FlutterIconData.antDesignFilled(59789);
+static const IconData phone_adf = const FlutterIconData.antDesignFilled(59790);
+static const IconData picture_adf = const FlutterIconData.antDesignFilled(59791);
+static const IconData pie_chart_adf = const FlutterIconData.antDesignFilled(59792);
+static const IconData play_circle_adf = const FlutterIconData.antDesignFilled(59793);
+static const IconData play_square_adf = const FlutterIconData.antDesignFilled(59794);
+static const IconData plus_circle_adf = const FlutterIconData.antDesignFilled(59795);
+static const IconData plus_square_adf = const FlutterIconData.antDesignFilled(59796);
+static const IconData pound_circle_adf = const FlutterIconData.antDesignFilled(59797);
+static const IconData printer_adf = const FlutterIconData.antDesignFilled(59798);
+static const IconData profile_adf = const FlutterIconData.antDesignFilled(59799);
+static const IconData project_adf = const FlutterIconData.antDesignFilled(59800);
+static const IconData property_safety_adf = const FlutterIconData.antDesignFilled(59801);
+static const IconData pushpin_adf = const FlutterIconData.antDesignFilled(59802);
+static const IconData qq_circle_adf = const FlutterIconData.antDesignFilled(59803);
+static const IconData qq_square_adf = const FlutterIconData.antDesignFilled(59804);
+static const IconData question_circle_adf = const FlutterIconData.antDesignFilled(59805);
+static const IconData read_adf = const FlutterIconData.antDesignFilled(59806);
+static const IconData reconciliation_adf = const FlutterIconData.antDesignFilled(59807);
+static const IconData reddit_circle_adf = const FlutterIconData.antDesignFilled(59808);
+static const IconData reddit_square_adf = const FlutterIconData.antDesignFilled(59809);
+static const IconData red_envelope_adf = const FlutterIconData.antDesignFilled(59810);
+static const IconData rest_adf = const FlutterIconData.antDesignFilled(59811);
+static const IconData right_circle_adf = const FlutterIconData.antDesignFilled(59812);
+static const IconData right_square_adf = const FlutterIconData.antDesignFilled(59813);
+static const IconData robot_adf = const FlutterIconData.antDesignFilled(59814);
+static const IconData rocket_adf = const FlutterIconData.antDesignFilled(59815);
+static const IconData safety_certificate_adf = const FlutterIconData.antDesignFilled(59816);
+static const IconData save_adf = const FlutterIconData.antDesignFilled(59817);
+static const IconData schedule_adf = const FlutterIconData.antDesignFilled(59818);
+static const IconData security_scan_adf = const FlutterIconData.antDesignFilled(59819);
+static const IconData setting_adf = const FlutterIconData.antDesignFilled(59820);
+static const IconData shop_adf = const FlutterIconData.antDesignFilled(59821);
+static const IconData shopping_adf = const FlutterIconData.antDesignFilled(59822);
+static const IconData signal_adf = const FlutterIconData.antDesignFilled(59823);
+static const IconData sketch_circle_adf = const FlutterIconData.antDesignFilled(59824);
+static const IconData sketch_square_adf = const FlutterIconData.antDesignFilled(59825);
+static const IconData skin_adf = const FlutterIconData.antDesignFilled(59826);
+static const IconData skype_adf = const FlutterIconData.antDesignFilled(59827);
+static const IconData slack_circle_adf = const FlutterIconData.antDesignFilled(59828);
+static const IconData slack_square_adf = const FlutterIconData.antDesignFilled(59829);
+static const IconData sliders_adf = const FlutterIconData.antDesignFilled(59830);
+static const IconData smile_adf = const FlutterIconData.antDesignFilled(59831);
+static const IconData snippets_adf = const FlutterIconData.antDesignFilled(59832);
+static const IconData sound_adf = const FlutterIconData.antDesignFilled(59833);
+static const IconData star_adf = const FlutterIconData.antDesignFilled(59834);
+static const IconData step_backward_adf = const FlutterIconData.antDesignFilled(59835);
+static const IconData step_forward_adf = const FlutterIconData.antDesignFilled(59836);
+static const IconData stop_adf = const FlutterIconData.antDesignFilled(59837);
+static const IconData switcher_adf = const FlutterIconData.antDesignFilled(59838);
+static const IconData tablet_adf = const FlutterIconData.antDesignFilled(59839);
+static const IconData tag_adf = const FlutterIconData.antDesignFilled(59840);
+static const IconData tags_adf = const FlutterIconData.antDesignFilled(59841);
+static const IconData taobao_circle_adf = const FlutterIconData.antDesignFilled(59842);
+static const IconData taobao_square_adf = const FlutterIconData.antDesignFilled(59843);
+static const IconData thunderbolt_adf = const FlutterIconData.antDesignFilled(59844);
+static const IconData tool_adf = const FlutterIconData.antDesignFilled(59845);
+static const IconData trademark_circle_adf = const FlutterIconData.antDesignFilled(59846);
+static const IconData trophy_adf = const FlutterIconData.antDesignFilled(59847);
+static const IconData twitter_circle_adf = const FlutterIconData.antDesignFilled(59848);
+static const IconData twitter_square_adf = const FlutterIconData.antDesignFilled(59849);
+static const IconData unlock_adf = const FlutterIconData.antDesignFilled(59850);
+static const IconData up_circle_adf = const FlutterIconData.antDesignFilled(59851);
+static const IconData up_square_adf = const FlutterIconData.antDesignFilled(59852);
+static const IconData usb_adf = const FlutterIconData.antDesignFilled(59853);
+static const IconData video_camera_adf = const FlutterIconData.antDesignFilled(59854);
+static const IconData wallet_adf = const FlutterIconData.antDesignFilled(59855);
+static const IconData warning_adf = const FlutterIconData.antDesignFilled(59856);
+static const IconData wechat_adf = const FlutterIconData.antDesignFilled(59857);
+static const IconData weibo_circle_adf = const FlutterIconData.antDesignFilled(59858);
+static const IconData weibo_square_adf = const FlutterIconData.antDesignFilled(59859);
+static const IconData windows_adf = const FlutterIconData.antDesignFilled(59860);
+static const IconData yahoo_adf = const FlutterIconData.antDesignFilled(59861);
+static const IconData youtube_adf = const FlutterIconData.antDesignFilled(59862);
+static const IconData yuque_adf = const FlutterIconData.antDesignFilled(59863);
+static const IconData zhihu_circle_adf = const FlutterIconData.antDesignFilled(59864);
+static const IconData zhihu_square_adf = const FlutterIconData.antDesignFilled(59865);
+static const IconData account_book_ado = const FlutterIconData.antDesignOutlined(59648);
+static const IconData aim_ado = const FlutterIconData.antDesignOutlined(59649);
+static const IconData alert_ado = const FlutterIconData.antDesignOutlined(59650);
+static const IconData alibaba_ado = const FlutterIconData.antDesignOutlined(59651);
+static const IconData align_center_ado = const FlutterIconData.antDesignOutlined(59652);
+static const IconData align_left_ado = const FlutterIconData.antDesignOutlined(59653);
+static const IconData align_right_ado = const FlutterIconData.antDesignOutlined(59654);
+static const IconData alipay_ado = const FlutterIconData.antDesignOutlined(59655);
+static const IconData alipay_circle_ado = const FlutterIconData.antDesignOutlined(59656);
+static const IconData aliwangwang_ado = const FlutterIconData.antDesignOutlined(59657);
+static const IconData aliyun_ado = const FlutterIconData.antDesignOutlined(59658);
+static const IconData amazon_ado = const FlutterIconData.antDesignOutlined(59659);
+static const IconData android_ado = const FlutterIconData.antDesignOutlined(59660);
+static const IconData ant_cloud_ado = const FlutterIconData.antDesignOutlined(59661);
+static const IconData ant_design_ado = const FlutterIconData.antDesignOutlined(59662);
+static const IconData apartment_ado = const FlutterIconData.antDesignOutlined(59663);
+static const IconData api_ado = const FlutterIconData.antDesignOutlined(59664);
+static const IconData apple_ado = const FlutterIconData.antDesignOutlined(59665);
+static const IconData appstore_ado = const FlutterIconData.antDesignOutlined(59666);
+static const IconData appstore_add_ado = const FlutterIconData.antDesignOutlined(59667);
+static const IconData area_chart_ado = const FlutterIconData.antDesignOutlined(59668);
+static const IconData arrow_down_ado = const FlutterIconData.antDesignOutlined(59669);
+static const IconData arrow_left_ado = const FlutterIconData.antDesignOutlined(59670);
+static const IconData arrow_right_ado = const FlutterIconData.antDesignOutlined(59671);
+static const IconData arrows_alt_ado = const FlutterIconData.antDesignOutlined(59672);
+static const IconData arrow_up_ado = const FlutterIconData.antDesignOutlined(59673);
+static const IconData audio_ado = const FlutterIconData.antDesignOutlined(59674);
+static const IconData audio_muted_ado = const FlutterIconData.antDesignOutlined(59675);
+static const IconData audit_ado = const FlutterIconData.antDesignOutlined(59676);
+static const IconData backward_ado = const FlutterIconData.antDesignOutlined(59677);
+static const IconData bank_ado = const FlutterIconData.antDesignOutlined(59678);
+static const IconData bar_chart_ado = const FlutterIconData.antDesignOutlined(59679);
+static const IconData barcode_ado = const FlutterIconData.antDesignOutlined(59680);
+static const IconData bars_ado = const FlutterIconData.antDesignOutlined(59681);
+static const IconData behance_ado = const FlutterIconData.antDesignOutlined(59682);
+static const IconData behance_square_ado = const FlutterIconData.antDesignOutlined(59683);
+static const IconData bell_ado = const FlutterIconData.antDesignOutlined(59684);
+static const IconData bg_colors_ado = const FlutterIconData.antDesignOutlined(59685);
+static const IconData block_ado = const FlutterIconData.antDesignOutlined(59686);
+static const IconData bold_ado = const FlutterIconData.antDesignOutlined(59687);
+static const IconData book_ado = const FlutterIconData.antDesignOutlined(59688);
+static const IconData border_ado = const FlutterIconData.antDesignOutlined(59689);
+static const IconData border_bottom_ado = const FlutterIconData.antDesignOutlined(59690);
+static const IconData border_horizontal_ado = const FlutterIconData.antDesignOutlined(59691);
+static const IconData border_inner_ado = const FlutterIconData.antDesignOutlined(59692);
+static const IconData border_left_ado = const FlutterIconData.antDesignOutlined(59693);
+static const IconData borderless_table_ado = const FlutterIconData.antDesignOutlined(59694);
+static const IconData border_outer_ado = const FlutterIconData.antDesignOutlined(59695);
+static const IconData border_right_ado = const FlutterIconData.antDesignOutlined(59696);
+static const IconData border_top_ado = const FlutterIconData.antDesignOutlined(59697);
+static const IconData border_verticle_ado = const FlutterIconData.antDesignOutlined(59698);
+static const IconData box_plot_ado = const FlutterIconData.antDesignOutlined(59699);
+static const IconData branches_ado = const FlutterIconData.antDesignOutlined(59700);
+static const IconData bug_ado = const FlutterIconData.antDesignOutlined(59701);
+static const IconData build_ado = const FlutterIconData.antDesignOutlined(59702);
+static const IconData bulb_ado = const FlutterIconData.antDesignOutlined(59703);
+static const IconData calculator_ado = const FlutterIconData.antDesignOutlined(59704);
+static const IconData calendar_ado = const FlutterIconData.antDesignOutlined(59705);
+static const IconData camera_ado = const FlutterIconData.antDesignOutlined(59706);
+static const IconData car_ado = const FlutterIconData.antDesignOutlined(59707);
+static const IconData caret_down_ado = const FlutterIconData.antDesignOutlined(59708);
+static const IconData caret_left_ado = const FlutterIconData.antDesignOutlined(59709);
+static const IconData caret_right_ado = const FlutterIconData.antDesignOutlined(59710);
+static const IconData caret_up_ado = const FlutterIconData.antDesignOutlined(59711);
+static const IconData carry_out_ado = const FlutterIconData.antDesignOutlined(59712);
+static const IconData check_ado = const FlutterIconData.antDesignOutlined(59713);
+static const IconData check_circle_ado = const FlutterIconData.antDesignOutlined(59714);
+static const IconData check_square_ado = const FlutterIconData.antDesignOutlined(59715);
+static const IconData chrome_ado = const FlutterIconData.antDesignOutlined(59716);
+static const IconData ci_ado = const FlutterIconData.antDesignOutlined(59717);
+static const IconData ci_circle_ado = const FlutterIconData.antDesignOutlined(59718);
+static const IconData clear_ado = const FlutterIconData.antDesignOutlined(59719);
+static const IconData clock_circle_ado = const FlutterIconData.antDesignOutlined(59720);
+static const IconData close_ado = const FlutterIconData.antDesignOutlined(59721);
+static const IconData close_circle_ado = const FlutterIconData.antDesignOutlined(59722);
+static const IconData close_square_ado = const FlutterIconData.antDesignOutlined(59723);
+static const IconData cloud_ado = const FlutterIconData.antDesignOutlined(59724);
+static const IconData cloud_download_ado = const FlutterIconData.antDesignOutlined(59725);
+static const IconData cloud_server_ado = const FlutterIconData.antDesignOutlined(59726);
+static const IconData cloud_sync_ado = const FlutterIconData.antDesignOutlined(59727);
+static const IconData cloud_upload_ado = const FlutterIconData.antDesignOutlined(59728);
+static const IconData cluster_ado = const FlutterIconData.antDesignOutlined(59729);
+static const IconData code_ado = const FlutterIconData.antDesignOutlined(59730);
+static const IconData codepen_ado = const FlutterIconData.antDesignOutlined(59731);
+static const IconData codepen_circle_ado = const FlutterIconData.antDesignOutlined(59732);
+static const IconData code_sandbox_ado = const FlutterIconData.antDesignOutlined(59733);
+static const IconData coffee_ado = const FlutterIconData.antDesignOutlined(59734);
+static const IconData column_height_ado = const FlutterIconData.antDesignOutlined(59735);
+static const IconData column_width_ado = const FlutterIconData.antDesignOutlined(59736);
+static const IconData comment_ado = const FlutterIconData.antDesignOutlined(59737);
+static const IconData compass_ado = const FlutterIconData.antDesignOutlined(59738);
+static const IconData compress_ado = const FlutterIconData.antDesignOutlined(59739);
+static const IconData console_sql_ado = const FlutterIconData.antDesignOutlined(59740);
+static const IconData contacts_ado = const FlutterIconData.antDesignOutlined(59741);
+static const IconData container_ado = const FlutterIconData.antDesignOutlined(59742);
+static const IconData control_ado = const FlutterIconData.antDesignOutlined(59743);
+static const IconData copy_ado = const FlutterIconData.antDesignOutlined(59744);
+static const IconData copyright_ado = const FlutterIconData.antDesignOutlined(59745);
+static const IconData copyright_circle_ado = const FlutterIconData.antDesignOutlined(59746);
+static const IconData credit_card_ado = const FlutterIconData.antDesignOutlined(59747);
+static const IconData crown_ado = const FlutterIconData.antDesignOutlined(59748);
+static const IconData customer_service_ado = const FlutterIconData.antDesignOutlined(59749);
+static const IconData dash_ado = const FlutterIconData.antDesignOutlined(59750);
+static const IconData dashboard_ado = const FlutterIconData.antDesignOutlined(59751);
+static const IconData database_ado = const FlutterIconData.antDesignOutlined(59752);
+static const IconData delete_ado = const FlutterIconData.antDesignOutlined(59753);
+static const IconData delete_column_ado = const FlutterIconData.antDesignOutlined(59754);
+static const IconData delete_row_ado = const FlutterIconData.antDesignOutlined(59755);
+static const IconData delivered_procedure_ado = const FlutterIconData.antDesignOutlined(59756);
+static const IconData deployment_unit_ado = const FlutterIconData.antDesignOutlined(59757);
+static const IconData desktop_ado = const FlutterIconData.antDesignOutlined(59758);
+static const IconData diff_ado = const FlutterIconData.antDesignOutlined(59759);
+static const IconData dingding_ado = const FlutterIconData.antDesignOutlined(59760);
+static const IconData dingtalk_ado = const FlutterIconData.antDesignOutlined(59761);
+static const IconData disconnect_ado = const FlutterIconData.antDesignOutlined(59762);
+static const IconData dislike_ado = const FlutterIconData.antDesignOutlined(59763);
+static const IconData dollar_ado = const FlutterIconData.antDesignOutlined(59764);
+static const IconData dollar_circle_ado = const FlutterIconData.antDesignOutlined(59765);
+static const IconData dot_chart_ado = const FlutterIconData.antDesignOutlined(59766);
+static const IconData double_left_ado = const FlutterIconData.antDesignOutlined(59767);
+static const IconData double_right_ado = const FlutterIconData.antDesignOutlined(59768);
+static const IconData down_ado = const FlutterIconData.antDesignOutlined(59769);
+static const IconData down_circle_ado = const FlutterIconData.antDesignOutlined(59770);
+static const IconData download_ado = const FlutterIconData.antDesignOutlined(59771);
+static const IconData down_square_ado = const FlutterIconData.antDesignOutlined(59772);
+static const IconData drag_ado = const FlutterIconData.antDesignOutlined(59773);
+static const IconData dribbble_ado = const FlutterIconData.antDesignOutlined(59774);
+static const IconData dribbble_square_ado = const FlutterIconData.antDesignOutlined(59775);
+static const IconData dropbox_ado = const FlutterIconData.antDesignOutlined(59776);
+static const IconData edit_ado = const FlutterIconData.antDesignOutlined(59777);
+static const IconData ellipsis_ado = const FlutterIconData.antDesignOutlined(59778);
+static const IconData enter_ado = const FlutterIconData.antDesignOutlined(59779);
+static const IconData environment_ado = const FlutterIconData.antDesignOutlined(59780);
+static const IconData euro_ado = const FlutterIconData.antDesignOutlined(59781);
+static const IconData euro_circle_ado = const FlutterIconData.antDesignOutlined(59782);
+static const IconData exception_ado = const FlutterIconData.antDesignOutlined(59783);
+static const IconData exclamation_ado = const FlutterIconData.antDesignOutlined(59784);
+static const IconData exclamation_circle_ado = const FlutterIconData.antDesignOutlined(59785);
+static const IconData expand_ado = const FlutterIconData.antDesignOutlined(59786);
+static const IconData expand_alt_ado = const FlutterIconData.antDesignOutlined(59787);
+static const IconData experiment_ado = const FlutterIconData.antDesignOutlined(59788);
+static const IconData export_ado = const FlutterIconData.antDesignOutlined(59789);
+static const IconData eye_ado = const FlutterIconData.antDesignOutlined(59790);
+static const IconData eye_invisible_ado = const FlutterIconData.antDesignOutlined(59791);
+static const IconData facebook_ado = const FlutterIconData.antDesignOutlined(59792);
+static const IconData fall_ado = const FlutterIconData.antDesignOutlined(59793);
+static const IconData fast_backward_ado = const FlutterIconData.antDesignOutlined(59794);
+static const IconData fast_forward_ado = const FlutterIconData.antDesignOutlined(59795);
+static const IconData field_binary_ado = const FlutterIconData.antDesignOutlined(59796);
+static const IconData field_number_ado = const FlutterIconData.antDesignOutlined(59797);
+static const IconData field_string_ado = const FlutterIconData.antDesignOutlined(59798);
+static const IconData field_time_ado = const FlutterIconData.antDesignOutlined(59799);
+static const IconData file_ado = const FlutterIconData.antDesignOutlined(59800);
+static const IconData file_add_ado = const FlutterIconData.antDesignOutlined(59801);
+static const IconData file_done_ado = const FlutterIconData.antDesignOutlined(59802);
+static const IconData file_excel_ado = const FlutterIconData.antDesignOutlined(59803);
+static const IconData file_exclamation_ado = const FlutterIconData.antDesignOutlined(59804);
+static const IconData file_gif_ado = const FlutterIconData.antDesignOutlined(59805);
+static const IconData file_image_ado = const FlutterIconData.antDesignOutlined(59806);
+static const IconData file_jpg_ado = const FlutterIconData.antDesignOutlined(59807);
+static const IconData file_markdown_ado = const FlutterIconData.antDesignOutlined(59808);
+static const IconData file_pdf_ado = const FlutterIconData.antDesignOutlined(59809);
+static const IconData file_ppt_ado = const FlutterIconData.antDesignOutlined(59810);
+static const IconData file_protect_ado = const FlutterIconData.antDesignOutlined(59811);
+static const IconData file_search_ado = const FlutterIconData.antDesignOutlined(59812);
+static const IconData file_sync_ado = const FlutterIconData.antDesignOutlined(59813);
+static const IconData file_text_ado = const FlutterIconData.antDesignOutlined(59814);
+static const IconData file_unknown_ado = const FlutterIconData.antDesignOutlined(59815);
+static const IconData file_word_ado = const FlutterIconData.antDesignOutlined(59816);
+static const IconData file_zip_ado = const FlutterIconData.antDesignOutlined(59817);
+static const IconData filter_ado = const FlutterIconData.antDesignOutlined(59818);
+static const IconData fire_ado = const FlutterIconData.antDesignOutlined(59819);
+static const IconData flag_ado = const FlutterIconData.antDesignOutlined(59820);
+static const IconData folder_ado = const FlutterIconData.antDesignOutlined(59821);
+static const IconData folder_add_ado = const FlutterIconData.antDesignOutlined(59822);
+static const IconData folder_open_ado = const FlutterIconData.antDesignOutlined(59823);
+static const IconData folder_view_ado = const FlutterIconData.antDesignOutlined(59824);
+static const IconData font_colors_ado = const FlutterIconData.antDesignOutlined(59825);
+static const IconData font_size_ado = const FlutterIconData.antDesignOutlined(59826);
+static const IconData fork_ado = const FlutterIconData.antDesignOutlined(59827);
+static const IconData form_ado = const FlutterIconData.antDesignOutlined(59828);
+static const IconData format_painter_ado = const FlutterIconData.antDesignOutlined(59829);
+static const IconData forward_ado = const FlutterIconData.antDesignOutlined(59830);
+static const IconData frown_ado = const FlutterIconData.antDesignOutlined(59831);
+static const IconData fullscreen_ado = const FlutterIconData.antDesignOutlined(59832);
+static const IconData fullscreen_exit_ado = const FlutterIconData.antDesignOutlined(59833);
+static const IconData function_ado = const FlutterIconData.antDesignOutlined(59834);
+static const IconData fund_ado = const FlutterIconData.antDesignOutlined(59835);
+static const IconData fund_projection_screen_ado = const FlutterIconData.antDesignOutlined(59836);
+static const IconData fund_view_ado = const FlutterIconData.antDesignOutlined(59837);
+static const IconData funnel_plot_ado = const FlutterIconData.antDesignOutlined(59838);
+static const IconData gateway_ado = const FlutterIconData.antDesignOutlined(59839);
+static const IconData gif_ado = const FlutterIconData.antDesignOutlined(59840);
+static const IconData gift_ado = const FlutterIconData.antDesignOutlined(59841);
+static const IconData github_ado = const FlutterIconData.antDesignOutlined(59842);
+static const IconData gitlab_ado = const FlutterIconData.antDesignOutlined(59843);
+static const IconData global_ado = const FlutterIconData.antDesignOutlined(59844);
+static const IconData gold_ado = const FlutterIconData.antDesignOutlined(59845);
+static const IconData google_ado = const FlutterIconData.antDesignOutlined(59846);
+static const IconData google_plus_ado = const FlutterIconData.antDesignOutlined(59847);
+static const IconData group_ado = const FlutterIconData.antDesignOutlined(59848);
+static const IconData hdd_ado = const FlutterIconData.antDesignOutlined(59849);
+static const IconData heart_ado = const FlutterIconData.antDesignOutlined(59850);
+static const IconData heat_map_ado = const FlutterIconData.antDesignOutlined(59851);
+static const IconData highlight_ado = const FlutterIconData.antDesignOutlined(59852);
+static const IconData history_ado = const FlutterIconData.antDesignOutlined(59853);
+static const IconData home_ado = const FlutterIconData.antDesignOutlined(59854);
+static const IconData hourglass_ado = const FlutterIconData.antDesignOutlined(59855);
+static const IconData html5_ado = const FlutterIconData.antDesignOutlined(59856);
+static const IconData idcard_ado = const FlutterIconData.antDesignOutlined(59857);
+static const IconData ie_ado = const FlutterIconData.antDesignOutlined(59858);
+static const IconData import_ado = const FlutterIconData.antDesignOutlined(59859);
+static const IconData inbox_ado = const FlutterIconData.antDesignOutlined(59860);
+static const IconData info_ado = const FlutterIconData.antDesignOutlined(59861);
+static const IconData info_circle_ado = const FlutterIconData.antDesignOutlined(59862);
+static const IconData insert_row_above_ado = const FlutterIconData.antDesignOutlined(59863);
+static const IconData insert_row_below_ado = const FlutterIconData.antDesignOutlined(59864);
+static const IconData insert_row_left_ado = const FlutterIconData.antDesignOutlined(59865);
+static const IconData insert_row_right_ado = const FlutterIconData.antDesignOutlined(59866);
+static const IconData instagram_ado = const FlutterIconData.antDesignOutlined(59867);
+static const IconData insurance_ado = const FlutterIconData.antDesignOutlined(59868);
+static const IconData interaction_ado = const FlutterIconData.antDesignOutlined(59869);
+static const IconData issues_close_ado = const FlutterIconData.antDesignOutlined(59870);
+static const IconData italic_ado = const FlutterIconData.antDesignOutlined(59871);
+static const IconData key_ado = const FlutterIconData.antDesignOutlined(59872);
+static const IconData laptop_ado = const FlutterIconData.antDesignOutlined(59873);
+static const IconData layout_ado = const FlutterIconData.antDesignOutlined(59874);
+static const IconData left_ado = const FlutterIconData.antDesignOutlined(59875);
+static const IconData left_circle_ado = const FlutterIconData.antDesignOutlined(59876);
+static const IconData left_square_ado = const FlutterIconData.antDesignOutlined(59877);
+static const IconData like_ado = const FlutterIconData.antDesignOutlined(59878);
+static const IconData line_ado = const FlutterIconData.antDesignOutlined(59879);
+static const IconData line_chart_ado = const FlutterIconData.antDesignOutlined(59880);
+static const IconData line_height_ado = const FlutterIconData.antDesignOutlined(59881);
+static const IconData link_ado = const FlutterIconData.antDesignOutlined(59882);
+static const IconData linkedin_ado = const FlutterIconData.antDesignOutlined(59883);
+static const IconData loading_ado = const FlutterIconData.antDesignOutlined(59884);
+static const IconData loading_3_quarters_ado = const FlutterIconData.antDesignOutlined(59885);
+static const IconData lock_ado = const FlutterIconData.antDesignOutlined(59886);
+static const IconData login_ado = const FlutterIconData.antDesignOutlined(59887);
+static const IconData logout_ado = const FlutterIconData.antDesignOutlined(59888);
+static const IconData mac_command_ado = const FlutterIconData.antDesignOutlined(59889);
+static const IconData mail_ado = const FlutterIconData.antDesignOutlined(59890);
+static const IconData man_ado = const FlutterIconData.antDesignOutlined(59891);
+static const IconData medicine_box_ado = const FlutterIconData.antDesignOutlined(59892);
+static const IconData medium_ado = const FlutterIconData.antDesignOutlined(59893);
+static const IconData medium_workmark_ado = const FlutterIconData.antDesignOutlined(59894);
+static const IconData meh_ado = const FlutterIconData.antDesignOutlined(59895);
+static const IconData menu_ado = const FlutterIconData.antDesignOutlined(59896);
+static const IconData menu_fold_ado = const FlutterIconData.antDesignOutlined(59897);
+static const IconData menu_unfold_ado = const FlutterIconData.antDesignOutlined(59898);
+static const IconData merge_cells_ado = const FlutterIconData.antDesignOutlined(59899);
+static const IconData message_ado = const FlutterIconData.antDesignOutlined(59900);
+static const IconData minus_ado = const FlutterIconData.antDesignOutlined(59901);
+static const IconData minus_circle_ado = const FlutterIconData.antDesignOutlined(59902);
+static const IconData minus_square_ado = const FlutterIconData.antDesignOutlined(59903);
+static const IconData mobile_ado = const FlutterIconData.antDesignOutlined(59904);
+static const IconData money_collect_ado = const FlutterIconData.antDesignOutlined(59905);
+static const IconData monitor_ado = const FlutterIconData.antDesignOutlined(59906);
+static const IconData more_ado = const FlutterIconData.antDesignOutlined(59907);
+static const IconData node_collapse_ado = const FlutterIconData.antDesignOutlined(59908);
+static const IconData node_expand_ado = const FlutterIconData.antDesignOutlined(59909);
+static const IconData node_index_ado = const FlutterIconData.antDesignOutlined(59910);
+static const IconData notification_ado = const FlutterIconData.antDesignOutlined(59911);
+static const IconData number_ado = const FlutterIconData.antDesignOutlined(59912);
+static const IconData one_to_one_ado = const FlutterIconData.antDesignOutlined(59913);
+static const IconData ordered_list_ado = const FlutterIconData.antDesignOutlined(59914);
+static const IconData paper_clip_ado = const FlutterIconData.antDesignOutlined(59915);
+static const IconData partition_ado = const FlutterIconData.antDesignOutlined(59916);
+static const IconData pause_ado = const FlutterIconData.antDesignOutlined(59917);
+static const IconData pause_circle_ado = const FlutterIconData.antDesignOutlined(59918);
+static const IconData pay_circle_ado = const FlutterIconData.antDesignOutlined(59919);
+static const IconData percentage_ado = const FlutterIconData.antDesignOutlined(59920);
+static const IconData phone_ado = const FlutterIconData.antDesignOutlined(59921);
+static const IconData pic_center_ado = const FlutterIconData.antDesignOutlined(59922);
+static const IconData pic_left_ado = const FlutterIconData.antDesignOutlined(59923);
+static const IconData pic_right_ado = const FlutterIconData.antDesignOutlined(59924);
+static const IconData picture_ado = const FlutterIconData.antDesignOutlined(59925);
+static const IconData pie_chart_ado = const FlutterIconData.antDesignOutlined(59926);
+static const IconData play_circle_ado = const FlutterIconData.antDesignOutlined(59927);
+static const IconData play_square_ado = const FlutterIconData.antDesignOutlined(59928);
+static const IconData plus_ado = const FlutterIconData.antDesignOutlined(59929);
+static const IconData plus_circle_ado = const FlutterIconData.antDesignOutlined(59930);
+static const IconData plus_square_ado = const FlutterIconData.antDesignOutlined(59931);
+static const IconData pound_ado = const FlutterIconData.antDesignOutlined(59932);
+static const IconData pound_circle_ado = const FlutterIconData.antDesignOutlined(59933);
+static const IconData poweroff_ado = const FlutterIconData.antDesignOutlined(59934);
+static const IconData printer_ado = const FlutterIconData.antDesignOutlined(59935);
+static const IconData profile_ado = const FlutterIconData.antDesignOutlined(59936);
+static const IconData project_ado = const FlutterIconData.antDesignOutlined(59937);
+static const IconData property_safety_ado = const FlutterIconData.antDesignOutlined(59938);
+static const IconData pull_request_ado = const FlutterIconData.antDesignOutlined(59939);
+static const IconData pushpin_ado = const FlutterIconData.antDesignOutlined(59940);
+static const IconData qq_ado = const FlutterIconData.antDesignOutlined(59941);
+static const IconData qrcode_ado = const FlutterIconData.antDesignOutlined(59942);
+static const IconData question_ado = const FlutterIconData.antDesignOutlined(59943);
+static const IconData question_circle_ado = const FlutterIconData.antDesignOutlined(59944);
+static const IconData radar_chart_ado = const FlutterIconData.antDesignOutlined(59945);
+static const IconData radius_bottomleft_ado = const FlutterIconData.antDesignOutlined(59946);
+static const IconData radius_bottomright_ado = const FlutterIconData.antDesignOutlined(59947);
+static const IconData radius_setting_ado = const FlutterIconData.antDesignOutlined(59948);
+static const IconData radius_upleft_ado = const FlutterIconData.antDesignOutlined(59949);
+static const IconData radius_upright_ado = const FlutterIconData.antDesignOutlined(59950);
+static const IconData read_ado = const FlutterIconData.antDesignOutlined(59951);
+static const IconData reconciliation_ado = const FlutterIconData.antDesignOutlined(59952);
+static const IconData reddit_ado = const FlutterIconData.antDesignOutlined(59953);
+static const IconData red_envelope_ado = const FlutterIconData.antDesignOutlined(59954);
+static const IconData redo_ado = const FlutterIconData.antDesignOutlined(59955);
+static const IconData reload_ado = const FlutterIconData.antDesignOutlined(59956);
+static const IconData rest_ado = const FlutterIconData.antDesignOutlined(59957);
+static const IconData retweet_ado = const FlutterIconData.antDesignOutlined(59958);
+static const IconData right_ado = const FlutterIconData.antDesignOutlined(59959);
+static const IconData right_circle_ado = const FlutterIconData.antDesignOutlined(59960);
+static const IconData right_square_ado = const FlutterIconData.antDesignOutlined(59961);
+static const IconData rise_ado = const FlutterIconData.antDesignOutlined(59962);
+static const IconData robot_ado = const FlutterIconData.antDesignOutlined(59963);
+static const IconData rocket_ado = const FlutterIconData.antDesignOutlined(59964);
+static const IconData rollback_ado = const FlutterIconData.antDesignOutlined(59965);
+static const IconData rotate_left_ado = const FlutterIconData.antDesignOutlined(59966);
+static const IconData rotate_right_ado = const FlutterIconData.antDesignOutlined(59967);
+static const IconData safety_ado = const FlutterIconData.antDesignOutlined(59968);
+static const IconData safety_certificate_ado = const FlutterIconData.antDesignOutlined(59969);
+static const IconData save_ado = const FlutterIconData.antDesignOutlined(59970);
+static const IconData scan_ado = const FlutterIconData.antDesignOutlined(59971);
+static const IconData schedule_ado = const FlutterIconData.antDesignOutlined(59972);
+static const IconData scissor_ado = const FlutterIconData.antDesignOutlined(59973);
+static const IconData search_ado = const FlutterIconData.antDesignOutlined(59974);
+static const IconData security_scan_ado = const FlutterIconData.antDesignOutlined(59975);
+static const IconData select_ado = const FlutterIconData.antDesignOutlined(59976);
+static const IconData send_ado = const FlutterIconData.antDesignOutlined(59977);
+static const IconData setting_ado = const FlutterIconData.antDesignOutlined(59978);
+static const IconData shake_ado = const FlutterIconData.antDesignOutlined(59979);
+static const IconData share_alt_ado = const FlutterIconData.antDesignOutlined(59980);
+static const IconData shop_ado = const FlutterIconData.antDesignOutlined(59981);
+static const IconData shopping_ado = const FlutterIconData.antDesignOutlined(59982);
+static const IconData shopping_cart_ado = const FlutterIconData.antDesignOutlined(59983);
+static const IconData shrink_ado = const FlutterIconData.antDesignOutlined(59984);
+static const IconData sisternode_ado = const FlutterIconData.antDesignOutlined(59985);
+static const IconData sketch_ado = const FlutterIconData.antDesignOutlined(59986);
+static const IconData skin_ado = const FlutterIconData.antDesignOutlined(59987);
+static const IconData skype_ado = const FlutterIconData.antDesignOutlined(59988);
+static const IconData slack_ado = const FlutterIconData.antDesignOutlined(59989);
+static const IconData slack_square_ado = const FlutterIconData.antDesignOutlined(59990);
+static const IconData sliders_ado = const FlutterIconData.antDesignOutlined(59991);
+static const IconData small_dash_ado = const FlutterIconData.antDesignOutlined(59992);
+static const IconData smile_ado = const FlutterIconData.antDesignOutlined(59993);
+static const IconData snippets_ado = const FlutterIconData.antDesignOutlined(59994);
+static const IconData solution_ado = const FlutterIconData.antDesignOutlined(59995);
+static const IconData sort_ascending_ado = const FlutterIconData.antDesignOutlined(59996);
+static const IconData sort_descending_ado = const FlutterIconData.antDesignOutlined(59997);
+static const IconData sound_ado = const FlutterIconData.antDesignOutlined(59998);
+static const IconData split_cells_ado = const FlutterIconData.antDesignOutlined(59999);
+static const IconData star_ado = const FlutterIconData.antDesignOutlined(60000);
+static const IconData step_backward_ado = const FlutterIconData.antDesignOutlined(60001);
+static const IconData step_forward_ado = const FlutterIconData.antDesignOutlined(60002);
+static const IconData stock_ado = const FlutterIconData.antDesignOutlined(60003);
+static const IconData stop_ado = const FlutterIconData.antDesignOutlined(60004);
+static const IconData strikethrough_ado = const FlutterIconData.antDesignOutlined(60005);
+static const IconData subnode_ado = const FlutterIconData.antDesignOutlined(60006);
+static const IconData swap_ado = const FlutterIconData.antDesignOutlined(60007);
+static const IconData swap_left_ado = const FlutterIconData.antDesignOutlined(60008);
+static const IconData swap_right_ado = const FlutterIconData.antDesignOutlined(60009);
+static const IconData switcher_ado = const FlutterIconData.antDesignOutlined(60010);
+static const IconData sync_ado = const FlutterIconData.antDesignOutlined(60011);
+static const IconData table_ado = const FlutterIconData.antDesignOutlined(60012);
+static const IconData tablet_ado = const FlutterIconData.antDesignOutlined(60013);
+static const IconData tag_ado = const FlutterIconData.antDesignOutlined(60014);
+static const IconData tags_ado = const FlutterIconData.antDesignOutlined(60015);
+static const IconData taobao_ado = const FlutterIconData.antDesignOutlined(60016);
+static const IconData taobao_circle_ado = const FlutterIconData.antDesignOutlined(60017);
+static const IconData team_ado = const FlutterIconData.antDesignOutlined(60018);
+static const IconData thunderbolt_ado = const FlutterIconData.antDesignOutlined(60019);
+static const IconData tool_ado = const FlutterIconData.antDesignOutlined(60020);
+static const IconData to_top_ado = const FlutterIconData.antDesignOutlined(60021);
+static const IconData trademark_ado = const FlutterIconData.antDesignOutlined(60022);
+static const IconData trademark_circle_ado = const FlutterIconData.antDesignOutlined(60023);
+static const IconData transaction_ado = const FlutterIconData.antDesignOutlined(60024);
+static const IconData translation_ado = const FlutterIconData.antDesignOutlined(60025);
+static const IconData trophy_ado = const FlutterIconData.antDesignOutlined(60026);
+static const IconData twitter_ado = const FlutterIconData.antDesignOutlined(60027);
+static const IconData underline_ado = const FlutterIconData.antDesignOutlined(60028);
+static const IconData undo_ado = const FlutterIconData.antDesignOutlined(60029);
+static const IconData ungroup_ado = const FlutterIconData.antDesignOutlined(60030);
+static const IconData unlock_ado = const FlutterIconData.antDesignOutlined(60031);
+static const IconData unordered_list_ado = const FlutterIconData.antDesignOutlined(60032);
+static const IconData up_ado = const FlutterIconData.antDesignOutlined(60033);
+static const IconData up_circle_ado = const FlutterIconData.antDesignOutlined(60034);
+static const IconData upload_ado = const FlutterIconData.antDesignOutlined(60035);
+static const IconData up_square_ado = const FlutterIconData.antDesignOutlined(60036);
+static const IconData usb_ado = const FlutterIconData.antDesignOutlined(60037);
+static const IconData user_ado = const FlutterIconData.antDesignOutlined(60038);
+static const IconData user_add_ado = const FlutterIconData.antDesignOutlined(60039);
+static const IconData user_delete_ado = const FlutterIconData.antDesignOutlined(60040);
+static const IconData usergroup_add_ado = const FlutterIconData.antDesignOutlined(60041);
+static const IconData usergroup_delete_ado = const FlutterIconData.antDesignOutlined(60042);
+static const IconData user_switch_ado = const FlutterIconData.antDesignOutlined(60043);
+static const IconData verified_ado = const FlutterIconData.antDesignOutlined(60044);
+static const IconData vertical_align_bottom_ado = const FlutterIconData.antDesignOutlined(60045);
+static const IconData vertical_align_middle_ado = const FlutterIconData.antDesignOutlined(60046);
+static const IconData vertical_align_top_ado = const FlutterIconData.antDesignOutlined(60047);
+static const IconData vertical_left_ado = const FlutterIconData.antDesignOutlined(60048);
+static const IconData vertical_right_ado = const FlutterIconData.antDesignOutlined(60049);
+static const IconData video_camera_ado = const FlutterIconData.antDesignOutlined(60050);
+static const IconData video_camera_add_ado = const FlutterIconData.antDesignOutlined(60051);
+static const IconData wallet_ado = const FlutterIconData.antDesignOutlined(60052);
+static const IconData warning_ado = const FlutterIconData.antDesignOutlined(60053);
+static const IconData wechat_ado = const FlutterIconData.antDesignOutlined(60054);
+static const IconData weibo_ado = const FlutterIconData.antDesignOutlined(60055);
+static const IconData weibo_circle_ado = const FlutterIconData.antDesignOutlined(60056);
+static const IconData weibo_square_ado = const FlutterIconData.antDesignOutlined(60057);
+static const IconData whats_app_ado = const FlutterIconData.antDesignOutlined(60058);
+static const IconData wifi_ado = const FlutterIconData.antDesignOutlined(60059);
+static const IconData windows_ado = const FlutterIconData.antDesignOutlined(60060);
+static const IconData woman_ado = const FlutterIconData.antDesignOutlined(60061);
+static const IconData yahoo_ado = const FlutterIconData.antDesignOutlined(60062);
+static const IconData youtube_ado = const FlutterIconData.antDesignOutlined(60063);
+static const IconData yuque_ado = const FlutterIconData.antDesignOutlined(60064);
+static const IconData zhihu_ado = const FlutterIconData.antDesignOutlined(60065);
+static const IconData zoom_in_ado = const FlutterIconData.antDesignOutlined(60066);
+static const IconData zoom_out_ado = const FlutterIconData.antDesignOutlined(60067);
 static const IconData facebook_bdo = const FlutterIconData.brandico(62208);
 static const IconData facebook_rect_bdo = const FlutterIconData.brandico(62209);
 static const IconData twitter_bdo = const FlutterIconData.brandico(62210);
@@ -22181,6 +22819,648 @@ static const IconData youtube_zoc = const FlutterIconData.zocial(61795);static c
     "yuque": 59148,
     "slack": 59141,
     "slack-square": 59142
+  },
+  "ant_design_filled": {
+    "account-book": 0xe900,
+    "alert": 0xe901,
+    "alipay-circle": 0xe902,
+    "alipay-square": 0xe903,
+    "aliwangwang": 0xe904,
+    "amazon-circle": 0xe905,
+    "amazon-square": 0xe906,
+    "android": 0xe907,
+    "api": 0xe908,
+    "apple": 0xe909,
+    "appstore": 0xe90a,
+    "audio": 0xe90b,
+    "backward": 0xe90c,
+    "bank": 0xe90d,
+    "behance-circle": 0xe90e,
+    "behance-square": 0xe90f,
+    "bell": 0xe910,
+    "book": 0xe911,
+    "box-plot": 0xe912,
+    "bug": 0xe913,
+    "build": 0xe914,
+    "bulb": 0xe915,
+    "calculator": 0xe916,
+    "calendar": 0xe917,
+    "camera": 0xe918,
+    "car": 0xe919,
+    "caret-down": 0xe91a,
+    "caret-left": 0xe91b,
+    "caret-right": 0xe91c,
+    "caret-up": 0xe91d,
+    "carry-out": 0xe91e,
+    "check-circle": 0xe91f,
+    "check-square": 0xe920,
+    "chrome": 0xe921,
+    "ci-circle": 0xe922,
+    "clock-circle": 0xe923,
+    "close-circle": 0xe924,
+    "close-square": 0xe925,
+    "cloud": 0xe926,
+    "code": 0xe927,
+    "codepen-circle": 0xe928,
+    "codepen-square": 0xe929,
+    "code-sandbox-circle": 0xe92a,
+    "code-sandbox-square": 0xe92b,
+    "compass": 0xe92c,
+    "contacts": 0xe92d,
+    "container": 0xe92e,
+    "control": 0xe92f,
+    "copy": 0xe930,
+    "copyright-circle": 0xe931,
+    "credit-card": 0xe932,
+    "crown": 0xe933,
+    "customer-service": 0xe934,
+    "dashboard": 0xe935,
+    "database": 0xe936,
+    "delete": 0xe937,
+    "diff": 0xe938,
+    "dingtalk-circle": 0xe939,
+    "dingtalk-square": 0xe93a,
+    "dislike": 0xe93b,
+    "dollar-circle": 0xe93c,
+    "down-circle": 0xe93d,
+    "down-square": 0xe93e,
+    "dribbble-circle": 0xe93f,
+    "dribbble-square": 0xe940,
+    "dropbox-circle": 0xe941,
+    "dropbox-square": 0xe942,
+    "edit": 0xe943,
+    "environment": 0xe944,
+    "euro-circle": 0xe945,
+    "exclamation-circle": 0xe946,
+    "experiment": 0xe947,
+    "eye": 0xe948,
+    "eye-invisible": 0xe949,
+    "facebook": 0xe94a,
+    "fast-backward": 0xe94b,
+    "fast-forward": 0xe94c,
+    "file": 0xe94d,
+    "file-add": 0xe94e,
+    "file-excel": 0xe94f,
+    "file-exclamation": 0xe950,
+    "file-image": 0xe951,
+    "file-markdown": 0xe952,
+    "file-pdf": 0xe953,
+    "file-ppt": 0xe954,
+    "file-text": 0xe955,
+    "file-unknown": 0xe956,
+    "file-word": 0xe957,
+    "file-zip": 0xe958,
+    "filter": 0xe959,
+    "fire": 0xe95a,
+    "flag": 0xe95b,
+    "folder": 0xe95c,
+    "folder-add": 0xe95d,
+    "folder-open": 0xe95e,
+    "format-painter": 0xe95f,
+    "forward": 0xe960,
+    "frown": 0xe961,
+    "fund": 0xe962,
+    "funnel-plot": 0xe963,
+    "gift": 0xe964,
+    "github": 0xe965,
+    "gitlab": 0xe966,
+    "gold": 0xe967,
+    "golden": 0xe968,
+    "google-circle": 0xe969,
+    "google-plus-circle": 0xe96a,
+    "google-plus-square": 0xe96b,
+    "google-square": 0xe96c,
+    "hdd": 0xe96d,
+    "heart": 0xe96e,
+    "highlight": 0xe96f,
+    "home": 0xe970,
+    "hourglass": 0xe971,
+    "html5": 0xe972,
+    "idcard": 0xe973,
+    "ie-circle": 0xe974,
+    "ie-square": 0xe975,
+    "info-circle": 0xe976,
+    "instagram": 0xe977,
+    "insurance": 0xe978,
+    "interaction": 0xe979,
+    "layout": 0xe97a,
+    "left-circle": 0xe97b,
+    "left-square": 0xe97c,
+    "like": 0xe97d,
+    "linkedin": 0xe97e,
+    "lock": 0xe97f,
+    "mac-command": 0xe980,
+    "mail": 0xe981,
+    "medicine-box": 0xe982,
+    "medium-circle": 0xe983,
+    "medium-square": 0xe984,
+    "meh": 0xe985,
+    "message": 0xe986,
+    "minus-circle": 0xe987,
+    "minus-square": 0xe988,
+    "mobile": 0xe989,
+    "money-collect": 0xe98a,
+    "notification": 0xe98b,
+    "pause-circle": 0xe98c,
+    "pay-circle": 0xe98d,
+    "phone": 0xe98e,
+    "picture": 0xe98f,
+    "pie-chart": 0xe990,
+    "play-circle": 0xe991,
+    "play-square": 0xe992,
+    "plus-circle": 0xe993,
+    "plus-square": 0xe994,
+    "pound-circle": 0xe995,
+    "printer": 0xe996,
+    "profile": 0xe997,
+    "project": 0xe998,
+    "property-safety": 0xe999,
+    "pushpin": 0xe99a,
+    "qq-circle": 0xe99b,
+    "qq-square": 0xe99c,
+    "question-circle": 0xe99d,
+    "read": 0xe99e,
+    "reconciliation": 0xe99f,
+    "reddit-circle": 0xe9a0,
+    "reddit-square": 0xe9a1,
+    "red-envelope": 0xe9a2,
+    "rest": 0xe9a3,
+    "right-circle": 0xe9a4,
+    "right-square": 0xe9a5,
+    "robot": 0xe9a6,
+    "rocket": 0xe9a7,
+    "safety-certificate": 0xe9a8,
+    "save": 0xe9a9,
+    "schedule": 0xe9aa,
+    "security-scan": 0xe9ab,
+    "setting": 0xe9ac,
+    "shop": 0xe9ad,
+    "shopping": 0xe9ae,
+    "signal": 0xe9af,
+    "sketch-circle": 0xe9b0,
+    "sketch-square": 0xe9b1,
+    "skin": 0xe9b2,
+    "skype": 0xe9b3,
+    "slack-circle": 0xe9b4,
+    "slack-square": 0xe9b5,
+    "sliders": 0xe9b6,
+    "smile": 0xe9b7,
+    "snippets": 0xe9b8,
+    "sound": 0xe9b9,
+    "star": 0xe9ba,
+    "step-backward": 0xe9bb,
+    "step-forward": 0xe9bc,
+    "stop": 0xe9bd,
+    "switcher": 0xe9be,
+    "tablet": 0xe9bf,
+    "tag": 0xe9c0,
+    "tags": 0xe9c1,
+    "taobao-circle": 0xe9c2,
+    "taobao-square": 0xe9c3,
+    "thunderbolt": 0xe9c4,
+    "tool": 0xe9c5,
+    "trademark-circle": 0xe9c6,
+    "trophy": 0xe9c7,
+    "twitter-circle": 0xe9c8,
+    "twitter-square": 0xe9c9,
+    "unlock": 0xe9ca,
+    "up-circle": 0xe9cb,
+    "up-square": 0xe9cc,
+    "usb": 0xe9cd,
+    "video-camera": 0xe9ce,
+    "wallet": 0xe9cf,
+    "warning": 0xe9d0,
+    "wechat": 0xe9d1,
+    "weibo-circle": 0xe9d2,
+    "weibo-square": 0xe9d3,
+    "windows": 0xe9d4,
+    "yahoo": 0xe9d5,
+    "youtube": 0xe9d6,
+    "yuque": 0xe9d7,
+    "zhihu-circle": 0xe9d8,
+    "zhihu-square": 0xe9d9
+  },
+  "ant_design_outlined": {
+    "account-book": 0xe900,
+    "aim": 0xe901,
+    "alert": 0xe902,
+    "alibaba": 0xe903,
+    "align-center": 0xe904,
+    "align-left": 0xe905,
+    "align-right": 0xe906,
+    "alipay": 0xe907,
+    "alipay-circle": 0xe908,
+    "aliwangwang": 0xe909,
+    "aliyun": 0xe90a,
+    "amazon": 0xe90b,
+    "android": 0xe90c,
+    "ant-cloud": 0xe90d,
+    "ant-design": 0xe90e,
+    "apartment": 0xe90f,
+    "api": 0xe910,
+    "apple": 0xe911,
+    "appstore": 0xe912,
+    "appstore-add": 0xe913,
+    "area-chart": 0xe914,
+    "arrow-down": 0xe915,
+    "arrow-left": 0xe916,
+    "arrow-right": 0xe917,
+    "arrows-alt": 0xe918,
+    "arrow-up": 0xe919,
+    "audio": 0xe91a,
+    "audio-muted": 0xe91b,
+    "audit": 0xe91c,
+    "backward": 0xe91d,
+    "bank": 0xe91e,
+    "bar-chart": 0xe91f,
+    "barcode": 0xe920,
+    "bars": 0xe921,
+    "behance": 0xe922,
+    "behance-square": 0xe923,
+    "bell": 0xe924,
+    "bg-colors": 0xe925,
+    "block": 0xe926,
+    "bold": 0xe927,
+    "book": 0xe928,
+    "border": 0xe929,
+    "border-bottom": 0xe92a,
+    "border-horizontal": 0xe92b,
+    "border-inner": 0xe92c,
+    "border-left": 0xe92d,
+    "borderless-table": 0xe92e,
+    "border-outer": 0xe92f,
+    "border-right": 0xe930,
+    "border-top": 0xe931,
+    "border-verticle": 0xe932,
+    "box-plot": 0xe933,
+    "branches": 0xe934,
+    "bug": 0xe935,
+    "build": 0xe936,
+    "bulb": 0xe937,
+    "calculator": 0xe938,
+    "calendar": 0xe939,
+    "camera": 0xe93a,
+    "car": 0xe93b,
+    "caret-down": 0xe93c,
+    "caret-left": 0xe93d,
+    "caret-right": 0xe93e,
+    "caret-up": 0xe93f,
+    "carry-out": 0xe940,
+    "check": 0xe941,
+    "check-circle": 0xe942,
+    "check-square": 0xe943,
+    "chrome": 0xe944,
+    "ci": 0xe945,
+    "ci-circle": 0xe946,
+    "clear": 0xe947,
+    "clock-circle": 0xe948,
+    "close": 0xe949,
+    "close-circle": 0xe94a,
+    "close-square": 0xe94b,
+    "cloud": 0xe94c,
+    "cloud-download": 0xe94d,
+    "cloud-server": 0xe94e,
+    "cloud-sync": 0xe94f,
+    "cloud-upload": 0xe950,
+    "cluster": 0xe951,
+    "code": 0xe952,
+    "codepen": 0xe953,
+    "codepen-circle": 0xe954,
+    "code-sandbox": 0xe955,
+    "coffee": 0xe956,
+    "column-height": 0xe957,
+    "column-width": 0xe958,
+    "comment": 0xe959,
+    "compass": 0xe95a,
+    "compress": 0xe95b,
+    "console-sql": 0xe95c,
+    "contacts": 0xe95d,
+    "container": 0xe95e,
+    "control": 0xe95f,
+    "copy": 0xe960,
+    "copyright": 0xe961,
+    "copyright-circle": 0xe962,
+    "credit-card": 0xe963,
+    "crown": 0xe964,
+    "customer-service": 0xe965,
+    "dash": 0xe966,
+    "dashboard": 0xe967,
+    "database": 0xe968,
+    "delete": 0xe969,
+    "delete-column": 0xe96a,
+    "delete-row": 0xe96b,
+    "delivered-procedure": 0xe96c,
+    "deployment-unit": 0xe96d,
+    "desktop": 0xe96e,
+    "diff": 0xe96f,
+    "dingding": 0xe970,
+    "dingtalk": 0xe971,
+    "disconnect": 0xe972,
+    "dislike": 0xe973,
+    "dollar": 0xe974,
+    "dollar-circle": 0xe975,
+    "dot-chart": 0xe976,
+    "double-left": 0xe977,
+    "double-right": 0xe978,
+    "down": 0xe979,
+    "down-circle": 0xe97a,
+    "download": 0xe97b,
+    "down-square": 0xe97c,
+    "drag": 0xe97d,
+    "dribbble": 0xe97e,
+    "dribbble-square": 0xe97f,
+    "dropbox": 0xe980,
+    "edit": 0xe981,
+    "ellipsis": 0xe982,
+    "enter": 0xe983,
+    "environment": 0xe984,
+    "euro": 0xe985,
+    "euro-circle": 0xe986,
+    "exception": 0xe987,
+    "exclamation": 0xe988,
+    "exclamation-circle": 0xe989,
+    "expand": 0xe98a,
+    "expand-alt": 0xe98b,
+    "experiment": 0xe98c,
+    "export": 0xe98d,
+    "eye": 0xe98e,
+    "eye-invisible": 0xe98f,
+    "facebook": 0xe990,
+    "fall": 0xe991,
+    "fast-backward": 0xe992,
+    "fast-forward": 0xe993,
+    "field-binary": 0xe994,
+    "field-number": 0xe995,
+    "field-string": 0xe996,
+    "field-time": 0xe997,
+    "file": 0xe998,
+    "file-add": 0xe999,
+    "file-done": 0xe99a,
+    "file-excel": 0xe99b,
+    "file-exclamation": 0xe99c,
+    "file-gif": 0xe99d,
+    "file-image": 0xe99e,
+    "file-jpg": 0xe99f,
+    "file-markdown": 0xe9a0,
+    "file-pdf": 0xe9a1,
+    "file-ppt": 0xe9a2,
+    "file-protect": 0xe9a3,
+    "file-search": 0xe9a4,
+    "file-sync": 0xe9a5,
+    "file-text": 0xe9a6,
+    "file-unknown": 0xe9a7,
+    "file-word": 0xe9a8,
+    "file-zip": 0xe9a9,
+    "filter": 0xe9aa,
+    "fire": 0xe9ab,
+    "flag": 0xe9ac,
+    "folder": 0xe9ad,
+    "folder-add": 0xe9ae,
+    "folder-open": 0xe9af,
+    "folder-view": 0xe9b0,
+    "font-colors": 0xe9b1,
+    "font-size": 0xe9b2,
+    "fork": 0xe9b3,
+    "form": 0xe9b4,
+    "format-painter": 0xe9b5,
+    "forward": 0xe9b6,
+    "frown": 0xe9b7,
+    "fullscreen": 0xe9b8,
+    "fullscreen-exit": 0xe9b9,
+    "function": 0xe9ba,
+    "fund": 0xe9bb,
+    "fund-projection-screen": 0xe9bc,
+    "fund-view": 0xe9bd,
+    "funnel-plot": 0xe9be,
+    "gateway": 0xe9bf,
+    "gif": 0xe9c0,
+    "gift": 0xe9c1,
+    "github": 0xe9c2,
+    "gitlab": 0xe9c3,
+    "global": 0xe9c4,
+    "gold": 0xe9c5,
+    "google": 0xe9c6,
+    "google-plus": 0xe9c7,
+    "group": 0xe9c8,
+    "hdd": 0xe9c9,
+    "heart": 0xe9ca,
+    "heat-map": 0xe9cb,
+    "highlight": 0xe9cc,
+    "history": 0xe9cd,
+    "home": 0xe9ce,
+    "hourglass": 0xe9cf,
+    "html5": 0xe9d0,
+    "idcard": 0xe9d1,
+    "ie": 0xe9d2,
+    "import": 0xe9d3,
+    "inbox": 0xe9d4,
+    "info": 0xe9d5,
+    "info-circle": 0xe9d6,
+    "insert-row-above": 0xe9d7,
+    "insert-row-below": 0xe9d8,
+    "insert-row-left": 0xe9d9,
+    "insert-row-right": 0xe9da,
+    "instagram": 0xe9db,
+    "insurance": 0xe9dc,
+    "interaction": 0xe9dd,
+    "issues-close": 0xe9de,
+    "italic": 0xe9df,
+    "key": 0xe9e0,
+    "laptop": 0xe9e1,
+    "layout": 0xe9e2,
+    "left": 0xe9e3,
+    "left-circle": 0xe9e4,
+    "left-square": 0xe9e5,
+    "like": 0xe9e6,
+    "line": 0xe9e7,
+    "line-chart": 0xe9e8,
+    "line-height": 0xe9e9,
+    "link": 0xe9ea,
+    "linkedin": 0xe9eb,
+    "loading": 0xe9ec,
+    "loading-3-quarters": 0xe9ed,
+    "lock": 0xe9ee,
+    "login": 0xe9ef,
+    "logout": 0xe9f0,
+    "mac-command": 0xe9f1,
+    "mail": 0xe9f2,
+    "man": 0xe9f3,
+    "medicine-box": 0xe9f4,
+    "medium": 0xe9f5,
+    "medium-workmark": 0xe9f6,
+    "meh": 0xe9f7,
+    "menu": 0xe9f8,
+    "menu-fold": 0xe9f9,
+    "menu-unfold": 0xe9fa,
+    "merge-cells": 0xe9fb,
+    "message": 0xe9fc,
+    "minus": 0xe9fd,
+    "minus-circle": 0xe9fe,
+    "minus-square": 0xe9ff,
+    "mobile": 0xea00,
+    "money-collect": 0xea01,
+    "monitor": 0xea02,
+    "more": 0xea03,
+    "node-collapse": 0xea04,
+    "node-expand": 0xea05,
+    "node-index": 0xea06,
+    "notification": 0xea07,
+    "number": 0xea08,
+    "one-to-one": 0xea09,
+    "ordered-list": 0xea0a,
+    "paper-clip": 0xea0b,
+    "partition": 0xea0c,
+    "pause": 0xea0d,
+    "pause-circle": 0xea0e,
+    "pay-circle": 0xea0f,
+    "percentage": 0xea10,
+    "phone": 0xea11,
+    "pic-center": 0xea12,
+    "pic-left": 0xea13,
+    "pic-right": 0xea14,
+    "picture": 0xea15,
+    "pie-chart": 0xea16,
+    "play-circle": 0xea17,
+    "play-square": 0xea18,
+    "plus": 0xea19,
+    "plus-circle": 0xea1a,
+    "plus-square": 0xea1b,
+    "pound": 0xea1c,
+    "pound-circle": 0xea1d,
+    "poweroff": 0xea1e,
+    "printer": 0xea1f,
+    "profile": 0xea20,
+    "project": 0xea21,
+    "property-safety": 0xea22,
+    "pull-request": 0xea23,
+    "pushpin": 0xea24,
+    "qq": 0xea25,
+    "qrcode": 0xea26,
+    "question": 0xea27,
+    "question-circle": 0xea28,
+    "radar-chart": 0xea29,
+    "radius-bottomleft": 0xea2a,
+    "radius-bottomright": 0xea2b,
+    "radius-setting": 0xea2c,
+    "radius-upleft": 0xea2d,
+    "radius-upright": 0xea2e,
+    "read": 0xea2f,
+    "reconciliation": 0xea30,
+    "reddit": 0xea31,
+    "red-envelope": 0xea32,
+    "redo": 0xea33,
+    "reload": 0xea34,
+    "rest": 0xea35,
+    "retweet": 0xea36,
+    "right": 0xea37,
+    "right-circle": 0xea38,
+    "right-square": 0xea39,
+    "rise": 0xea3a,
+    "robot": 0xea3b,
+    "rocket": 0xea3c,
+    "rollback": 0xea3d,
+    "rotate-left": 0xea3e,
+    "rotate-right": 0xea3f,
+    "safety": 0xea40,
+    "safety-certificate": 0xea41,
+    "save": 0xea42,
+    "scan": 0xea43,
+    "schedule": 0xea44,
+    "scissor": 0xea45,
+    "search": 0xea46,
+    "security-scan": 0xea47,
+    "select": 0xea48,
+    "send": 0xea49,
+    "setting": 0xea4a,
+    "shake": 0xea4b,
+    "share-alt": 0xea4c,
+    "shop": 0xea4d,
+    "shopping": 0xea4e,
+    "shopping-cart": 0xea4f,
+    "shrink": 0xea50,
+    "sisternode": 0xea51,
+    "sketch": 0xea52,
+    "skin": 0xea53,
+    "skype": 0xea54,
+    "slack": 0xea55,
+    "slack-square": 0xea56,
+    "sliders": 0xea57,
+    "small-dash": 0xea58,
+    "smile": 0xea59,
+    "snippets": 0xea5a,
+    "solution": 0xea5b,
+    "sort-ascending": 0xea5c,
+    "sort-descending": 0xea5d,
+    "sound": 0xea5e,
+    "split-cells": 0xea5f,
+    "star": 0xea60,
+    "step-backward": 0xea61,
+    "step-forward": 0xea62,
+    "stock": 0xea63,
+    "stop": 0xea64,
+    "strikethrough": 0xea65,
+    "subnode": 0xea66,
+    "swap": 0xea67,
+    "swap-left": 0xea68,
+    "swap-right": 0xea69,
+    "switcher": 0xea6a,
+    "sync": 0xea6b,
+    "table": 0xea6c,
+    "tablet": 0xea6d,
+    "tag": 0xea6e,
+    "tags": 0xea6f,
+    "taobao": 0xea70,
+    "taobao-circle": 0xea71,
+    "team": 0xea72,
+    "thunderbolt": 0xea73,
+    "tool": 0xea74,
+    "to-top": 0xea75,
+    "trademark": 0xea76,
+    "trademark-circle": 0xea77,
+    "transaction": 0xea78,
+    "translation": 0xea79,
+    "trophy": 0xea7a,
+    "twitter": 0xea7b,
+    "underline": 0xea7c,
+    "undo": 0xea7d,
+    "ungroup": 0xea7e,
+    "unlock": 0xea7f,
+    "unordered-list": 0xea80,
+    "up": 0xea81,
+    "up-circle": 0xea82,
+    "upload": 0xea83,
+    "up-square": 0xea84,
+    "usb": 0xea85,
+    "user": 0xea86,
+    "user-add": 0xea87,
+    "user-delete": 0xea88,
+    "usergroup-add": 0xea89,
+    "usergroup-delete": 0xea8a,
+    "user-switch": 0xea8b,
+    "verified": 0xea8c,
+    "vertical-align-bottom": 0xea8d,
+    "vertical-align-middle": 0xea8e,
+    "vertical-align-top": 0xea8f,
+    "vertical-left": 0xea90,
+    "vertical-right": 0xea91,
+    "video-camera": 0xea92,
+    "video-camera-add": 0xea93,
+    "wallet": 0xea94,
+    "warning": 0xea95,
+    "wechat": 0xea96,
+    "weibo": 0xea97,
+    "weibo-circle": 0xea98,
+    "weibo-square": 0xea99,
+    "whats-app": 0xea9a,
+    "wifi": 0xea9b,
+    "windows": 0xea9c,
+    "woman": 0xea9d,
+    "yahoo": 0xea9e,
+    "youtube": 0xea9f,
+    "yuque": 0xeaa0,
+    "zhihu": 0xeaa1,
+    "zoom-in": 0xeaa2,
+    "zoom-out": 0xeaa3,
   },
   // Brandico 1.0.0 (45 icons)
   "brandico": {

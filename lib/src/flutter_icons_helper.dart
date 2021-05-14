@@ -35,6 +35,10 @@ class FlutterIconsHelper {
     switch (iconFamily) {
       case 'AntDesign':
         return FlutterIconData.antDesign(codePoint);
+      case 'AntDesign-Filled':
+        return FlutterIconData.antDesignFilled(codePoint);
+      case 'AntDesign-Outlined':
+        return FlutterIconData.antDesignOutlined(codePoint);
       case 'Brandico':
         return FlutterIconData.brandico(codePoint);
       case 'ElusiveIcons':

@@ -1,6 +1,6 @@
 name: flutter_icons
 description: Customizable Icons for Flutter，you can use with over 15K+ icons in your flutter project
-version: 3.0.0-nullsafety.0
+version: 4.0.0-nullsafety.0
 author: Sascha Heim<developers@think-big-company.com>
 homepage: https://github.com/ThinkBIG-Company/flutter-icons.git
 
@@ -24,6 +24,12 @@ flutter:
       - family: AntDesign
         fonts:
           - asset: fonts/AntDesign.ttf
+      - family: AntDesign-Filled
+        fonts:
+          - asset: fonts/AntDesign-Filled.ttf
+      - family: AntDesign-Outlined
+        fonts:
+          - asset: fonts/AntDesign-Outlined.ttf
       - family: Brandico
         fonts:
           - asset: fonts/Brandico.ttf

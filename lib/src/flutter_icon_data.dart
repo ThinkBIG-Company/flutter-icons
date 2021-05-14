@@ -6,6 +6,10 @@ class FlutterIconData extends IconData {
 
   const FlutterIconData.antDesign(int codePoint) : this(codePoint, 'AntDesign');
 
+  const FlutterIconData.antDesignFilled(int codePoint) : this(codePoint, 'AntDesign-Filled');
+
+  const FlutterIconData.antDesignOutlined(int codePoint) : this(codePoint, 'AntDesign-Outlined');
+
   const FlutterIconData.brandico(int codePoint) : this(codePoint, 'Brandico');
 
   const FlutterIconData.elusiveIcons(int codePoint) : this(codePoint, 'Elusive-Icons');

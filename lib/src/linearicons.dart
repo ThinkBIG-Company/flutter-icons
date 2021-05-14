@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'flutter_icon_data.dart';
-class Linearicons { Linearicons._();
+  class Linearicons { Linearicons._(); 
 static const IconData home = const FlutterIconData.linearicons(59392);
 static const IconData apartment = const FlutterIconData.linearicons(59393);
 static const IconData pencil = const FlutterIconData.linearicons(59394);

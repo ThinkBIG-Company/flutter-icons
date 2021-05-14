@@ -1,6 +1,6 @@
 English | [简体中文](./README_zh-CN.md)
 
-# flutter_icons 3.0.0-nullsafety.0
+# flutter_icons 4.0.0-nullsafety.0
 
 Customizable Icons for Flutter,Inspired by [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
 
@@ -12,33 +12,35 @@ Customizable Icons for Flutter,Inspired by [react-native-vector-icons](https://g
 
 [Browse all](https://oblador.github.io/react-native-vector-icons/).
 
-* [`AntDesign`](https://ant.design/) by AntFinance (**297** icons)
-* [`Brandico`](https://github.com/fontello/brandico.font) by Fontello. **SOON**
-* [`Elusive`](https://github.com/dovy/elusive-icons) by Team Redux **SOON**
-* [`Entypo`](http://entypo.com) by Daniel Bruce (**411** icons) 
-* [`EvilIcons`](http://evil-icons.io) by Alexander Madyankin & Roman Shamin (v1.10.1, **70** icons) 
-* [`Feather`](http://feathericons.com) by Cole Bemis & Contributors (v4.28.0, **286** icons) 
+* [`AntDesign`](https://ant.design/) by AntFinance (v3.0.0, **298** icons)
+* [`AntDesign-Filled`](https://ant.design/) by AntFinance (v4.1.0 latest, **218** icons)
+* [`AntDesign-Outlined`](https://ant.design/) by AntFinance (v4.1.0 latest, **420** icons)
+* [`Brandico`](https://github.com/fontello/brandico.font) by Fontello. (v1.0.0 latest, **45** icons)
+* [`Elusive`](https://github.com/dovy/elusive-icons) by Team Redux (v2.0.0 latest, **304** icons)
+* [`Entypo`](http://entypo.com) by Daniel Bruce (v1.0.0 latest, **411** icons)
+* [`EvilIcons`](http://evil-icons.io) by Alexander Madyankin & Roman Shamin (v1.10.1 latest, **70** icons)
+* [`Feather`](http://feathericons.com) by Cole Bemis & Contributors (v4.28.0 latest, **286** icons)
 * [`FontAwesome`](http://fortawesome.github.io/Font-Awesome/icons/) by Dave Gandy (v4.7.0, **675** icons)
 * [`FontAwesome 5`](https://fontawesome.com) by Fonticons, Inc. (v5.7.0, **1500** (free))
-* [`Fontelico`](https://github.com/fontello/fontelico.font) by Fontello. **SOON**
-* [`Fontisto`](https://www.fontisto.com/icons) by Fontisto. (v3.0.4, **617** icons)
-* [`Foundation`](http://zurb.com/playground/foundation-icon-fonts-3) by ZURB, Inc. (v3.0, **283** icons)
-* [`Ionicons`](https://ionicons.com/) by the Ionic team (v5.1.2, **3681** icons)
-* [`Linearicons`](https://linearicons.com/free) by Perxis **SOON**
-* [`Linecons`](https://designmodo.com/linecons-free) by Design modo **SOON**
-* [`Maki`](https://labs.mapbox.com/maki-icons) by Mapbox **SOON**
-* [`MaterialCommunityIcons`](https://materialdesignicons.com/) by MaterialDesignIcons.com  (v5.4.45, **5346** icons)
-* [`MaterialIcons`](https://material.io/resources/icons) by Google, Inc. (v4.0.0, **1562** icons)
-* [`MfgLabs`](https://mfglabs.github.io/mfglabs-iconset) by MfgLabs **SOON**
-* [`Meteocons`](https://www.alessioatzeni.com/meteocons) by Alessio Atzeni **SOON**
-* [`ModernPictograms`](https://thedesignoffice.org/project/modern-pictograms) by John Caserta **SOON**
-* [`Octicons`](http://octicons.github.com) by Github, Inc. (v8.4.1, **183** icons)
-* [`RPGAwesome`](https://nagoshiashumari.github.io/Rpg-Awesome) by Daniela Howe and Ivan Montiel **SOON**
-* [`SimpleLineIcons`](https://simplelineicons.github.io) by Sabbir & Contributors (v2.4.1, **189** icons)
-* [`Typicons`](https://www.s-ings.com/typicons) by Stephen Hutchings **SOON**
+* [`Fontelico`](https://github.com/fontello/fontelico.font) by Fontello. (v1.0.0 latest, **34** icons)
+* [`Fontisto`](https://www.fontisto.com/icons) by Fontisto. (v3.0.4 latest, **617** icons)
+* [`Foundation`](http://zurb.com/playground/foundation-icon-fonts-3) by ZURB, Inc. (v3.0.0 latest, **283** icons)
+* [`Ionicons`](https://ionicons.com/) by the Ionic team (v5.4.0, **1332** icons)
+* [`Linearicons`](https://linearicons.com/free) by Perxis (v1.0.0 latest, **170** icons)
+* [`Linecons`](https://designmodo.com/linecons-free) by Design modo (v1.0.0 latest, **48** icons)
+* [`Maki`](https://labs.mapbox.com/maki-icons) by Mapbox (v6.2.0 latest, **374** icons)
+* [`MaterialCommunityIcons`](https://materialdesignicons.com/) by MaterialDesignIcons.com  (v5.4.45 latest, **5346** icons)
+* [`MaterialIcons`](https://material.io/resources/icons) by Google, Inc. (v1.0.0 git -> May 10, 2021, **1842** icons)
+* [`Meteocons`](https://www.alessioatzeni.com/meteocons/) by Alessio Atzeni (v1.0.0 latest, **47** icons)
+* [`MfgLabs`](https://mfglabs.github.io/mfglabs-iconset) by MfgLabs (v1.0.0 latest, **186** icons)
+* [`ModernPictograms`](https://thedesignoffice.org/project/modern-pictograms) by John Caserta (v1.0.0 latest, **91** icons)
+* [`Octicons`](http://octicons.github.com) by Github, Inc. (v13.0.0 latest, **433** icons)
+* [`RPGAwesome`](https://nagoshiashumari.github.io/Rpg-Awesome) by Daniela Howe and Ivan Montiel (v1.0.0 latest, **495** icons)
+* [`SimpleLineIcons`](https://simplelineicons.github.io) by Sabbir & Contributors (v2.4.1 latest, **189** icons)
+* [`Typicons`](https://www.s-ings.com/typicons) by Stephen Hutchings (v2.0.9, **293** icons)
 * [`Weather Icons`](https://erikflowers.github.io/weather-icons/) by erikflowers (v2.0.10, **596** icons)
-* [`WebSymbols`](https://github.com/fontello/websymbols-uni.font) by Just Be Nice studio **SOON**
-* [`Zocial`](http://zocial.smcllns.com/) by Sam Collins (v1.0, **100** icons)
+* [`WebSymbols`](https://github.com/fontello/websymbols-uni.font) by Just Be Nice studio (v1.0.0 latest, **85** icons)
+* [`Zocial`](http://zocial.smcllns.com/) by Sam Collins (v1.0.0, **100** icons)
 
 ## Usage
 To use this plugin, add `flutter_icons` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
@@ -67,37 +69,42 @@ To use this plugin, add `flutter_icons` as a [dependency in your pubspec.yaml fi
 import 'package:flutter_icons/flutter_icons.dart';
 import 'package:flutter/material.dart';
 
-// 1.0.0 version used
-Icon(AntDesign.stepforward),
-Icon(Ionicons.ios_search),
-Icon(FontAwesome.glass),
-Icon(MaterialIcons.ac_unit),
-Icon(FontAwesome5.address_book),
-Icon(FontAwesome5Solid.address_book),
-Icon(FontAwesome5Brands.$500px)
-
-// After 1.1.0, the FlutterIcons class is provided to access all Icons
+// The FlutterIcons class is provided to access all Icons
 // Icon name in the original basis added icon set abbreviation name as suffix
 // Here in after referred to as the following
 //Ant Design Icons -> ant,
+//Ant Design v4+ Filled Icons -> adf,
+//Ant Design v4+ Outlined Icons -> ado,
+//Brandico Icons -> bdo,
+//Elusive Icons -> elu,
 //Entypo Icons -> ent,
 //Evil Icons -> evi,
 //Feather Icons -> fea,
-//Font Awesome Icons -> faw,
-//Font Awesome 5 Regular -> faw5
-//Font Awesome 5 Solid -> faw5s
-//Font Awesome 5 Brands -> faw5b
+//Font Awesome Icons -> fa,
+//Font Awesome 5 Regular -> far
+//Font Awesome 5 Brands -> fab
+//Font Awesome 5 Solid -> fas
+//Fontelico Icons -> fon,
 //Fontisto Icons -> fto,
 //Foundation Icons -> fou,
 //Ionicons Icons -> ion,
+//Linearicons Icons -> lin,
+//Linecons Icons -> lco,
+//Maki Icons -> mak,
 //Material Community Icons -> mco,
-//Material Icons -> mdi,
+//Material Icons Baseline -> mib,
+//Material Icons Outline -> mio,
+//Material Icons Round -> mir,
+//Material Icons Sharp -> mis,
+//Material Icons TwoTone **Not available at this moment**,
+//Meteocons Icons -> met,
+//MfgLabs Icons -> mfg,
 //Octicons Icons -> oct,
 //Simple Line Icons -> sli,
-//Zocial Icons -> zoc,
 //Weather Icons -> wea
+//Zocial Icons -> zoc,
 Icon(FlutterIcons.stepforward_ant)
-Icon(FlutterIcons.html5_faw)
+Icon(FlutterIcons.html5_fa)
 ...
 ```
 
@@ -112,18 +119,32 @@ pub global activate split_icon
 Add the font you want to leave in the project's pubspec file
 ```dart
 //Ant Design Icons -> ant,
+//Ant Design v4+ Filled Icons -> adf,
+//Ant Design v4+ Outlined Icons -> ado,
+//Brandico Icons -> bdo,
+//Elusive Icons -> elu,
 //Entypo Icons -> ent,
 //Evil Icons -> evi,
 //Feather Icons -> fea,
-//Font Awesome Icons -> faw,
-//Font Awesome 5 Regular -> faw5
-//Font Awesome 5 Solid -> faw5s
-//Font Awesome 5 Brands -> faw5b
+//Font Awesome Icons -> fa,
+//Font Awesome 5 Regular -> far
+//Font Awesome 5 Brands -> fab
+//Font Awesome 5 Solid -> fas
+//Fontelico Icons -> fon,
 //Fontisto Icons -> fto,
 //Foundation Icons -> fou,
 //Ionicons Icons -> ion,
+//Linearicons Icons -> lin,
+//Linecons Icons -> lco,
+//Maki Icons -> mak,
 //Material Community Icons -> mco,
-//Material Icons -> mdi,
+//Material Icons Baseline -> mib,
+//Material Icons Outline -> mio,
+//Material Icons Round -> mir,
+//Material Icons Sharp -> mis,
+//Material Icons TwoTone **Not available at this moment**,
+//Meteocons Icons -> met,
+//MfgLabs Icons -> mfg,
 //Octicons Icons -> oct,
 //Simple Line Icons -> sli,
 //Weather Icons -> wea
