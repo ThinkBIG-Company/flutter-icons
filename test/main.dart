@@ -5,61 +5,40 @@ import 'fontAwesome5_meta.dart';
 import 'iconGlyphs.dart';
 
 const dartReservedWords = [
-  'abstract',
-  'as ',
   'assert',
-  'async',
-  'await',
   'break',
   'case',
   'catch',
   'class',
   'const',
   'continue',
-  'covariant',
   'default',
-  'deferred',
   'do',
-  'dynamic',
   'else',
   'enum',
-  'export',
   'extends',
-  'external',
-  'factory',
   'false',
   'final',
   'finally',
   'for',
-  'get',
   'if',
-  'implements',
-  'import',
   'in',
   'is',
-  'library',
   'new',
   'null',
-  'operator',
-  'part',
   'rethrow',
   'return',
-  'set',
   'static',
   'super',
   'switch',
-  'sync',
   'this',
   'throw',
   'true',
   'try',
-  'typedef',
   'var',
   'void',
   'while',
   'with',
-  'yield',
-  'yield',
 ];
 
 main() async {
@@ -74,9 +53,10 @@ main() async {
     if (!file.existsSync()) {
       file.createSync();
     }
-    String allStr = """
-   import 'package:flutter/material.dart';
-   import 'flutter_icon_data.dart';""";
+    String allStr = '''
+import 'package:flutter/material.dart';
+import 'flutter_icon_data.dart';
+  ''';
     allStr += 'class ${toCamelName(keys[i])} { ${toCamelName(keys[i])}._(); \n';
     Map<String, int> obj = _iconGlyphs[keys[i]];
     List<String> keys1 = obj.keys.toList();
@@ -84,20 +64,17 @@ main() async {
       // fix
       final name = keys1[j].replaceAll('-', '_');
       if (dartReservedWords.contains(name)) {
-        allStr +=
-            'static const IconData \$$name = const FlutterIconData.${toName(keys[i])}(${obj[keys1[j]]});\n';
+        allStr += 'static const IconData \$$name = const FlutterIconData.${toName(keys[i])}(${obj[keys1[j]]});\n';
       } else {
         // Check if first char is number
         if (name.substring(0, 1).contains(new RegExp(r'[0-9]'))) {
-          allStr +=
-              'static const IconData \$$name = const FlutterIconData.${toName(keys[i])}(${obj[keys1[j]]});\n';
+          allStr += 'static const IconData \$$name = const FlutterIconData.${toName(keys[i])}(${obj[keys1[j]]});\n';
         } else {
-          allStr +=
-              'static const IconData $name = const FlutterIconData.${toName(keys[i])}(${obj[keys1[j]]});\n';
+          allStr += 'static const IconData $name = const FlutterIconData.${toName(keys[i])}(${obj[keys1[j]]});\n';
         }
       }
     }
-    allStr += "}";
+    allStr += '}';
     file.writeAsStringSync(allStr);
   }
 
@@ -115,23 +92,19 @@ main() async {
 import 'package:flutter/material.dart';
 import 'flutter_icon_data.dart';
   ''';
-    allStr +=
-        'class ${toCamelName('font_awesome_5_${_fontAwesome5GlyphsKeys[i]}')} { ${toCamelName('font_awesome_5_${_fontAwesome5GlyphsKeys[i]}')}._(); \n';
+    allStr += 'class ${toCamelName('font_awesome_5_${_fontAwesome5GlyphsKeys[i]}')} { ${toCamelName('font_awesome_5_${_fontAwesome5GlyphsKeys[i]}')}._(); \n';
     List<String> obj = _fontAwesome5Glyphs[_fontAwesome5GlyphsKeys[i]];
     for (int j = 0; j < obj.length; j++) {
       // fix
       final name = obj[j].replaceAll('-', '_');
       if (dartReservedWords.contains(name)) {
-        allStr +=
-            'static const IconData \$$name = const FlutterIconData.${toName('font_awesome_5_${_fontAwesome5GlyphsKeys[i]}')}(${fontAwesome5[obj[j]]});\n';
+        allStr += 'static const IconData \$$name = const FlutterIconData.${toName('font_awesome_5_${_fontAwesome5GlyphsKeys[i]}')}(${fontAwesome5[obj[j]]});\n';
       } else {
         // Check if first char is number
         if (name.substring(0, 1).contains(new RegExp(r'[0-9]'))) {
-          allStr +=
-              'static const IconData \$$name = const FlutterIconData.${toName('font_awesome_5_${_fontAwesome5GlyphsKeys[i]}')}(${fontAwesome5[obj[j]]});\n';
+          allStr += 'static const IconData \$$name = const FlutterIconData.${toName('font_awesome_5_${_fontAwesome5GlyphsKeys[i]}')}(${fontAwesome5[obj[j]]});\n';
         } else {
-          allStr +=
-              'static const IconData $name = const FlutterIconData.${toName('font_awesome_5_${_fontAwesome5GlyphsKeys[i]}')}(${fontAwesome5[obj[j]]});\n';
+          allStr += 'static const IconData $name = const FlutterIconData.${toName('font_awesome_5_${_fontAwesome5GlyphsKeys[i]}')}(${fontAwesome5[obj[j]]});\n';
         }
       }
     }
@@ -151,7 +124,7 @@ import 'flutter_icon_data.dart';
     await f1.close();
   }*/
 
-  // Lastly generate FlutterIcons file
+  //Lastly generate FlutterIcons file
   Directory flutterIconsDirectory = Directory('$rootDirectory/lib/src');
   File flutterIconFile = File('$rootDirectory/lib/src/flutter_icons.dart');
   List<File> files =
@@ -186,7 +159,6 @@ class FlutterIcons {
         final String line = lines[k];
 
         if (line.contains('static const')) {
-          //print(file.path);
           var suffix = getSimple(line);
           List lineList = line.split(' ');
           lineList[3] = lineList[3] + '_$suffix';
@@ -208,7 +180,6 @@ class FlutterIcons {
   str += '}';
 
   flutterIconFile.writeAsStringSync(str);
-
 }
 
 String toCamelName(String name) => name
@@ -229,6 +200,24 @@ String getSimple(String line) {
   //print(line);
   print(name);
 
+  if (name == 'antDesign') {
+    return 'ant';
+  }
+  if (name == 'brandico') {
+    return 'bdo';
+  }
+  if (name == 'elusiveIcons') {
+    return 'elu';
+  }
+  if (name == 'entypo') {
+    return 'ent';
+  }
+  if (name == 'evilIcons') {
+    return 'evi';
+  }
+  if (name == 'feather') {
+    return 'fea';
+  }
   if (name == 'fontAwesome') {
     return 'fa';
   }
@@ -241,17 +230,62 @@ String getSimple(String line) {
   if (name == 'fontAwesome5Solid') {
     return 'fas';
   }
+  if (name == 'fontelico') {
+    return 'fon';
+  }
   if (name == 'fontisto') {
     return 'fto';
+  }
+  if (name == 'foundation') {
+    return 'fou';
+  }
+  if (name == 'ionicons') {
+    return 'ion';
+  }
+  if (name == 'linearicons') {
+    return 'lin';
+  }
+  if (name == 'linecons') {
+    return 'lco';
+  }
+  if (name == 'maki') {
+    return 'mak';
   }
   if (name == 'materialCommunityIcons') {
     return 'mco';
   }
-  if (name == 'materialIcons') {
-    return 'mdi';
+  if (name == 'materialIconsBaseline') {
+    return 'mib';
+  }
+  if (name == 'materialIconsOutline') {
+    return 'mio';
+  }
+  if (name == 'materialIconsRound') {
+    return 'mir';
+  }
+  if (name == 'materialIconsSharp') {
+    return 'mis';
+  }
+  if (name == 'materialIconsTwotone') {
+    return 'mit';
+  }
+  if (name == 'meteocons') {
+    return 'met';
+  }
+  if (name == 'mfgLabsIconset') {
+    return 'mfg';
+  }
+  if (name == 'octicons') {
+    return 'oct';
   }
   if (name == 'simpleLineIcons') {
     return 'sli';
+  }
+  if (name == 'weatherIcons') {
+    return 'wea';
+  }
+  if (name == 'zocial') {
+    return 'zoc';
   }
 
   return name.substring(0, 3).toLowerCase();
