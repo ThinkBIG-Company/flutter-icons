@@ -1,5 +1,6 @@
-   import 'package:flutter/material.dart';
-   import 'flutter_icon_data.dart';class FontAwesome { FontAwesome._(); 
+import 'package:flutter/material.dart';
+import 'flutter_icon_data.dart';
+  class FontAwesome { FontAwesome._(); 
 static const IconData glass = const FlutterIconData.fontAwesome(61440);
 static const IconData music = const FlutterIconData.fontAwesome(61441);
 static const IconData search = const FlutterIconData.fontAwesome(61442);

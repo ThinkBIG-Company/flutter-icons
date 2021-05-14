@@ -78,7 +78,6 @@ class _IconsPageState extends State<IconsPage> {
                       children: <Widget>[
                         Icon(
                           getIconData(iconFamily, _keys.elementAt(index)),
-                          //getIconData('fontisto', 'acrobat-reader'),
                           size: 32,
                         ),
                         SizedBox(width: 10),

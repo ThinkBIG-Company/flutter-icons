@@ -1,5 +1,6 @@
-   import 'package:flutter/material.dart';
-   import 'flutter_icon_data.dart';class Ionicons { Ionicons._(); 
+import 'package:flutter/material.dart';
+import 'flutter_icon_data.dart';
+  class Ionicons { Ionicons._(); 
 static const IconData accessibility = const FlutterIconData.ionicons(59648);
 static const IconData accessibility_outline = const FlutterIconData.ionicons(59649);
 static const IconData accessibility_sharp = const FlutterIconData.ionicons(59650);
@@ -687,7 +688,7 @@ static const IconData layers_sharp = const FlutterIconData.ionicons(60331);
 static const IconData leaf = const FlutterIconData.ionicons(60332);
 static const IconData leaf_outline = const FlutterIconData.ionicons(60333);
 static const IconData leaf_sharp = const FlutterIconData.ionicons(60334);
-static const IconData $library = const FlutterIconData.ionicons(60335);
+static const IconData library = const FlutterIconData.ionicons(60335);
 static const IconData library_outline = const FlutterIconData.ionicons(60336);
 static const IconData library_sharp = const FlutterIconData.ionicons(60337);
 static const IconData link = const FlutterIconData.ionicons(60338);
@@ -1200,7 +1201,7 @@ static const IconData swap_horizontal_sharp = const FlutterIconData.ionicons(608
 static const IconData swap_vertical = const FlutterIconData.ionicons(60845);
 static const IconData swap_vertical_outline = const FlutterIconData.ionicons(60846);
 static const IconData swap_vertical_sharp = const FlutterIconData.ionicons(60847);
-static const IconData $sync = const FlutterIconData.ionicons(60848);
+static const IconData sync = const FlutterIconData.ionicons(60848);
 static const IconData sync_circle = const FlutterIconData.ionicons(60849);
 static const IconData sync_circle_outline = const FlutterIconData.ionicons(60850);
 static const IconData sync_circle_sharp = const FlutterIconData.ionicons(60851);

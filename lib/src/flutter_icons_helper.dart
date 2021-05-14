@@ -8,17 +8,18 @@ class FlutterIconsHelper {
     var lowerGlyphMapName = '';
     if (glyphMapName.length == 3) {
       lowerGlyphMapName =
-      '${glyphMapName[0].toString().toLowerCase()}_${glyphMapName[1]
-          .toString()
-          .toLowerCase()}_${glyphMapName[2].toString().toLowerCase()}';
+          '${glyphMapName[0].toString().toLowerCase()}_${glyphMapName[1].toString().toLowerCase()}_${glyphMapName[2].toString().toLowerCase()}';
     } else if (glyphMapName.length == 2) {
       lowerGlyphMapName =
-      '${glyphMapName[0].toString().toLowerCase()}_${glyphMapName[1]
-          .toString()
-          .toLowerCase()}';
+          '${glyphMapName[0].toString().toLowerCase()}_${glyphMapName[1].toString().toLowerCase()}';
     } else {
       lowerGlyphMapName = '${glyphMapName[0].toString().toLowerCase()}';
     }
+
+    //Fix
+    lowerGlyphMapName = lowerGlyphMapName.replaceAll('-', '_');
+
+    print(lowerGlyphMapName);
 
     // Get codepoint
     int codePoint = 0;
@@ -28,9 +29,16 @@ class FlutterIconsHelper {
       }
     }
 
+    print('iconFamily -> ' + iconFamily);
+    print('codePoint -> ' + codePoint.toString());
+
     switch (iconFamily) {
       case 'AntDesign':
         return FlutterIconData.antDesign(codePoint);
+      case 'Brandico':
+        return FlutterIconData.brandico(codePoint);
+      case 'ElusiveIcons':
+        return FlutterIconData.elusiveIcons(codePoint);
       case 'Entypo':
         return FlutterIconData.entypo(codePoint);
       case 'EvilIcons':
@@ -39,22 +47,58 @@ class FlutterIconsHelper {
         return FlutterIconData.feather(codePoint);
       case 'FontAwesome':
         return FlutterIconData.fontAwesome(codePoint);
+      case 'FontAwesome5':
+        return FlutterIconData.fontAwesome5(codePoint);
+      case 'FontAwesome5_Brands':
+        return FlutterIconData.fontAwesome5Brands(codePoint);
+      case 'FontAwesome5_Regular':
+        return FlutterIconData.fontAwesome5Brands(codePoint);
+      case 'FontAwesome5_Solid':
+        return FlutterIconData.fontAwesome5Solid(codePoint);
+      case 'Fontelico':
+        return FlutterIconData.fontelico(codePoint);
       case 'Fontisto':
         return FlutterIconData.fontisto(codePoint);
       case 'Foundation':
         return FlutterIconData.foundation(codePoint);
+      case 'Iconic':
+        return FlutterIconData.iconic(codePoint);
       case 'Ionicons':
         return FlutterIconData.ionicons(codePoint);
+      case 'Linearicons':
+        return FlutterIconData.linearicons(codePoint);
+      case 'Linecons':
+        return FlutterIconData.linecons(codePoint);
+      case 'Maki':
+        return FlutterIconData.maki(codePoint);
       case 'MaterialCommunityIcons':
         return FlutterIconData.materialCommunityIcons(codePoint);
-      case 'MaterialIcons':
-        return FlutterIconData.materialIcons(codePoint);
+      case 'MaterialIcons-Baseline':
+        return FlutterIconData.materialIconsBaseline(codePoint);
+      case 'MaterialIcons-Outline':
+        return FlutterIconData.materialIconsOutline(codePoint);
+      case 'MaterialIcons-Round':
+        return FlutterIconData.materialIconsRound(codePoint);
+      case 'MaterialIcons-Sharp':
+        return FlutterIconData.materialIconsSharp(codePoint);
+      /*case 'MaterialIcons-TwoTone':
+        return FlutterIconData.materialIconsTwoTone(codePoint);*/
+      case 'MfgLabs':
+        return FlutterIconData.mfgLabs(codePoint);
+      case 'ModernPictograms':
+        return FlutterIconData.modernPictograms(codePoint);
       case 'Octicons':
         return FlutterIconData.octicons(codePoint);
+      case 'RpgAwesome':
+        return FlutterIconData.rpgAwesome(codePoint);
       case 'SimpleLineIcons':
         return FlutterIconData.simpleLineIcons(codePoint);
+      case 'Typicons':
+        return FlutterIconData.typicons(codePoint);
       case 'WeatherIcons':
         return FlutterIconData.weatherIcons(codePoint);
+      case 'WebSymbols':
+        return FlutterIconData.webSymbols(codePoint);
       case 'Zocial':
         return FlutterIconData.zocial(codePoint);
     }
@@ -66,17 +110,16 @@ class FlutterIconsHelper {
     var lowerGlyphMapName = '';
     if (glyphMapName.length == 3) {
       lowerGlyphMapName =
-      '${glyphMapName[0].toString().toLowerCase()}_${glyphMapName[1]
-          .toString()
-          .toLowerCase()}_${glyphMapName[2].toString().toLowerCase()}';
+          '${glyphMapName[0].toString().toLowerCase()}_${glyphMapName[1].toString().toLowerCase()}_${glyphMapName[2].toString().toLowerCase()}';
     } else if (glyphMapName.length == 2) {
       lowerGlyphMapName =
-      '${glyphMapName[0].toString().toLowerCase()}_${glyphMapName[1]
-          .toString()
-          .toLowerCase()}';
+          '${glyphMapName[0].toString().toLowerCase()}_${glyphMapName[1].toString().toLowerCase()}';
     } else {
       lowerGlyphMapName = '${glyphMapName[0].toString().toLowerCase()}';
     }
+
+    //Fix
+    lowerGlyphMapName = lowerGlyphMapName.replaceAll('-', '_');
 
     if (FlutterIcons.glyphMap.containsKey(lowerGlyphMapName)) {
       if (FlutterIcons.glyphMap[lowerGlyphMapName].containsKey(iconName)) {

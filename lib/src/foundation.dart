@@ -1,5 +1,6 @@
-   import 'package:flutter/material.dart';
-   import 'flutter_icon_data.dart';class Foundation { Foundation._(); 
+import 'package:flutter/material.dart';
+import 'flutter_icon_data.dart';
+  class Foundation { Foundation._(); 
 static const IconData address_book = const FlutterIconData.foundation(61696);
 static const IconData alert = const FlutterIconData.foundation(61697);
 static const IconData align_center = const FlutterIconData.foundation(61698);

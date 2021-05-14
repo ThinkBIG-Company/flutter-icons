@@ -39,6 +39,145 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+
+  int totalIcons = 0;
+
+  Map<String, dynamic> iconsMap = {
+    'AntDesign': {
+      'version': '1.0',
+      'glyphs': FlutterIcons.glyphMap['ant_design']
+    },
+    'Brandico': {
+      'version': '1.0',
+      'glyphs': FlutterIcons.glyphMap['brandico']
+    },
+    'ElusiveIcons': {
+      'version': '2.0',
+      'glyphs': FlutterIcons.glyphMap['elusive_icons']
+    },
+    'Entypo': {
+      'version': '1.0',
+      'glyphs': FlutterIcons.glyphMap['entypo']
+    },
+    'EvilIcons': {
+      'version': '1.10.1',
+      'glyphs': FlutterIcons.glyphMap['evil_icons']
+    },
+    'Feather': {
+      'version': '4.28.0',
+      'glyphs': FlutterIcons.glyphMap['feather']
+    },
+    'FontAwesome': {
+      'version': '4.7.0',
+      'glyphs': FlutterIcons.glyphMap['font_awesome']
+    },
+    'Fontelico': {
+      'version': '1.0.0',
+      'glyphs': FlutterIcons.glyphMap['fontelico']
+    },
+    'Fontisto': {
+      'version': '3.0.4',
+      'glyphs': FlutterIcons.glyphMap['fontisto']
+    },
+    'Foundation': {
+      'version': '3.0.0',
+      'glyphs': FlutterIcons.glyphMap['foundation']
+    },
+    'Ionicons': {
+      'version': '5.4.0',
+      'glyphs': FlutterIcons.glyphMap['ionicons']
+    },
+    'Linearicons': {
+      'version': '1.0.0',
+      'glyphs': FlutterIcons.glyphMap['linearicons']
+    },
+    'Linecons': {
+      'version': '1.0.0',
+      'glyphs': FlutterIcons.glyphMap['linecons']
+    },
+    'Maki': {
+      'version': '6.2.0',
+      'glyphs': FlutterIcons.glyphMap['maki']
+    },
+    'MaterialCommunityIcons': {
+      'version': '5.4.45',
+      'glyphs': FlutterIcons.glyphMap['material_community_icons']
+    },
+    'MaterialIcons-Baseline': {
+      'version': 'git 05/10/2021',
+      'glyphs': FlutterIcons.glyphMap['material_icons_baseline']
+    },
+    'MaterialIcons-Outline': {
+      'version': 'git 05/10/2021',
+      'glyphs': FlutterIcons.glyphMap['material_icons_outline']
+    },
+    'MaterialIcons-Round': {
+      'version': 'git 05/10/2021',
+      'glyphs': FlutterIcons.glyphMap['material_icons_round']
+    },
+    'MaterialIcons-Sharp': {
+      'version': 'git 05/10/2021',
+      'glyphs': FlutterIcons.glyphMap['material_icons_sharp']
+    },
+    // Currently not supported sorry
+    /*'MaterialIcons-TwoTone': {
+        'version': 'git 05/10/2021',
+        'glyphs': FlutterIcons.glyphMap['material_icons_twotone']
+      },*/
+    'Meteocons': {
+      'version': '1.0.0',
+      'glyphs': FlutterIcons.glyphMap['meteocons']
+    },
+    'MfgLabs': {
+      'version': '1.0.0',
+      'glyphs': FlutterIcons.glyphMap['mfg_labs']
+    },
+    'ModernPictograms': {
+      'version': '1.0.0',
+      'glyphs': FlutterIcons.glyphMap['modern_pictograms']
+    },
+    'Octicons': {
+      'version': '13.0.0',
+      'glyphs': FlutterIcons.glyphMap['octicons']
+    },
+    'RpgAwesome': {
+      'version': '2.4.1',
+      'glyphs': FlutterIcons.glyphMap['rpg_awesome']
+    },
+    'SimpleLineIcons': {
+      'version': '2.4.1',
+      'glyphs': FlutterIcons.glyphMap['simple_line_icons']
+    },
+    'Typicons': {
+      'version': '1.0.0',
+      'glyphs': FlutterIcons.glyphMap['typicons']
+    },
+    'WeatherIcons': {
+      'version': '2.4.1',
+      'glyphs': FlutterIcons.glyphMap['weather_icons']
+    },
+    'WebSymbols': {
+      'version': 'latest',
+      'glyphs': FlutterIcons.glyphMap['web_symbols']
+    },
+    'Zocial': {
+      'version': '1.0.0',
+      'glyphs': FlutterIcons.glyphMap['zocial']
+    }
+  };
+
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    iconsMap.forEach((k, v) {
+      //print("Key : $k, Value : ${v['glyphs'].length}");
+      totalIcons += v['glyphs'].length as int;
+    });
+
+    print(totalIcons);
+  }
+
   @override
   Widget build(BuildContext context) {
     // This method is rerun every time setState is called, for instance as done
@@ -51,40 +190,32 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         // Here we take the value from the MyHomePage object that was created by
         // the App.build method, and use it to set our appbar title.
-        title: Text(widget.title),
+        title: Row(
+          children: <Widget>[
+            Text(
+              widget.title,
+            ),
+            Spacer(),
+            Text(totalIcons > 20000 ? 'over 20k+ icons' : '$totalIcons icons',
+            )
+          ],
+        ),
       ),
       body: buildList(),
     );
   }
 
   buildList() {
-    Map<String, dynamic> map = {
-      'AntDesign': FlutterIcons.glyphMap['ant_design'],
-      'Entypo': FlutterIcons.glyphMap['entypo'],
-      'EvilIcons': FlutterIcons.glyphMap['evil_icons'],
-      'Feather': FlutterIcons.glyphMap['feather'],
-      'FontAwesome': FlutterIcons.glyphMap['font_awesome'],
-      'Fontisto': FlutterIcons.glyphMap['fontisto'],
-      'Foundation': FlutterIcons.glyphMap['foundation'],
-      'Ionicons': FlutterIcons.glyphMap['ionicons'],
-      'MaterialCommunityIcons':
-          FlutterIcons.glyphMap['material_community_icons'],
-      'MaterialIcons': FlutterIcons.glyphMap['material_icons'],
-      'Octicons': FlutterIcons.glyphMap['octicons'],
-      'SimpleLineIcons': FlutterIcons.glyphMap['simple_line_icons'],
-      'WeatherIcons': FlutterIcons.glyphMap['weather_icons'],
-      'Zocial': FlutterIcons.glyphMap['zocial'],
-    };
-
     return ListView.builder(
       shrinkWrap: true,
-      itemCount: map.keys.length,
+      keyboardDismissBehavior: ScrollViewKeyboardDismissBehavior.onDrag,
+      itemCount: iconsMap.keys.length,
       itemBuilder: (BuildContext context, int i) {
         return InkWell(
             onTap: () {
               Navigator.of(context).pushNamed('icon_page', arguments: {
-                'glyphMaps': map[map.keys.elementAt(i)],
-                'iconFamily': map.keys.elementAt(i)
+                'glyphMaps': iconsMap[iconsMap.keys.elementAt(i)]['glyphs'],
+                'iconFamily': iconsMap.keys.elementAt(i)
               });
             },
             child: Container(
@@ -94,9 +225,16 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: <Widget>[
-                    Text(map.keys.elementAt(i)),
+                    Text(iconsMap.keys.elementAt(i) +
+                        (iconsMap[iconsMap.keys.elementAt(i)]['version']
+                                .toString()
+                                .contains('git')
+                            ? ' '
+                            : ' v') +
+                        iconsMap[iconsMap.keys.elementAt(i)]['version']),
                     Spacer(),
-                    Text(map[map.keys.elementAt(i)].length.toString()),
+                    Text(
+                        iconsMap[iconsMap.keys.elementAt(i)]['glyphs'].length.toString()),
                     Icon(Icons.arrow_forward_ios)
                   ],
                 ),

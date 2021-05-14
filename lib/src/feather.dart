@@ -1,5 +1,6 @@
-   import 'package:flutter/material.dart';
-   import 'flutter_icon_data.dart';class Feather { Feather._(); 
+import 'package:flutter/material.dart';
+import 'flutter_icon_data.dart';
+  class Feather { Feather._(); 
 static const IconData activity = const FlutterIconData.feather(61696);
 static const IconData airplay = const FlutterIconData.feather(61697);
 static const IconData alert_circle = const FlutterIconData.feather(61698);

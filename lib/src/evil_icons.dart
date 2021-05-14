@@ -1,5 +1,6 @@
-   import 'package:flutter/material.dart';
-   import 'flutter_icon_data.dart';class EvilIcons { EvilIcons._(); 
+import 'package:flutter/material.dart';
+import 'flutter_icon_data.dart';
+  class EvilIcons { EvilIcons._(); 
 static const IconData archive = const FlutterIconData.evilIcons(61696);
 static const IconData arrow_down = const FlutterIconData.evilIcons(61697);
 static const IconData arrow_left = const FlutterIconData.evilIcons(61698);

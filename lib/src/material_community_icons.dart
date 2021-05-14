@@ -1,5 +1,6 @@
-   import 'package:flutter/material.dart';
-   import 'flutter_icon_data.dart';class MaterialCommunityIcons { MaterialCommunityIcons._(); 
+import 'package:flutter/material.dart';
+import 'flutter_icon_data.dart';
+  class MaterialCommunityIcons { MaterialCommunityIcons._(); 
 static const IconData ab_testing = const FlutterIconData.materialCommunityIcons(983497);
 static const IconData abjad_arabic = const FlutterIconData.materialCommunityIcons(987944);
 static const IconData abjad_hebrew = const FlutterIconData.materialCommunityIcons(987945);
@@ -1965,7 +1966,7 @@ static const IconData expansion_card = const FlutterIconData.materialCommunityIc
 static const IconData expansion_card_variant = const FlutterIconData.materialCommunityIcons(987058);
 static const IconData exponent = const FlutterIconData.materialCommunityIcons(985443);
 static const IconData exponent_box = const FlutterIconData.materialCommunityIcons(985444);
-static const IconData $export = const FlutterIconData.materialCommunityIcons(983559);
+static const IconData export = const FlutterIconData.materialCommunityIcons(983559);
 static const IconData export_variant = const FlutterIconData.materialCommunityIcons(986003);
 static const IconData eye = const FlutterIconData.materialCommunityIcons(983560);
 static const IconData eye_check = const FlutterIconData.materialCommunityIcons(986372);
@@ -1998,7 +1999,7 @@ static const IconData face_woman_outline = const FlutterIconData.materialCommuni
 static const IconData facebook = const FlutterIconData.materialCommunityIcons(983564);
 static const IconData facebook_messenger = const FlutterIconData.materialCommunityIcons(983566);
 static const IconData facebook_workplace = const FlutterIconData.materialCommunityIcons(985905);
-static const IconData $factory = const FlutterIconData.materialCommunityIcons(983567);
+static const IconData factory = const FlutterIconData.materialCommunityIcons(983567);
 static const IconData fan = const FlutterIconData.materialCommunityIcons(983568);
 static const IconData fan_alert = const FlutterIconData.materialCommunityIcons(988268);
 static const IconData fan_chevron_down = const FlutterIconData.materialCommunityIcons(988269);
@@ -2897,7 +2898,7 @@ static const IconData image_search_outline = const FlutterIconData.materialCommu
 static const IconData image_size_select_actual = const FlutterIconData.materialCommunityIcons(986253);
 static const IconData image_size_select_large = const FlutterIconData.materialCommunityIcons(986254);
 static const IconData image_size_select_small = const FlutterIconData.materialCommunityIcons(986255);
-static const IconData $import = const FlutterIconData.materialCommunityIcons(983802);
+static const IconData import = const FlutterIconData.materialCommunityIcons(983802);
 static const IconData inbox = const FlutterIconData.materialCommunityIcons(984711);
 static const IconData inbox_arrow_down = const FlutterIconData.materialCommunityIcons(983803);
 static const IconData inbox_arrow_down_outline = const FlutterIconData.materialCommunityIcons(987760);
@@ -3074,7 +3075,7 @@ static const IconData led_variant_outline = const FlutterIconData.materialCommun
 static const IconData leek = const FlutterIconData.materialCommunityIcons(987517);
 static const IconData less_than = const FlutterIconData.materialCommunityIcons(985468);
 static const IconData less_than_or_equal = const FlutterIconData.materialCommunityIcons(985469);
-static const IconData $library = const FlutterIconData.materialCommunityIcons(983857);
+static const IconData library = const FlutterIconData.materialCommunityIcons(983857);
 static const IconData library_shelves = const FlutterIconData.materialCommunityIcons(986025);
 static const IconData license = const FlutterIconData.materialCommunityIcons(987075);
 static const IconData lifebuoy = const FlutterIconData.materialCommunityIcons(985214);
@@ -4682,7 +4683,7 @@ static const IconData syllabary_hiragana = const FlutterIconData.materialCommuni
 static const IconData syllabary_katakana = const FlutterIconData.materialCommunityIcons(987957);
 static const IconData syllabary_katakana_halfwidth = const FlutterIconData.materialCommunityIcons(987958);
 static const IconData symfony = const FlutterIconData.materialCommunityIcons(985830);
-static const IconData $sync = const FlutterIconData.materialCommunityIcons(984294);
+static const IconData sync = const FlutterIconData.materialCommunityIcons(984294);
 static const IconData sync_alert = const FlutterIconData.materialCommunityIcons(984295);
 static const IconData sync_circle = const FlutterIconData.materialCommunityIcons(988024);
 static const IconData sync_off = const FlutterIconData.materialCommunityIcons(984296);

@@ -1,5 +1,6 @@
-   import 'package:flutter/material.dart';
-   import 'flutter_icon_data.dart';class Entypo { Entypo._(); 
+import 'package:flutter/material.dart';
+import 'flutter_icon_data.dart';
+  class Entypo { Entypo._(); 
 static const IconData $500px = const FlutterIconData.entypo(61696);
 static const IconData $500px_with_circle = const FlutterIconData.entypo(61697);
 static const IconData add_to_list = const FlutterIconData.entypo(61698);
@@ -149,7 +150,7 @@ static const IconData emoji_sad = const FlutterIconData.entypo(61841);
 static const IconData erase = const FlutterIconData.entypo(61842);
 static const IconData eraser = const FlutterIconData.entypo(61843);
 static const IconData evernote = const FlutterIconData.entypo(61844);
-static const IconData $export = const FlutterIconData.entypo(61845);
+static const IconData export = const FlutterIconData.entypo(61845);
 static const IconData eye = const FlutterIconData.entypo(61846);
 static const IconData eye_with_line = const FlutterIconData.entypo(61847);
 static const IconData facebook = const FlutterIconData.entypo(61848);
