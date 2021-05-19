@@ -85,8 +85,8 @@ class FlutterIconsHelper {
         return FlutterIconData.materialIconsRound(codePoint);
       case 'MaterialIcons-Sharp':
         return FlutterIconData.materialIconsSharp(codePoint);
-      /*case 'MaterialIcons-TwoTone':
-        return FlutterIconData.materialIconsTwoTone(codePoint);*/
+      case 'MaterialIcons-TwoTone':
+        return FlutterIconData.materialIconsTwotone(codePoint);
       case 'MfgLabs':
         return FlutterIconData.mfgLabs(codePoint);
       case 'ModernPictograms':

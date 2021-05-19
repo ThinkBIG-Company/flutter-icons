@@ -1,12 +1,10 @@
-English | [简体中文](./README_zh-CN.md)
-
-# flutter_icons 4.0.0-nullsafety.0
+# flutter_icons 4.1.0-nullsafety.0
 
 Customizable Icons for Flutter,Inspired by [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
 
 ## Notice
 >> 1. icon names that begin with a number are preceded by a `$`prefix
->> 2. icon named with the dart keyword have the `_` suffix added
+>> 2. icon named with a reserved dart keyword have also the `$` suffix added
 
 ## Bundled Icon Sets
 
@@ -20,7 +18,7 @@ Customizable Icons for Flutter,Inspired by [react-native-vector-icons](https://g
 * [`Entypo`](http://entypo.com) by Daniel Bruce (v1.0.0 latest, **411** icons)
 * [`EvilIcons`](http://evil-icons.io) by Alexander Madyankin & Roman Shamin (v1.10.1 latest, **70** icons)
 * [`Feather`](http://feathericons.com) by Cole Bemis & Contributors (v4.28.0 latest, **286** icons)
-* [`FontAwesome`](http://fortawesome.github.io/Font-Awesome/icons/) by Dave Gandy (v4.7.0, **675** icons)
+* [`FontAwesome`](http://fortawesome.github.io/Font-Awesome/icons/) by Dave Gandy (v4.7.0, **786** icons)
 * [`FontAwesome 5`](https://fontawesome.com) by Fonticons, Inc. (v5.7.0, **1500** (free))
 * [`Fontelico`](https://github.com/fontello/fontelico.font) by Fontello. (v1.0.0 latest, **34** icons)
 * [`Fontisto`](https://www.fontisto.com/icons) by Fontisto. (v3.0.4 latest, **617** icons)

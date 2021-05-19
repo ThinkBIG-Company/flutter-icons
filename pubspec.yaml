@@ -1,6 +1,6 @@
 name: flutter_icons
 description: Customizable Icons for Flutter，you can use with over 15K+ icons in your flutter project
-version: 4.0.0-nullsafety.0
+version: 4.1.0-nullsafety.0
 author: Sascha Heim<developers@think-big-company.com>
 homepage: https://github.com/ThinkBIG-Company/flutter-icons.git
 
@@ -12,8 +12,10 @@ dependencies:
     sdk: flutter
 
 dev_dependencies:
+  recase: ^4.0.0-nullsafety
   flutter_test:
     sdk: flutter
+  version: ^2.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://www.dartlang.org/tools/pub/pubspec
@@ -96,9 +98,9 @@ flutter:
       - family: MaterialIcons-Sharp
         fonts:
           - asset: fonts/MaterialIcons-Sharp.ttf
-#      - family: MaterialIcons-TwoTone
-#        fonts:
-#          - asset: fonts/MaterialIcons-TwoTone.ttf
+      - family: MaterialIcons-TwoTone
+        fonts:
+          - asset: fonts/MaterialIcons-TwoTone.ttf
       - family: Meteocons
         fonts:
           - asset: fonts/Meteocons.ttf

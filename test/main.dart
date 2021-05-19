@@ -4,6 +4,8 @@ import 'fontAwesome5.dart';
 import 'fontAwesome5_meta.dart';
 import 'iconGlyphs.dart';
 
+const logToConsole = false;
+
 const dartReservedWords = [
   'assert',
   'break',
@@ -53,6 +55,9 @@ main() async {
     if (!file.existsSync()) {
       file.createSync();
     }
+    // Delete content
+    file.writeAsStringSync('');
+
     String allStr = '''
 import 'package:flutter/material.dart';
 import 'flutter_icon_data.dart';
@@ -63,15 +68,10 @@ import 'flutter_icon_data.dart';
     for (int j = 0; j < keys1.length; j++) {
       // fix
       final name = keys1[j].replaceAll('-', '_');
-      if (dartReservedWords.contains(name)) {
+      if (dartReservedWords.contains(name) || name.substring(0, 1).contains(new RegExp(r'[0-9]'))) {
         allStr += 'static const IconData \$$name = const FlutterIconData.${toName(keys[i])}(${obj[keys1[j]]});\n';
       } else {
-        // Check if first char is number
-        if (name.substring(0, 1).contains(new RegExp(r'[0-9]'))) {
-          allStr += 'static const IconData \$$name = const FlutterIconData.${toName(keys[i])}(${obj[keys1[j]]});\n';
-        } else {
-          allStr += 'static const IconData $name = const FlutterIconData.${toName(keys[i])}(${obj[keys1[j]]});\n';
-        }
+        allStr += 'static const IconData $name = const FlutterIconData.${toName(keys[i])}(${obj[keys1[j]]});\n';
       }
     }
     allStr += '}';
@@ -80,7 +80,9 @@ import 'flutter_icon_data.dart';
 
   // Next generate FontAwesome dart classes
   Map<String, dynamic> _fontAwesome5Glyphs = fontAwesome5_meta;
-  print(_fontAwesome5Glyphs);
+  if(logToConsole) {
+    print(_fontAwesome5Glyphs);
+  }
   List<String> _fontAwesome5GlyphsKeys = _fontAwesome5Glyphs.keys.toList();
   for (int i = 0; i < _fontAwesome5GlyphsKeys.length; i++) {
     File file = File(
@@ -88,6 +90,9 @@ import 'flutter_icon_data.dart';
     if (!file.existsSync()) {
       file.createSync();
     }
+    // Delete content
+    file.writeAsStringSync('');
+
     String allStr = '''
 import 'package:flutter/material.dart';
 import 'flutter_icon_data.dart';
@@ -97,18 +102,13 @@ import 'flutter_icon_data.dart';
     for (int j = 0; j < obj.length; j++) {
       // fix
       final name = obj[j].replaceAll('-', '_');
-      if (dartReservedWords.contains(name)) {
+      if (dartReservedWords.contains(name) || name.substring(0, 1).contains(new RegExp(r'[0-9]'))) {
         allStr += 'static const IconData \$$name = const FlutterIconData.${toName('font_awesome_5_${_fontAwesome5GlyphsKeys[i]}')}(${fontAwesome5[obj[j]]});\n';
       } else {
-        // Check if first char is number
-        if (name.substring(0, 1).contains(new RegExp(r'[0-9]'))) {
-          allStr += 'static const IconData \$$name = const FlutterIconData.${toName('font_awesome_5_${_fontAwesome5GlyphsKeys[i]}')}(${fontAwesome5[obj[j]]});\n';
-        } else {
-          allStr += 'static const IconData $name = const FlutterIconData.${toName('font_awesome_5_${_fontAwesome5GlyphsKeys[i]}')}(${fontAwesome5[obj[j]]});\n';
-        }
+        allStr += 'static const IconData $name = const FlutterIconData.${toName('font_awesome_5_${_fontAwesome5GlyphsKeys[i]}')}(${fontAwesome5[obj[j]]});\n';
       }
     }
-    allStr += "}";
+    allStr += '}';
     file.writeAsStringSync(allStr);
   }
   /*File f5Regularfile =
@@ -138,8 +138,8 @@ class FlutterIcons {
   for (var i = 0; i < files.length; i++) {
     final File file = files[i];
     if (file.path.indexOf('flutter_icon') == -1 &&
-        file.path.indexOf('icon_toggle') == -1
-        /*file.path.indexOf('ant_design') == -1 &&
+        file.path.indexOf('icon_toggle') == -1 /*&&
+        file.path.indexOf('ant_design') == -1 &&
         file.path.indexOf('entypo') == -1 &&
         file.path.indexOf('evil_icons') == -1 &&
         file.path.indexOf('feather') == -1 &&
@@ -161,21 +161,31 @@ class FlutterIcons {
         if (line.contains('static const')) {
           var suffix = getSimple(line);
           List lineList = line.split(' ');
-          lineList[3] = lineList[3] + '_$suffix';
+
+          // Reverse some ugly things
+          var correctedConst = lineList[3].replaceAll('\$', '');
+          if (dartReservedWords.contains(correctedConst)) {
+            lineList[3] = correctedConst + '_$suffix';
+          } else {
+            lineList[3] = lineList[3] + '_$suffix';
+          }
+
           String temp = lineList.join(' ');
           str += '\n';
           str += temp;
-          print(str);
+
+          if(logToConsole) {
+            print(str);
+          }
         }
       }
     }
   }
 
+  // Copy glyphs file
   String iconGlyphsContent = File('$rootDirectory/test/iconGlyphs.dart').readAsStringSync();
   iconGlyphsContent = iconGlyphsContent.replaceAll('iconGlyphs', 'glyphMap');
-
   str += 'static const $iconGlyphsContent';
-
   // Close class
   str += '}';
 
@@ -198,7 +208,9 @@ String getSimple(String line) {
   var name = name1.split('(')[0];
 
   //print(line);
-  print(name);
+  if(logToConsole) {
+    print(name);
+  }
 
   if (name == 'antDesign') {
     return 'ant';

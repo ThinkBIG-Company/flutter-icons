@@ -72,16 +72,20 @@ class _IconsPageState extends State<IconsPage> {
                 return Container(
                   height: 47,
                   child: Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 8),
+                    padding: EdgeInsets.symmetric(horizontal: 8),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: <Widget>[
+                        Container(
+                          width: 32,
+                          child: Text('${(index+1)}'),
+                        ),
                         Icon(
                           getIconData(iconFamily, _keys.elementAt(index)),
                           size: 32,
                         ),
-                        SizedBox(width: 10),
-                        Text('${index+1} ${_keys.elementAt(index)}')
+                        Spacer(),
+                        Text('${_keys.elementAt(index)}')
                       ],
                     ),
                   ),
@@ -90,6 +94,7 @@ class _IconsPageState extends State<IconsPage> {
               separatorBuilder: (_, index) => Container(
                 height: 1,
                 color: Colors.black.withOpacity(0.3),
+                margin: EdgeInsets.only(left: 10, right: 10),
               ),
             ),
           ),

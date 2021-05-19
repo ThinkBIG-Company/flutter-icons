@@ -311,7 +311,6 @@ static const IconData resize_100_ = const FlutterIconData.entypo(62002);
 static const IconData resize_full_screen = const FlutterIconData.entypo(62003);
 static const IconData retweet = const FlutterIconData.entypo(62004);
 static const IconData rocket = const FlutterIconData.entypo(62005);
-static const IconData round_brush = const FlutterIconData.entypo(62006);
 static const IconData rss = const FlutterIconData.entypo(62007);
 static const IconData ruler = const FlutterIconData.entypo(62008);
 static const IconData save = const FlutterIconData.entypo(62009);

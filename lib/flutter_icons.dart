@@ -22,6 +22,8 @@ export 'src/material_icons_baseline.dart';
 export 'src/material_icons_outline.dart';
 export 'src/material_icons_round.dart';
 export 'src/material_icons_sharp.dart';
+export 'src/material_icons_twotone.dart';
+export 'src/material_icons_twotone_icons.dart';
 export 'src/meteocons.dart';
 export 'src/mfg_labs.dart';
 export 'src/octicons.dart';
