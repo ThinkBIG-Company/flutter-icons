@@ -77,6 +77,18 @@ class _MyHomePageState extends State<MyHomePage> {
       'version': '4.7.0',
       'glyphs': FlutterIcons.glyphMap['font_awesome']
     },
+    'FontAwesome5_Brands': {
+      'version': '5.15.3',
+      'glyphs': FlutterIcons.glyphMap['font_awesome5_brands']
+    },
+    'FontAwesome5_Regular': {
+      'version': '5.15.3',
+      'glyphs': FlutterIcons.glyphMap['font_awesome5_regular']
+    },
+    'FontAwesome5_Solid': {
+      'version': '5.15.3',
+      'glyphs': FlutterIcons.glyphMap['font_awesome5_solid']
+    },
     'Fontelico': {
       'version': '1.0.0',
       'glyphs': FlutterIcons.glyphMap['fontelico']

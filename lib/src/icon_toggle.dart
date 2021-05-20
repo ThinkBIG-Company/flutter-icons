@@ -1,5 +1,6 @@
-import 'package:flutter/material.dart';
 import 'dart:math' as math;
+
+import 'package:flutter/material.dart';
 
 Widget _defaultTransitionBuilder(Widget child, Animation<double> animation) => ScaleTransition(
       scale: animation,
@@ -14,6 +15,7 @@ class IconToggle extends StatefulWidget {
     this.inactiveColor = Colors.grey,
     this.value = false,
     this.onChanged,
+    this.size = 22,
     this.transitionBuilder = _defaultTransitionBuilder,
     this.duration = const Duration(milliseconds: 100),
     this.reverseDuration,
@@ -24,6 +26,7 @@ class IconToggle extends StatefulWidget {
   final Color activeColor;
   final Color inactiveColor;
   final bool value;
+  final double size;
   final ValueChanged<bool>? onChanged;
   final AnimatedSwitcherTransitionBuilder transitionBuilder;
   final Duration duration;
@@ -84,7 +87,7 @@ class _IconToggleState extends State<IconToggle> with SingleTickerProviderStateM
             child: Icon(
               widget.value ? widget.selectedIconData : widget.unselectedIconData,
               color: widget.value ? widget.activeColor : widget.inactiveColor,
-              size: 22,
+              size: widget.size,
               key: ValueKey<bool>(widget.value),
             ),
           ),

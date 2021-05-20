@@ -43,7 +43,7 @@ const dartReservedWords = [
   'with',
 ];
 
-main() async {
+void main() async {
   var rootDirectory = Directory.current.path;
 
   // First generate dart icon classes
@@ -52,41 +52,48 @@ main() async {
 
   for (int i = 0; i < keys.length; i++) {
     File file = File('$rootDirectory/lib/src/${keys[i]}.dart');
-    if (!file.existsSync()) {
-      file.createSync();
-    }
-    // Delete content
-    file.writeAsStringSync('');
+    // FontAwesome will be generated within its own routine
+    // So cancel generation of these files
+    if (file.path.indexOf('font_awesome5') == -1 &&
+        file.path.indexOf('font_awesome5_brands') == -1 &&
+        file.path.indexOf('font_awesome5_regular') == -1 &&
+        file.path.indexOf('font_awesome5_solid') == -1
+        ) {
+      if (!file.existsSync()) {
+        file.createSync();
+      }
+      // Delete content
+      file.writeAsStringSync('');
 
-    String allStr = '''
+      String allStr = '''
 import 'package:flutter/material.dart';
 import 'flutter_icon_data.dart';
   ''';
-    allStr += 'class ${toCamelName(keys[i])} { ${toCamelName(keys[i])}._(); \n';
-    Map<String, int> obj = _iconGlyphs[keys[i]];
-    List<String> keys1 = obj.keys.toList();
-    for (int j = 0; j < keys1.length; j++) {
-      // fix
-      final name = keys1[j].replaceAll('-', '_');
-      if (dartReservedWords.contains(name) || name.substring(0, 1).contains(new RegExp(r'[0-9]'))) {
-        allStr += 'static const IconData \$$name = const FlutterIconData.${toName(keys[i])}(${obj[keys1[j]]});\n';
-      } else {
-        allStr += 'static const IconData $name = const FlutterIconData.${toName(keys[i])}(${obj[keys1[j]]});\n';
+      allStr += 'class ${toCamelName(keys[i])} { ${toCamelName(keys[i])}._(); \n';
+      Map<String, int> obj = _iconGlyphs[keys[i]];
+      List<String> keys1 = obj.keys.toList();
+      for (int j = 0; j < keys1.length; j++) {
+        // fix
+        final name = keys1[j].replaceAll('-', '_');
+        if (dartReservedWords.contains(name) || name.substring(0, 1).contains(new RegExp(r'[0-9]'))) {
+          allStr += 'static const IconData \$$name = const FlutterIconData.${toName(keys[i])}(${obj[keys1[j]]});\n';
+        } else {
+          allStr += 'static const IconData $name = const FlutterIconData.${toName(keys[i])}(${obj[keys1[j]]});\n';
+        }
       }
+      allStr += '}';
+      file.writeAsStringSync(allStr);
     }
-    allStr += '}';
-    file.writeAsStringSync(allStr);
   }
 
-  // Next generate FontAwesome dart classes
+  // Next generate FontAwesome 5 dart classes
   Map<String, dynamic> _fontAwesome5Glyphs = fontAwesome5_meta;
-  if(logToConsole) {
+  if (logToConsole) {
     print(_fontAwesome5Glyphs);
   }
   List<String> _fontAwesome5GlyphsKeys = _fontAwesome5Glyphs.keys.toList();
   for (int i = 0; i < _fontAwesome5GlyphsKeys.length; i++) {
-    File file = File(
-        '$rootDirectory/lib/src/font_awesome_5_${_fontAwesome5GlyphsKeys[i]}.dart');
+    File file = File('$rootDirectory/lib/src/font_awesome_5_${_fontAwesome5GlyphsKeys[i]}.dart');
     if (!file.existsSync()) {
       file.createSync();
     }
@@ -127,8 +134,7 @@ import 'flutter_icon_data.dart';
   //Lastly generate FlutterIcons file
   Directory flutterIconsDirectory = Directory('$rootDirectory/lib/src');
   File flutterIconFile = File('$rootDirectory/lib/src/flutter_icons.dart');
-  List<File> files =
-      flutterIconsDirectory.listSync().map((e) => File(e.path)).toList();
+  List<File> files = flutterIconsDirectory.listSync().map((e) => File(e.path)).toList();
   String str = '''
 import 'package:flutter/material.dart';
 import 'flutter_icon_data.dart';
@@ -137,8 +143,7 @@ class FlutterIcons {
   ''';
   for (var i = 0; i < files.length; i++) {
     final File file = files[i];
-    if (file.path.indexOf('flutter_icon') == -1 &&
-        file.path.indexOf('icon_toggle') == -1 /*&&
+    if (file.path.indexOf('flutter_icon') == -1 && file.path.indexOf('icon_toggle') == -1 && file.path.indexOf('font_awesome_5') == -1 /*&&
         file.path.indexOf('ant_design') == -1 &&
         file.path.indexOf('entypo') == -1 &&
         file.path.indexOf('evil_icons') == -1 &&
@@ -152,7 +157,7 @@ class FlutterIcons {
         file.path.indexOf('simple_line_icons') == -1 &&
         file.path.indexOf('weather_icons') == -1 &&
         file.path.indexOf('zocial') == -1*/
-    ) {
+        ) {
       final List<String> lines = file.readAsLinesSync();
 
       for (var k = 0; k < lines.length; k++) {
@@ -174,7 +179,7 @@ class FlutterIcons {
           str += '\n';
           str += temp;
 
-          if(logToConsole) {
+          if (logToConsole) {
             print(str);
           }
         }
@@ -192,11 +197,7 @@ class FlutterIcons {
   flutterIconFile.writeAsStringSync(str);
 }
 
-String toCamelName(String name) => name
-    .split('_')
-    .map((e) => '${e.substring(0, 1).toUpperCase()}${e.substring(1)}')
-    .toList()
-    .join('');
+String toCamelName(String name) => name.split('_').map((e) => '${e.substring(0, 1).toUpperCase()}${e.substring(1)}').toList().join('');
 
 String toName(String name) {
   String _name = toCamelName(name);
@@ -208,7 +209,7 @@ String getSimple(String line) {
   var name = name1.split('(')[0];
 
   //print(line);
-  if(logToConsole) {
+  if (logToConsole) {
     print(name);
   }
 

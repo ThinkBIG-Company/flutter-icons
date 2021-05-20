@@ -56,7 +56,7 @@ class FlutterIconsHelper {
       case 'FontAwesome5_Brands':
         return FlutterIconData.fontAwesome5Brands(codePoint);
       case 'FontAwesome5_Regular':
-        return FlutterIconData.fontAwesome5Brands(codePoint);
+        return FlutterIconData.fontAwesome5Regular(codePoint);
       case 'FontAwesome5_Solid':
         return FlutterIconData.fontAwesome5Solid(codePoint);
       case 'Fontelico':
@@ -87,6 +87,8 @@ class FlutterIconsHelper {
         return FlutterIconData.materialIconsSharp(codePoint);
       case 'MaterialIcons-TwoTone':
         return FlutterIconData.materialIconsTwotone(codePoint);
+      case 'Meteocons':
+        return FlutterIconData.meteocons(codePoint);
       case 'MfgLabs':
         return FlutterIconData.mfgLabs(codePoint);
       case 'ModernPictograms':

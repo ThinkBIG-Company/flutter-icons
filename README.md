@@ -1,4 +1,4 @@
-# flutter_icons 4.1.0-nullsafety.0
+# flutter_icons 4.2.0-nullsafety.0
 
 Customizable Icons for Flutter,Inspired by [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
 
@@ -19,7 +19,7 @@ Customizable Icons for Flutter,Inspired by [react-native-vector-icons](https://g
 * [`EvilIcons`](http://evil-icons.io) by Alexander Madyankin & Roman Shamin (v1.10.1 latest, **70** icons)
 * [`Feather`](http://feathericons.com) by Cole Bemis & Contributors (v4.28.0 latest, **286** icons)
 * [`FontAwesome`](http://fortawesome.github.io/Font-Awesome/icons/) by Dave Gandy (v4.7.0, **786** icons)
-* [`FontAwesome 5`](https://fontawesome.com) by Fonticons, Inc. (v5.7.0, **1500** (free))
+* [`FontAwesome 5`](https://fontawesome.com) by Fonticons, Inc. (v5.15.3, **1500** (free))
 * [`Fontelico`](https://github.com/fontello/fontelico.font) by Fontello. (v1.0.0 latest, **34** icons)
 * [`Fontisto`](https://www.fontisto.com/icons) by Fontisto. (v3.0.4 latest, **617** icons)
 * [`Foundation`](http://zurb.com/playground/foundation-icon-fonts-3) by ZURB, Inc. (v3.0.0 latest, **283** icons)
