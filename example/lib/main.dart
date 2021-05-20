@@ -90,7 +90,7 @@ class _MyHomePageState extends State<MyHomePage> {
       'glyphs': FlutterIcons.glyphMap['foundation']
     },
     'Ionicons': {
-      'version': '5.4.0',
+      'version': '5.5.1',
       'glyphs': FlutterIcons.glyphMap['ionicons']
     },
     'Linearicons': {
